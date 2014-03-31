@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/color_bg_page">
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_title">
+        <Button android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:gravity="center"
+            android:background="@drawable/left_btn"
+            android:textColor="@color/color_title_text"
+            android:textSize="13dip"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的收藏"
+            android:textSize="20dip"
+            android:textColor="@color/color_title_text"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:shadowColor="#88ffffff"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+             />
+        <Button android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="编辑"
+            android:textSize="13dip"
+            android:background="@drawable/right_btn"
+            android:textColor="@color/color_white"
+            android:gravity="center"/>
+       </LinearLayout>
+          <RelativeLayout
+        android:id="@+id/nodata"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_orders_nodata"
+            android:layout_marginTop="120dip"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_below="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#ededed"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:text="您暂时还没有收藏记录"
+            android:textColor="#555555"
+            android:textSize="16dip" 
+            android:layout_marginTop="10dip"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:gravity="center"
+            android:layout_below="@+id/text"
+            android:id="@+id/gotobuy"
+            android:background="@drawable/bg_big_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:layout_marginTop="15dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:shadowColor="#873107"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:text="去首页逛逛"
+            android:textColor="#ffffff"
+            android:textSize="17dip" 
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+       <ListView 
+           android:id="@+id/collect_list"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:fadingEdge="none"
+           android:fastScrollEnabled="true"     
+           android:divider="@drawable/line"
+           android:dividerHeight="2px"
+           />
+           
+
+</LinearLayout>

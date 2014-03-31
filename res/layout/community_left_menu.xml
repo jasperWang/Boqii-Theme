@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.massvig.ecommerce.widgets.LeftMenuView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/community_left_menu"
+    android:layout_width="262dip"
+    android:layout_height="fill_parent"
+        android:background="@drawable/community_menu_bg_2"
+    android:orientation="vertical"
+    android:tag="left" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@drawable/bg_main_search"
+        android:gravity="center_vertical" >
+
+        <EditText
+            android:id="@+id/search_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:hint="请输入关键字..."
+            android:imeOptions="actionSearch"
+            android:paddingLeft="35dip"
+            android:singleLine="true"
+            android:textSize="12dip" />
+
+        <Button
+            android:id="@+id/search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginRight="2dip"
+            android:background="@drawable/bg_search_btn"
+            android:gravity="center"
+            android:text="搜索" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/community_menu_bg_2"
+        android:gravity="center_vertical"
+        android:padding="10dip" >
+        <ImageView
+            android:id="@+id/left_meun_user_icon"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@drawable/community_menu_user_icon"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/left_meun_user_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="15dip"
+            android:singleLine="true"
+            android:text="用户名"
+            android:textColor="#ffffff"
+            android:textSize="18dip"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dip"
+            android:background="@drawable/ic_jiantou" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/community_menu_type_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:text="常用"
+        android:textColor="#ffffff"
+        android:textSize="14dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/community_menu_item"
+        android:drawableLeft="@drawable/community_menu_icon1"
+        android:drawablePadding="7dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:text="我的关注"
+        android:textColor="#ffffff"
+        android:textSize="16dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/community_menu_item"
+        android:drawableLeft="@drawable/community_menu_icon2"
+        android:drawablePadding="7dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:text="社区动态"
+        android:textColor="#ffffff"
+        android:textSize="16dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/community_menu_item"
+        android:drawableLeft="@drawable/community_menu_icon8"
+        android:drawablePadding="7dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:text="附近的人"
+        android:textColor="#ffffff"
+        android:textSize="16dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/community_menu_item"
+        android:drawableLeft="@drawable/community_menu_icon3"
+        android:drawablePadding="7dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:text="关注/粉丝"
+        android:textColor="#ffffff"
+        android:textSize="16dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/community_menu_item"
+        android:drawableLeft="@drawable/community_menu_icon4"
+        android:drawablePadding="7dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:text="查看消息"
+        android:textColor="#ffffff"
+        android:textSize="16dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/community_menu_type_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:text="参与的活动"
+        android:textColor="#ffffff"
+        android:textSize="14dip"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/line"
+            android:fadingEdge="none"
+            android:listSelector="#00000000"
+            android:scrollbars="none" >
+        </ListView>
+    </LinearLayout>
+
+</com.massvig.ecommerce.widgets.LeftMenuView>

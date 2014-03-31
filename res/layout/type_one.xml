@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="135dip"
+    android:background="@drawable/bg_main_ad"
+    android:orientation="vertical" >
+
+    <com.massvig.ecommerce.widgets.NetImageView
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/default_icon"
+        android:scaleType="fitXY"
+        android:layout_height="130dip" />
+
+</LinearLayout>

@@ -1,0 +1,359 @@
+{
+    "category": [
+        {
+            "CategoryID": 101,
+            "Name": "狗狗商品",
+            "ProductCount": 55,
+            "ParentID": 0,
+            "Depth": 1,
+            "CategoryIcon": "http://img.noq.cc/boqi/cateicons/gougou.png",
+            "Children": [
+                {
+                    "CategoryID": 102,
+                    "Name": "狗干粮",
+                    "ProductCount": 13,
+                    "ParentID": 101,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 184,
+                    "Name": "狗湿粮",
+                    "ProductCount": 9,
+                    "ParentID": 101,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 197,
+                    "Name": "狗零食",
+                    "ProductCount": 22,
+                    "ParentID": 101,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 198,
+                    "Name": "狗保健",
+                    "ProductCount": 2,
+                    "ParentID": 101,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 199,
+                    "Name": "狗医疗药用",
+                    "ProductCount": 3,
+                    "ParentID": 101,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 200,
+                    "Name": "狗香波浴液",
+                    "ProductCount": 1,
+                    "ParentID": 101,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 201,
+                    "Name": "狗食具牵引",
+                    "ProductCount": 1,
+                    "ParentID": 101,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 202,
+                    "Name": "狗环境清洁",
+                    "ProductCount": 0,
+                    "ParentID": 101,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 203,
+                    "Name": "狗美容器材",
+                    "ProductCount": 1,
+                    "ParentID": 101,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 204,
+                    "Name": "狗服饰宠窝",
+                    "ProductCount": 0,
+                    "ParentID": 101,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 205,
+                    "Name": "训犬玩具",
+                    "ProductCount": 2,
+                    "ParentID": 101,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 206,
+                    "Name": "日常用品",
+                    "ProductCount": 1,
+                    "ParentID": 101,
+                    "Depth": 2
+                }
+            ]
+        },
+        {
+            "CategoryID": 185,
+            "Name": "猫猫商品",
+            "ProductCount": 16,
+            "ParentID": 0,
+            "Depth": 1,
+            "CategoryIcon": "http://img.noq.cc/boqi/cateicons/maomi.png",
+            "Children": [
+                {
+                    "CategoryID": 186,
+                    "Name": "干粮",
+                    "ProductCount": 1,
+                    "ParentID": 185,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 187,
+                    "Name": "湿粮",
+                    "ProductCount": 12,
+                    "ParentID": 185,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 188,
+                    "Name": "零食",
+                    "ProductCount": 1,
+                    "ParentID": 185,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 189,
+                    "Name": "保健",
+                    "ProductCount": 0,
+                    "ParentID": 185,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 190,
+                    "Name": "医疗药用",
+                    "ProductCount": 0,
+                    "ParentID": 185,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 191,
+                    "Name": "香波浴液",
+                    "ProductCount": 0,
+                    "ParentID": 185,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 192,
+                    "Name": "食具牵引",
+                    "ProductCount": 0,
+                    "ParentID": 185,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 193,
+                    "Name": "环境清洁",
+                    "ProductCount": 2,
+                    "ParentID": 185,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 194,
+                    "Name": "美容器材",
+                    "ProductCount": 0,
+                    "ParentID": 185,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 195,
+                    "Name": "宠物玩具",
+                    "ProductCount": 0,
+                    "ParentID": 185,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 196,
+                    "Name": "服饰宠窝",
+                    "ProductCount": 0,
+                    "ParentID": 185,
+                    "Depth": 2
+                }
+            ]
+        },
+        {
+            "CategoryID": 207,
+            "Name": "兔子商品",
+            "ProductCount": 1,
+            "ParentID": 0,
+            "Depth": 1,
+            "CategoryIcon": "http://img.noq.cc/boqi/cateicons/tuzi.png",
+            "Children": [
+                {
+                    "CategoryID": 208,
+                    "Name": "兔子主粮",
+                    "ProductCount": 0,
+                    "ParentID": 207,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 209,
+                    "Name": "兔子零食",
+                    "ProductCount": 1,
+                    "ParentID": 207,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 210,
+                    "Name": "兔子牧草",
+                    "ProductCount": 0,
+                    "ParentID": 207,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 211,
+                    "Name": "生活用品",
+                    "ProductCount": 0,
+                    "ParentID": 207,
+                    "Depth": 2
+                }
+            ]
+        },
+        {
+            "CategoryID": 212,
+            "Name": "仓鼠商品",
+            "ProductCount": 1,
+            "ParentID": 0,
+            "Depth": 1,
+            "CategoryIcon": "http://img.noq.cc/boqi/cateicons/cangshu.png",
+            "Children": [
+                {
+                    "CategoryID": 213,
+                    "Name": "仓鼠主粮",
+                    "ProductCount": 1,
+                    "ParentID": 212,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 214,
+                    "Name": "仓鼠零食",
+                    "ProductCount": 0,
+                    "ParentID": 212,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 215,
+                    "Name": "仓鼠玩具",
+                    "ProductCount": 0,
+                    "ParentID": 212,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 216,
+                    "Name": "清洁用品",
+                    "ProductCount": 0,
+                    "ParentID": 212,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 217,
+                    "Name": "生活必备",
+                    "ProductCount": 0,
+                    "ParentID": 212,
+                    "Depth": 2
+                }
+            ]
+        },
+        {
+            "CategoryID": 218,
+            "Name": "龙猫商品",
+            "ProductCount": 1,
+            "ParentID": 0,
+            "Depth": 1,
+            "CategoryIcon": "http://img.noq.cc/boqi/cateicons/longmao.png",
+            "Children": [
+                {
+                    "CategoryID": 220,
+                    "Name": "龙猫主粮",
+                    "ProductCount": 1,
+                    "ParentID": 218,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 221,
+                    "Name": "龙猫玩具",
+                    "ProductCount": 0,
+                    "ParentID": 218,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 222,
+                    "Name": "龙猫零食",
+                    "ProductCount": 0,
+                    "ParentID": 218,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 223,
+                    "Name": "龙猫医疗",
+                    "ProductCount": 0,
+                    "ParentID": 218,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 224,
+                    "Name": "龙猫牧草",
+                    "ProductCount": 0,
+                    "ParentID": 218,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 225,
+                    "Name": "龙猫清洁",
+                    "ProductCount": 0,
+                    "ParentID": 218,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 226,
+                    "Name": "日常所需",
+                    "ProductCount": 0,
+                    "ParentID": 218,
+                    "Depth": 2
+                }
+            ]
+        },
+        {
+            "CategoryID": 219,
+            "Name": "水族商品",
+            "ProductCount": 1,
+            "ParentID": 0,
+            "Depth": 1,
+            "CategoryIcon": "http://img.noq.cc/boqi/cateicons/shuizu.png",
+            "Children": [
+                {
+                    "CategoryID": 227,
+                    "Name": "水族饲料",
+                    "ProductCount": 0,
+                    "ParentID": 219,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 228,
+                    "Name": "水族药剂",
+                    "ProductCount": 1,
+                    "ParentID": 219,
+                    "Depth": 2
+                },
+                {
+                    "CategoryID": 229,
+                    "Name": "水族设备",
+                    "ProductCount": 0,
+                    "ParentID": 219,
+                    "Depth": 2
+                }
+            ]
+        }
+    ]
+
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView 
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        />
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_title"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_btn"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/color_title_text"
+            android:textSize="13dip" />
+
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/right_btn"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="裁剪"
+            android:textColor="@color/color_white"
+            android:textSize="13dip" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/right_btn"
+            android:gravity="center"
+            android:text="使用"
+            android:textColor="@color/color_white"
+            android:textSize="13dip" />
+    </RelativeLayout>
+
+</RelativeLayout>

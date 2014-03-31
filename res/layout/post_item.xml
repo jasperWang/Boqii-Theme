@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/goods_item_bg_pic"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dip"
+        android:orientation="horizontal"
+        android:paddingLeft="4dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dip"
+        android:paddingTop="5dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="2dip" >
+
+        <com.massvig.ecommerce.widgets.NetImageView
+            android:id="@+id/headimg"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_imageview"
+            android:padding="1dip"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/headimg"
+            android:text="fdafd"
+            android:textColor="@color/color_black"
+            android:textSize="14dip" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="5dip"
+            android:layout_toRightOf="@id/headimg"
+            android:text="fdafd"
+            android:textColor="@color/color_light_text"
+            android:textSize="12dip" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:drawablePadding="5dip"
+            android:layout_marginTop="5dip"
+            android:singleLine="true"
+            android:drawableLeft="@drawable/ic_clock"
+            android:text="晒了一整周"
+            android:textColor="@color/color_light_text"
+            android:textSize="10dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_width="fill_parent"
+        android:layout_height="310dip" >
+
+        <com.massvig.ecommerce.widgets.NetImageView
+            android:id="@+id/image"
+            android:layout_width="310dip"
+            android:layout_height="310dip"
+            android:layout_centerVertical="true"
+            android:paddingBottom="5dip"
+            android:paddingLeft="4dip"
+            android:paddingRight="4dip"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:background="@drawable/bg_line" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:id="@+id/detail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:textColor="#867e83"
+        android:textSize="14dip" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:background="@drawable/action_bottom"
+        android:layout_marginTop="5dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/color_light_text"
+            android:textSize="10dip" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/text1"
+            android:gravity="center_vertical"
+            android:maxWidth="75dip"
+            android:singleLine="true"
+            android:textColor="@color/color_black_text"
+            android:textSize="11dip" />
+
+        <LinearLayout
+            android:id="@+id/praise_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_praise_01" />
+
+            <TextView
+                android:id="@+id/praise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:text="fdafd"
+                android:layout_marginRight="5dip"
+                android:textColor="@color/color_light_text"
+                android:textSize="14dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/share_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="15dip"
+            android:layout_toLeftOf="@id/praise_layout"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/share_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/post_comment" />
+
+            <TextView
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:text="评论"
+                android:textColor="@color/color_light_text"
+                android:textSize="14dip" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.massvig.ecommerce.widgets.LazyScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/waterfall_scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fadeScrollbars="true"
+    android:fadingEdge="none"
+    android:longClickable="true"
+    android:paddingLeft="2dip"
+    android:paddingRight="2dip" >
+
+    <LinearLayout
+        android:id="@+id/waterfall_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:longClickable="true" >
+    </LinearLayout>
+
+</com.massvig.ecommerce.widgets.LazyScrollView>

@@ -1,0 +1,128 @@
+{
+    "ResponseStatus": 0,
+    "ResponseMsg": null,
+    "ResponseData": [
+        {
+            "Position": 5,
+            "AdItems": [
+                {
+                    "AdItemID": 3,
+                    "AdTemplate": 5,
+                    "Position": 5,
+                    "Rank": 1,
+                    "AdRegions": [
+                        {
+                            "AdRegionID": 5,
+                            "AdItemID": 3,
+                            "Name": "区域1",
+                            "ImgUrl": "http://img.noq.cc/boqi/2a5e/454d/a845/4fd4/4d-a845-4fd4-9411-88de1f016da1.jpg",
+                            "LinkType": 3,
+                            "Link": "/product/SearchProduct?orderby=20026mcid=1840026takeNum=100026searchWord=%E6%80%A1%E4%BA%B20026pids=123"
+                        },
+                        {
+                            "AdRegionID": 6,
+                            "AdItemID": 3,
+                            "Name": "商品1",
+                            "ImgUrl": "http://img.noq.cc/boqi/ce1a/fb19/2b91/45f4/19-2b91-45f4-8742-b2df93141ce6.jpg",
+                            "LinkType": 2,
+                            "Link": "660"
+                        },
+                        {
+                            "AdRegionID": 7,
+                            "AdItemID": 3,
+                            "Name": "商品2",
+                            "ImgUrl": "http://img.noq.cc/boqi/61d1/18c1/80f8/404c/c1-80f8-404c-b515-ef8aa030651f.jpg",
+                            "LinkType": 2,
+                            "Link": "388"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Position": 3,
+            "AdItems": [
+                {
+                    "AdItemID": 10,
+                    "AdTemplate": 1,
+                    "Position": 3,
+                    "Rank": 1,
+                    "AdRegions": [
+                        {
+                            "AdRegionID": 15,
+                            "AdItemID": 10,
+                            "Name": "",
+                            "ImgUrl": "http://img.noq.cc/boqi/736b/02e0/4112/409c/e0-4112-409c-a6ad-54834140a747.jpg",
+                            "LinkType": 3,
+                            "Link": "/product/SearchProduct?orderby=0026mcid=0026takeNum=100026searchWord=0026pids="
+                        }
+                    ]
+                },
+                {
+                    "AdItemID": 1,
+                    "AdTemplate": 1,
+                    "Position": 3,
+                    "Rank": 2,
+                    "AdRegions": [
+                        {
+                            "AdRegionID": 1,
+                            "AdItemID": 1,
+                            "Name": "活动",
+                            "ImgUrl": "http://img.noq.cc/boqi/f817/7d09/9b80/4504/09-9b80-4504-ab3c-d58f10b2606a.jpg",
+                            "LinkType": 2,
+                            "Link": "596"
+                        }
+                    ]
+                },
+                {
+                    "AdItemID": 4,
+                    "AdTemplate": 1,
+                    "Position": 3,
+                    "Rank": 3,
+                    "AdRegions": [
+                        {
+                            "AdRegionID": 8,
+                            "AdItemID": 4,
+                            "Name": "折扣",
+                            "ImgUrl": "http://img.noq.cc/boqi/a477/fc32/ae2f/4540/32-ae2f-4540-8b5f-bd06355b877c.jpg",
+                            "LinkType": 2,
+                            "Link": "693"
+                        }
+                    ]
+                },
+                {
+                    "AdItemID": 6,
+                    "AdTemplate": 1,
+                    "Position": 3,
+                    "Rank": 4,
+                    "AdRegions": [
+                        {
+                            "AdRegionID": 12,
+                            "AdItemID": 6,
+                            "Name": "猫砂折扣",
+                            "ImgUrl": "http://img.noq.cc/boqi/c89c/7896/adc2/4cd5/96-adc2-4cd5-b12d-cf21000de3fa.jpg",
+                            "LinkType": 2,
+                            "Link": "780"
+                        }
+                    ]
+                },
+                {
+                    "AdItemID": 8,
+                    "AdTemplate": 1,
+                    "Position": 3,
+                    "Rank": 5,
+                    "AdRegions": [
+                        {
+                            "AdRegionID": 13,
+                            "AdItemID": 8,
+                            "Name": "怡亲优惠价",
+                            "ImgUrl": "http://img.noq.cc/boqi/dc57/a107/0115/4f62/07-0115-4f62-b662-c04b14bbf1c7.jpg",
+                            "LinkType": 3,
+                            "Link": "/product/SearchProduct?orderby=0026mcid=1970026takeNum=100026searchWord=%E6%80%A1%E4%BA%B2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

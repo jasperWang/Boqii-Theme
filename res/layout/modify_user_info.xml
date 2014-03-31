@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg_page"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_title"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_btn"
+            android:gravity="center"
+            android:text="返回"
+            android:textColor="@color/color_title_text"
+            android:textSize="13dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="个人信息"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:shadowColor="#88ffffff"
+            android:textColor="@color/color_title_text"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/right_btn"
+            android:gravity="center"
+            android:text="完成"
+            android:textColor="@color/color_white"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dip" >
+
+        <com.massvig.ecommerce.widgets.NetImageView
+            android:id="@+id/head_img"
+            android:layout_width="65dip"
+            android:layout_height="65dip"
+            android:background="@drawable/commutity_user_icon_new_d" />
+
+        <ImageView
+            android:id="@+id/head"
+            android:layout_width="65dip"
+            android:layout_height="65dip"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/take_picture_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_community_camera" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dip"
+        android:background="@drawable/goods_item_bg_icon"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="昵称"
+                android:textColor="@color/color_black"
+                android:textSize="16dip" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_weight="1"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="@drawable/line" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="性别"
+                android:textColor="@color/color_black"
+                android:textSize="16dip" />
+
+            <TextView
+                android:id="@+id/man"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:drawableLeft="@drawable/ic_unchecked"
+                android:drawablePadding="5dip"
+                android:text="男"
+                android:textColor="@color/color_black"
+                android:textSize="16dip" />
+
+            <TextView
+                android:id="@+id/woman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dip"
+                android:drawableLeft="@drawable/ic_unchecked"
+                android:drawablePadding="5dip"
+                android:text="女"
+                android:textColor="@color/color_black"
+                android:textSize="16dip" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="@drawable/line" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="密码"
+                android:textColor="@color/color_black"
+                android:textSize="16dip" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_weight="1"
+                android:text="********"
+                android:textColor="@color/color_black"
+                android:textSize="16dip" />
+
+            <TextView
+                android:id="@+id/modify_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_modify_pass"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="修改密码"
+                android:textColor="@color/color_white"
+                android:textSize="16dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dip"
+        android:background="@drawable/goods_item_bg_icon"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="手机"
+                android:textColor="@color/color_black"
+                android:textSize="16dip" />
+
+            <TextView
+                android:id="@+id/mobile"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:textColor="@color/color_black"
+                android:textSize="16dip"
+                android:text="456481431348"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/modify_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_black"
+                android:drawablePadding="10dip"
+                android:textSize="16dip"
+                android:drawableRight="@drawable/goods_item_bg_arr"
+                android:text="修改" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="@drawable/line" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="邮箱"
+                android:textColor="@color/color_black"
+                android:textSize="16dip" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:textColor="@color/color_black"
+                android:textSize="16dip"
+                android:text="fafdgau@163.fhd"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/modify_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_black"
+                android:drawablePadding="10dip"
+                android:textSize="16dip"
+                android:drawableRight="@drawable/goods_item_bg_arr"
+                android:text="绑定" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

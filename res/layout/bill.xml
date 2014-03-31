@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_title"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_btn"
+            android:gravity="center"
+            android:text="返回"
+            android:textColor="@color/color_title_text"
+            android:textSize="13dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="索要发票"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:shadowColor="#88ffffff"
+            android:textColor="@color/color_title_text"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/right_btn"
+            android:gravity="center"
+            android:text="保存"
+            android:textColor="@color/color_white"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#e3e3e3"
+        android:orientation="vertical"
+        android:padding="5dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/goods_item_bg_icon"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/person_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="0dip" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_weight="1"
+                    android:text="个人"
+                    android:layout_marginLeft="13dip"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/color_black"
+                    android:textSize="15dip" />
+
+                <TextView
+                    android:id="@+id/person"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="13dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/check" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#cbc2ca" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:id="@+id/company"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_weight="1"
+                    android:paddingLeft="13dip"
+                    android:background="@android:color/transparent"
+                    android:hint="输入公司名称"
+                    android:singleLine="true"
+                    android:textColorHint="@color/color_light_text"
+                    android:textSize="15dip" />
+
+                <TextView
+                    android:id="@+id/compa"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="13dip"
+                    android:visibility="invisible"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/check" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/goods_item_bg_icon"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <TextView
+                android:id="@+id/person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="发票类型："
+                android:textColor="@color/color_black" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:id="@+id/bill1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_unselected"
+                    android:gravity="center"
+                    android:text="宠物用品"
+                    android:textColor="@color/color_black_text" />
+
+                <TextView
+                    android:id="@+id/bill2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:background="@drawable/bg_unselected"
+                    android:gravity="center"
+                    android:text="纺织品"
+                    android:textColor="@color/color_black_text" />
+
+                <TextView
+                    android:id="@+id/bill3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_unselected"
+                    android:gravity="center"
+                    android:text="洗涤用品"
+                    android:visibility="invisible"
+                    android:textColor="@color/color_black_text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                    android:visibility="gone"
+                android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:id="@+id/bill4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_unselected"
+                    android:gravity="center"
+                    android:text="贴身纺织"
+                    android:textColor="@color/color_black_text" />
+
+                <TextView
+                    android:id="@+id/bill5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_unselected"
+                    android:gravity="center"
+                    android:text="劳保"
+                    android:layout_marginLeft="10dip"
+                    android:textColor="@color/color_black_text" />
+
+                <TextView
+                    android:id="@+id/bill6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dip"
+                    android:background="@drawable/bg_unselected"
+                    android:gravity="center"
+                    android:text="饰品"
+                    android:textColor="@color/color_black_text" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

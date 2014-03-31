@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_title"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_btn"
+            android:gravity="center"
+            android:text="返回"
+            android:textColor="@color/color_title_text"
+            android:textSize="13dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:shadowColor="#88ffffff"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:text="编辑分享"
+            android:textColor="@color/color_title_text"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/right_btn"
+            android:gravity="center"
+            android:text="分享"
+            android:textColor="@color/color_white"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@color/color_white"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+
+                    <com.massvig.ecommerce.widgets.NetImageView
+                        android:id="@+id/add_post_img"
+                        android:layout_width="100dip"
+                        android:layout_height="100dip"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="10dip"
+                        android:background="@drawable/goods_item_bg_pic_1"
+                        android:paddingBottom="5dip"
+                        android:paddingLeft="4dip"
+                        android:paddingRight="4dip"
+                        android:paddingTop="4dip"
+                        android:scaleType="fitXY" />
+
+                    <EditText
+                        android:id="@+id/edit_content"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="8dip"
+                        android:layout_marginRight="8dip"
+                        android:layout_marginTop="10dip"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="top"
+                        android:hint="赶紧说点什么吧..."
+                        android:maxLength="140"
+                        android:minLines="4"
+                        android:padding="3px"
+                        android:textColor="#666"
+                        android:textColorHint="#999"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/text_count"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="8dip"
+                    android:gravity="right"
+                    android:paddingBottom="5dip"
+                    android:paddingTop="5dip"
+                    android:text="0/140"
+                    android:textColor="#666"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2px"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/ic_xuxian" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:background="@drawable/bg_share_post_bottom"
+                android:padding="5dip" >
+
+                <Button
+                    android:id="@+id/add_post_btn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:background="@drawable/ic_share_location" />
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:layout_toRightOf="@id/add_post_btn1"
+                    android:text="分享当前位置"
+                    android:textColor="#a7a9af"
+                    android:textSize="15dip" />
+
+                <CheckBox
+                    android:id="@+id/add_post_share_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_location_check"
+                    android:button="@null"
+                    android:checked="true" />
+
+                <CheckBox
+                    android:id="@+id/add_post_share_qq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/add_post_share_qq_btn"
+                    android:button="@null"
+                    android:visibility="gone" />
+
+                <CheckBox
+                    android:id="@+id/add_post_share_sina"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/add_post_share_qq"
+                    android:background="@drawable/add_post_share_sina_btn"
+                    android:button="@null"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

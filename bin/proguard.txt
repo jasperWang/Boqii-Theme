@@ -1,0 +1,377 @@
+# view res/layout/community_main.xml #generated:113
+# view res/layout/community_signal_main.xml #generated:127
+# view res/layout/goods_detail.xml #generated:126
+# view res/layout/manager_order.xml #generated:110
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/shopmap.xml #generated:145
+-keep class com.amap.mapapi.map.MapView { <init>(...); }
+
+# view AndroidManifest.xml #generated:239
+-keep class com.massvig.ecommerce.activities.ActionDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:220
+-keep class com.massvig.ecommerce.activities.AdGoodsListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:258
+-keep class com.massvig.ecommerce.activities.AddOption { <init>(...); }
+
+# view AndroidManifest.xml #generated:191
+-keep class com.massvig.ecommerce.activities.AddressDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.massvig.ecommerce.activities.AliWebPayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:252
+-keep class com.massvig.ecommerce.activities.BaseActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.massvig.ecommerce.activities.BaseApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:200
+-keep class com.massvig.ecommerce.activities.BillActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:219
+-keep class com.massvig.ecommerce.activities.ChatActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:257
+-keep class com.massvig.ecommerce.activities.CollectActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:201
+-keep class com.massvig.ecommerce.activities.CommunityActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:236
+-keep class com.massvig.ecommerce.activities.CommunityGroupActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:237
+-keep class com.massvig.ecommerce.activities.CommunitySignalActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:209
+-keep class com.massvig.ecommerce.activities.CommunityUserInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:192
+-keep class com.massvig.ecommerce.activities.CouponActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:254
+-keep class com.massvig.ecommerce.activities.CouponManageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:241
+-keep class com.massvig.ecommerce.activities.CropActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:214
+-keep class com.massvig.ecommerce.activities.FansListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:195
+-keep class com.massvig.ecommerce.activities.FindPasswordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:217
+-keep class com.massvig.ecommerce.activities.FindPeopleActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:213
+-keep class com.massvig.ecommerce.activities.FriendTabActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:244
+-keep class com.massvig.ecommerce.activities.FullScreenActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:190
+-keep class com.massvig.ecommerce.activities.GalleryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:187
+-keep class com.massvig.ecommerce.activities.GoodsDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:186
+-keep class com.massvig.ecommerce.activities.GoodsListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:207
+-keep class com.massvig.ecommerce.activities.InsertPost { <init>(...); }
+
+# view AndroidManifest.xml #generated:248
+-keep class com.massvig.ecommerce.activities.InvalidProductsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:228
+-keep class com.massvig.ecommerce.activities.LaunchingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:193
+-keep class com.massvig.ecommerce.activities.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:250
+-keep class com.massvig.ecommerce.activities.LogisticsWebViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:210
+-keep class com.massvig.ecommerce.activities.LoveShopActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:183
+-keep class com.massvig.ecommerce.activities.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.massvig.ecommerce.activities.MainTabActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:196
+-keep class com.massvig.ecommerce.activities.ManageAddressActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:255
+-keep class com.massvig.ecommerce.activities.ManageCouponActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:203
+-keep class com.massvig.ecommerce.activities.ManageOrderActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:218
+-keep class com.massvig.ecommerce.activities.MessagesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:206
+-keep class com.massvig.ecommerce.activities.ModifyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:205
+-keep class com.massvig.ecommerce.activities.ModifyUserInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:216
+-keep class com.massvig.ecommerce.activities.NearPersonAcvitity { <init>(...); }
+
+# view AndroidManifest.xml #generated:253
+-keep class com.massvig.ecommerce.activities.NewActionDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:197
+-keep class com.massvig.ecommerce.activities.OrderConfirmActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:212
+-keep class com.massvig.ecommerce.activities.OrderDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:199
+-keep class com.massvig.ecommerce.activities.PayTypeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:238
+-keep class com.massvig.ecommerce.activities.PostDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:215
+-keep class com.massvig.ecommerce.activities.PraisedActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:188
+-keep class com.massvig.ecommerce.activities.PriceFilterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:235
+-keep class com.massvig.ecommerce.activities.RecommendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:246
+-keep class com.massvig.ecommerce.activities.RefundActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:247
+-keep class com.massvig.ecommerce.activities.RefundReasonActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:251
+-keep class com.massvig.ecommerce.activities.RefundToknow { <init>(...); }
+
+# view AndroidManifest.xml #generated:194
+-keep class com.massvig.ecommerce.activities.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:249
+-keep class com.massvig.ecommerce.activities.SearchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:198
+-keep class com.massvig.ecommerce.activities.SelectAddressActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:211
+-keep class com.massvig.ecommerce.activities.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:240
+-keep class com.massvig.ecommerce.activities.ShareAccountActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:208
+-keep class com.massvig.ecommerce.activities.ShareWebSinaActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:185
+-keep class com.massvig.ecommerce.activities.ShopMapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:245
+-keep class com.massvig.ecommerce.activities.ShoppingCarActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:242
+-keep class com.massvig.ecommerce.activities.SortListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:189
+-keep class com.massvig.ecommerce.activities.SpecActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:243
+-keep class com.massvig.ecommerce.activities.SubSortListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:234
+-keep class com.massvig.ecommerce.activities.TouchUsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:202
+-keep class com.massvig.ecommerce.activities.UserInformationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:204
+-keep class com.massvig.ecommerce.activities.UserManageAddressActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:184
+-keep class com.massvig.ecommerce.activities.WebViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:222
+-keep class com.massvig.ecommerce.service.EcommercePushService { <init>(...); }
+
+# view res/layout/copyofmain.xml #generated:68
+# view res/layout/coupon_manager.xml #generated:47
+# view res/layout/main.xml #generated:86
+# view res/layout/manager_coupon.xml #generated:47
+-keep class com.massvig.ecommerce.widgets.AdGallery { <init>(...); }
+
+# view res/layout/category_dialog_view.xml #generated:2
+-keep class com.massvig.ecommerce.widgets.CategoryDialogView { <init>(...); }
+
+# view res/layout/community_main_group.xml #generated:75
+-keep class com.massvig.ecommerce.widgets.ContentView { <init>(...); }
+
+# view res/layout/shopmap.xml #generated:207
+# view res/layout/shopmap.xml #generated:99
+-keep class com.massvig.ecommerce.widgets.FilterButton { <init>(...); }
+
+# view res/layout/waterfall.xml #generated:2
+-keep class com.massvig.ecommerce.widgets.LazyScrollView { <init>(...); }
+
+# view res/layout/community_left_menu.xml #generated:2
+-keep class com.massvig.ecommerce.widgets.LeftMenuView { <init>(...); }
+
+# view res/layout/collect_item.xml #generated:71
+# view res/layout/goods_detail_head.xml #generated:49
+# view res/layout/goods_item.xml #generated:71
+# view res/layout/invalid_item.xml #generated:85
+# view res/layout/new_action_item.xml #generated:72
+# view res/layout/shopping_item.xml #generated:65
+-keep class com.massvig.ecommerce.widgets.LineTextView { <init>(...); }
+
+# view res/layout/community_load_view.xml #generated:2
+-keep class com.massvig.ecommerce.widgets.LoadView { <init>(...); }
+
+# view res/layout/near_person.xml #generated:49
+-keep class com.massvig.ecommerce.widgets.NearRefreshListView { <init>(...); }
+
+# view res/layout/action_detail.xml #generated:12
+# view res/layout/action_item.xml #generated:7
+# view res/layout/ad_item.xml #generated:18
+# view res/layout/ad_item1.xml #generated:15
+# view res/layout/collect_item.xml #generated:8
+# view res/layout/community_fans_list_item.xml #generated:17
+# view res/layout/community_item.xml #generated:15
+# view res/layout/community_item.xml #generated:57
+# view res/layout/community_praised_item.xml #generated:17
+# view res/layout/community_praised_item.xml #generated:97
+# view res/layout/community_user_detail_item.xml #generated:56
+# view res/layout/coupon_manager_item.xml #generated:54
+# view res/layout/full.xml #generated:12
+# view res/layout/goods_item.xml #generated:8
+# view res/layout/insert_post.xml #generated:69
+# view res/layout/invalid_item.xml #generated:8
+# view res/layout/message_item.xml #generated:17
+# view res/layout/modify_user_info.xml #generated:53
+# view res/layout/near_person_item.xml #generated:17
+# view res/layout/new_action_item.xml #generated:7
+# view res/layout/order_item.xml #generated:13
+# view res/layout/order_item_layout.xml #generated:12
+# view res/layout/post_headview.xml #generated:14
+# view res/layout/post_headview.xml #generated:81
+# view res/layout/post_item.xml #generated:20
+# view res/layout/post_item.xml #generated:73
+# view res/layout/refund_item.xml #generated:22
+# view res/layout/sharegoodsview.xml #generated:13
+# view res/layout/sharegoodsview.xml #generated:74
+# view res/layout/shopping_item.xml #generated:22
+# view res/layout/sort_item.xml #generated:9
+# view res/layout/spec.xml #generated:69
+# view res/layout/type_one.xml #generated:8
+# view res/layout/type_three.xml #generated:18
+# view res/layout/type_three.xml #generated:37
+# view res/layout/type_three.xml #generated:49
+# view res/layout/user_info.xml #generated:99
+-keep class com.massvig.ecommerce.widgets.NetImageView { <init>(...); }
+
+# view res/layout/community_praised.xml #generated:50
+-keep class com.massvig.ecommerce.widgets.PraisedListView { <init>(...); }
+
+# view res/layout/community_share.xml #generated:9
+# view res/layout/community_signal_main.xml #generated:112
+# view res/layout/orders.xml #generated:49
+-keep class com.massvig.ecommerce.widgets.RefreshListView { <init>(...); }
+
+# view res/layout/price_filter.xml #generated:112
+-keep class com.massvig.ecommerce.widgets.SeekBar { <init>(...); }
+
+# view res/layout/community_main_group.xml #generated:2
+-keep class com.massvig.ecommerce.widgets.SlideLayout { <init>(...); }
+
+# view res/layout/goodswater.xml #generated:2
+-keep class com.massvig.ecommerce.widgets.TaobaoWaterFall { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.tencent.weibo.webview.OAuthV2AuthorizeWebView { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.unionpay.upomp.yidatec.bankcardmanage.BankCardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class com.unionpay.upomp.yidatec.bankcardmanage.balancequery.BalanceQueryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.unionpay.upomp.yidatec.bankcardmanage.balancequery.BalanceQueryResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class com.unionpay.upomp.yidatec.bankcardmanage.bindcard.BankCardBindActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class com.unionpay.upomp.yidatec.bankcardmanage.bindcard.BankCardBindResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:108
+-keep class com.unionpay.upomp.yidatec.bankcardmanage.cardinfo.BankCardInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class com.unionpay.upomp.yidatec.transactionmanage.DealsResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.unionpay.upomp.yidatec.transactionmanage.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class com.unionpay.upomp.yidatec.transactionmanage.certification.CardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.unionpay.upomp.yidatec.transactionmanage.certification.CertificationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.unionpay.upomp.yidatec.transactionmanage.fast.BankDialog { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.unionpay.upomp.yidatec.transactionmanage.fast.FastFristActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.unionpay.upomp.yidatec.transactionmanage.fast.FastSecondActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:144
+-keep class com.unionpay.upomp.yidatec.transactionmanage.storedcard.StoredValueCardPaymentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:133
+-keep class com.unionpay.upomp.yidatec.usermanage.getsecuritquestion.GetSecuritQuestionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:161
+-keep class com.unionpay.upomp.yidatec.usermanage.login.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:178
+-keep class com.unionpay.upomp.yidatec.usermanage.myinfo.MyInfoActivityActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:173
+-keep class com.unionpay.upomp.yidatec.usermanage.register.CheckProtocalActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:167
+-keep class com.unionpay.upomp.yidatec.usermanage.register.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:138
+-keep class com.unionpay.upomp.yidatec.usermanage.retpasswd.RetPassword2Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:127
+-keep class com.unionpay.upomp.yidatec.usermanage.updatemobilenum.PhoneNumChangeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class com.unionpay.upomp.yidatec.usermanage.updatepasswd.PasswordChangeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:156
+-keep class com.unionpay.upomp.yidatec.util.Util1 { <init>(...); }
+
+# view AndroidManifest.xml #generated:150
+-keep class com.unionpay.upomp.yidatec.util.Util2 { <init>(...); }
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="color_white">#ffffff</color>
+    <color name="color_black">#000000</color>
+    <color name="color_text">#6f6f6f</color>
+    <color name="color_light_text">#898389</color>
+    <color name="color_red">#f85c0f</color>
+    <color name="color_black_text">#534d4f</color>
+    <color name="color_address_text">#383435</color>
+    <color name="color_bg_page">#e3e3e3</color>
+    <color name="color_title_text">#777985</color>
+    <color name="color_cancel">#e5075b</color>
+    <color name="color_sure">#61c202</color>
+    <color name="color_refund">#3d50b2</color>
+    
+        <color name="action_red">#e5471d</color>
+        <color name="action_yellow">#f49b00</color>
+        <color name="action_green">#63b532</color>
+    
+</resources>

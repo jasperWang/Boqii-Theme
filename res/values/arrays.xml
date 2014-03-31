@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  
+    <string-array name="share_fs">
+        <item>微博</item>
+        <item>微信</item>
+        <item>其它</item>
+    </string-array>
+    <string-array name="refund_reason">
+        <item>多拍，拍错，不想要</item>
+        <item>退运费</item>
+        <item>发货问题</item>
+        <item>图片，产地，保质期等描述不符</item>
+        <item>商品损坏，变质，存在质量隐患</item>
+        <item>其他</item>
+    </string-array>
+
+        <string-array name="numbers">
+            <item>TEL:400-820-6098</item>
+            <item>QQ1-806434978</item>
+            <item>QQ2-1520031983</item>
+            <item>QQ3-1073865836</item>
+            <item>QQ4-862411771</item>
+        </string-array>
+
+        <string-array name="qq_numbers">
+            <item>QQ1-806434978</item>
+            <item>QQ2-1520031983</item>
+            <item>QQ3-1073865836</item>
+            <item>QQ4-862411771</item>
+        </string-array>
+        
+</resources>

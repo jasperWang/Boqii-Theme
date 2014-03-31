@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_title"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/search_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_weight="1"
+            android:background="@drawable/bg_main_search"
+            android:gravity="center_vertical" >
+
+            <EditText
+                android:id="@+id/search_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_main_search"
+                android:editable="false"
+                android:hint="请输入商品关键字..."
+                android:imeOptions="actionSearch"
+                android:maxLines="1"
+                android:paddingLeft="30dip"
+                android:singleLine="true"
+                android:textSize="13dip"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/search_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_search_btn"
+                android:gravity="center"
+                android:text="搜索"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/shopmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:background="@drawable/ic_refresh"
+            android:gravity="center"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:textColor="@color/color_white" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/color_bg_page"
+        android:fadingEdge="none"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <!-- <android.support.v4.view.ViewPager -->
+                <!-- android:id="@+id/vp" -->
+                <!-- android:layout_width="fill_parent" -->
+                <!-- android:layout_height="180dip" /> -->
+
+                <com.massvig.ecommerce.widgets.AdGallery
+                    android:id="@+id/gallery"
+                    android:layout_width="fill_parent"
+                    android:layout_height="180dip"
+                    android:fadingEdge="none"
+                    android:spacing="0dip"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:soundEffectsEnabled="false" />
+
+                <LinearLayout
+                    android:id="@+id/dot_images"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dip" >
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="6px"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/bg_main_image" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="6px"
+                    android:background="@drawable/bg_main_up" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#f4f4f4"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/fc_05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dip"
+                        android:drawableTop="@drawable/fc_icon_05"
+                        android:gravity="center"
+                        android:padding="10dip"
+                        android:text="商品分类"
+                        android:textColor="@color/color_title_text" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/ic_ver" />
+
+                    <TextView
+                        android:id="@+id/fc_01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dip"
+                        android:drawableTop="@drawable/fc_icon_01"
+                        android:gravity="center"
+                        android:padding="10dip"
+                        android:text="热购商品"
+                        android:textColor="@color/color_title_text" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/ic_ver" />
+
+                    <TextView
+                        android:id="@+id/fc_02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dip"
+                        android:drawableTop="@drawable/fc_icon_02"
+                        android:gravity="center"
+                        android:padding="10dip"
+                        android:text="新货上架"
+                        android:textColor="@color/color_title_text" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/ic_ver" />
+
+                    <TextView
+                        android:id="@+id/fc_03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dip"
+                        android:drawableTop="@drawable/fc_icon_03"
+                        android:gravity="center"
+                        android:padding="10dip"
+                        android:text="折扣优惠"
+                        android:textColor="@color/color_title_text" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="2px"
+                    android:background="@drawable/taobao_08" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/fc_06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dip"
+                        android:drawableTop="@drawable/fc_icon_06"
+                        android:gravity="center"
+                        android:padding="10dip"
+                        android:text="我的收藏"
+                        android:textColor="@color/color_title_text" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/ic_ver" />
+
+                    <TextView
+                        android:id="@+id/fc_07"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dip"
+                        android:drawableTop="@drawable/fc_icon_07"
+                        android:gravity="center"
+                        android:padding="10dip"
+                        android:text="订单管理"
+                        android:textColor="@color/color_title_text" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/ic_ver" />
+
+                    <TextView
+                        android:id="@+id/fc_08"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dip"
+                        android:drawableTop="@drawable/fc_icon_08"
+                        android:gravity="center"
+                        android:padding="10dip"
+                        android:text="用户中心"
+                        android:textColor="@color/color_title_text" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/ic_ver" />
+
+                    <TextView
+                        android:id="@+id/fc_09"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dip"
+                        android:drawableTop="@drawable/fc_icon_09"
+                        android:gravity="center"
+                        android:padding="10dip"
+                        android:text="联系客服"
+                        android:textColor="@color/color_title_text" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="3px"
+                android:background="@drawable/ic_main_line" />
+
+            <ListView
+                android:id="@+id/listview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="10dip"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="5px"
+                android:fadingEdge="none"
+                android:fastScrollEnabled="true"
+                android:padding="5dip" >
+            </ListView>
+
+            <GridView
+                android:id="@+id/grid1"
+                android:layout_width="fill_parent"
+                android:layout_height="142dip"
+                android:horizontalSpacing="0dip"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="2"
+                android:verticalSpacing="0dip"
+                android:visibility="gone" >
+            </GridView>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_main_second"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <GridView
+                    android:id="@+id/grid2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="3" >
+                </GridView>
+
+                <Button
+                    android:id="@+id/more"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/bg_big_btn"
+                    android:gravity="center"
+                    android:text="显示全部"
+                    android:textColor="@color/color_white"
+                    android:textSize="20dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

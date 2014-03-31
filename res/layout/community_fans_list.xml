@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/add_post_bg2"
+    android:orientation="vertical" >
+
+    <LinearLayout
+            android:id="@+id/searchLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_white"
+                android:gravity="center" >
+
+                <EditText
+                    android:id="@+id/search_fans_edit"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_taobao_search"
+                    android:hint="请输入关键字..."
+                    android:singleLine="true" />
+
+                <ImageButton
+                    android:id="@+id/search_fans_sub_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:src="@drawable/ic_btn_tao_search" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tao_search_bottom" />
+        </LinearLayout>
+        
+	
+    <ListView
+        android:id="@+id/fans_user_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:cacheColorHint="#00000000" android:listSelector="#00000000" android:divider="@drawable/tao_bao_list_lien" android:dividerHeight="2px" android:background="#00000000">
+    </ListView>
+
+    
+
+</LinearLayout>

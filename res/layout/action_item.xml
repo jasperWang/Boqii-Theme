@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dip"
+    android:padding="5dip" >
+
+    <com.massvig.ecommerce.widgets.NetImageView
+        android:id="@+id/actionimg"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:background="@drawable/commutity_user_icon_d" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_toRightOf="@id/actionimg"
+        android:text="秀出你的床照"
+        android:singleLine="true"
+        android:textColor="@color/color_white"
+        android:textSize="16dip" />
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="5dip"
+        android:singleLine="true"
+        android:layout_marginTop="5dip"
+        android:layout_toRightOf="@id/actionimg"
+        android:text="忍受平凡的生活毫无悬念游走"
+        android:textColor="@color/color_light_text"
+        android:textSize="14dip" />
+
+</RelativeLayout>

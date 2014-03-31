@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg_page"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_title"
+            android:gravity="center_vertical" >
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/left_btn"
+                android:gravity="center"
+                android:text="返回"
+                android:textColor="@color/color_title_text"
+                android:textSize="13dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:shadowColor="#88ffffff"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="系统设置"
+                android:textColor="@color/color_title_text"
+                android:textSize="20dip" />
+
+            <Button
+                android:id="@+id/finish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/left_btn"
+                android:gravity="center"
+                android:text="修改"
+                android:textColor="@color/color_title_text"
+                android:textSize="13dip"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout"
+            android:orientation="vertical"
+            android:padding="8dip" >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/goods_item_bg_icon"
+                android:orientation="vertical" >
+
+                <TableRow
+                    android:id="@+id/refund_row"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="15dip" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dip"
+                        android:gravity="center_vertical"
+                        android:text="退款须知"
+                        android:textColor="@color/color_black" />
+
+                    <TextView
+                        android:layout_width="8dip"
+                        android:layout_height="14dip"
+                        android:layout_marginLeft="10dip"
+                        android:background="@drawable/goods_item_bg_arr" />
+                </TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="2px"
+                    android:background="@drawable/line" />
+
+                <TableRow
+                    android:id="@+id/location_row"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="15dip" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dip"
+                        android:gravity="center_vertical"
+                        android:text="进入系统定位设置"
+                        android:textColor="@color/color_black" />
+
+                    <TextView
+                        android:layout_width="8dip"
+                        android:layout_height="14dip"
+                        android:layout_marginLeft="10dip"
+                        android:background="@drawable/goods_item_bg_arr" />
+                </TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="2px"
+                    android:background="@drawable/line" />
+
+                <LinearLayout
+                    android:id="@+id/notify_row"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="15dip" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dip"
+                        android:gravity="center_vertical"
+                        android:text="通知设置"
+                        android:textColor="@color/color_black" />
+
+                    <CheckBox
+                        android:id="@+id/notify"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/notify_btn"
+                        android:button="@null" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="2px"
+                    android:background="@drawable/line" />
+
+                <TableRow
+                    android:id="@+id/clearcache_row"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="15dip" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dip"
+                        android:gravity="center_vertical"
+                        android:text="清除缓存"
+                        android:textColor="@color/color_black" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/goods_item_bg_icon"
+                android:orientation="vertical" >
+
+                <TableRow
+                    android:id="@+id/share_row"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="15dip" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dip"
+                        android:gravity="center_vertical"
+                        android:text="分享帐号绑定"
+                        android:textColor="@color/color_black" />
+
+                    <TextView
+                        android:layout_width="8dip"
+                        android:layout_height="14dip"
+                        android:layout_marginLeft="10dip"
+                        android:background="@drawable/goods_item_bg_arr" />
+                </TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="2px"
+                    android:background="@drawable/line" />
+
+                <TableRow
+                    android:id="@+id/touchus_row"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="15dip" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dip"
+                        android:gravity="center_vertical"
+                        android:text="联系我们"
+                        android:textColor="@color/color_black" />
+
+                    <TextView
+                        android:layout_width="8dip"
+                        android:layout_height="14dip"
+                        android:layout_marginLeft="10dip"
+                        android:background="@drawable/goods_item_bg_arr" />
+                </TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="2px"
+                    android:background="@drawable/line" />
+
+                <TableRow
+                    android:id="@+id/feedback_row"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="15dip" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dip"
+                        android:gravity="center_vertical"
+                        android:text="意见反馈"
+                        android:textColor="@color/color_black" />
+
+                    <TextView
+                        android:layout_width="8dip"
+                        android:layout_height="14dip"
+                        android:layout_marginLeft="10dip"
+                        android:background="@drawable/goods_item_bg_arr" />
+                </TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="2px"
+                    android:background="@drawable/line" />
+
+                <TableRow
+                    android:id="@+id/score_row"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="15dip" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dip"
+                        android:gravity="center_vertical"
+                        android:text="给我好评"
+                        android:textColor="@color/color_black" />
+
+                    <TextView
+                        android:layout_width="8dip"
+                        android:layout_height="14dip"
+                        android:layout_marginLeft="10dip"
+                        android:background="@drawable/goods_item_bg_arr" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/goods_item_bg_icon"
+                android:orientation="vertical" >
+
+                <TableRow
+                    android:id="@+id/checkversion_row"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="15dip" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dip"
+                        android:gravity="center_vertical"
+                        android:text="检查最新版本"
+                        android:textColor="@color/color_black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="当前为1.3.5版本"
+                        android:textColor="@color/color_black" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/bg_big_btn"
+            android:gravity="center"
+            android:text="退出当前帐号"
+            android:textColor="@color/color_white"
+            android:textSize="20dip" />
+    </LinearLayout>
+
+</ScrollView>

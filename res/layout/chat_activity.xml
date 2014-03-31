@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_chat"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_chat_title"
+        android:gravity="center_vertical"
+        android:padding="8dip" >
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_black"
+            android:gravity="center"
+            android:text="返回"
+            android:textColor="@color/color_white"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:shadowColor="#1f1f1f"
+            android:layout_centerInParent="true"
+            android:text="会话"
+            android:textColor="#bcbcbc"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_black"
+            android:gravity="center"
+            android:paddingLeft="5dip"
+            android:layout_alignParentRight="true"
+            android:paddingRight="5dip"
+            android:text="TA的资料"
+            android:textColor="@color/color_white"
+            android:textSize="13dip" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:dividerHeight="0px"
+        android:scrollbars="none"
+        android:fadingEdge="none" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_comment"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/contentedit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="5dip"
+            android:imeOptions="actionSend"
+            android:background="@drawable/bg_edit_chat"
+            android:hint="请输入文字..."
+            android:paddingLeft="15dip"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/sendbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_send"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="发送"
+            android:textColor="@color/color_black_text" />
+    </LinearLayout>
+
+</LinearLayout>

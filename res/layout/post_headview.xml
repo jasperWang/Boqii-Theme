@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <com.massvig.ecommerce.widgets.NetImageView
+            android:id="@+id/headimg"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:background="@drawable/commutity_user_icon_d" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="5dip"
+            android:layout_toRightOf="@id/headimg"
+            android:text="fdafd"
+            android:singleLine="true"
+            android:textColor="@color/color_black"
+            android:textSize="14dip" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="5dip"
+            android:layout_toRightOf="@id/headimg" >
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="分享内容参与了"
+                android:textColor="@color/color_light_text"
+                android:textSize="11dip" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:layout_toRightOf="@id/text1"
+                android:singleLine="true"
+                android:text="发呆发呆双方的歌hi苏杭个发送到韩国方式过户方式规范司"
+                android:textColor="@color/color_black_text"
+                android:textSize="11dip" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dip"
+            android:drawableLeft="@drawable/ic_clock"
+            android:singleLine="true"
+            android:drawablePadding="5dip"
+            android:text="晒了一整周"
+            android:textColor="@color/color_light_text"
+            android:textSize="10dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <com.massvig.ecommerce.widgets.NetImageView
+            android:id="@+id/imageview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:background="@drawable/default_icon"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_line" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="精致可爱的一款白搭T恤面料带弹性，穿着舒适是个电话撒uf放大镜看话费 宏发大厦范德萨啊"
+        android:textColor="@color/color_black_text"
+        android:textSize="13dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <EditText
+            android:id="@+id/commentedit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dip"
+            android:layout_weight="1"
+            android:background="@drawable/bg_edit_post"
+            android:hint="请输我的评价..."
+            android:paddingLeft="5dip"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/commentbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_post_send"
+            android:gravity="center"
+            android:layout_marginLeft="10dip"
+            android:text="发送"
+            android:textColor="@color/color_black_text" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_margin="5dip"
+        android:background="@drawable/line" />
+
+</LinearLayout>

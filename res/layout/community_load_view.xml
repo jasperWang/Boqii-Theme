@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.massvig.ecommerce.widgets.LoadView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="点击载入更多"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:textStyle="bold" android:id="@+id/load_btn_load" android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="暂无数据"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:textStyle="bold" android:id="@+id/load_btn_no_data" android:visibility="invisible"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:gravity="center" android:id="@+id/load_btn_loading" android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/pull_to_load_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="@string/browse_deals_loading"
+            android:textColor="#333333"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/pull_to_load_progress"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/pull_to_load_text"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+</com.massvig.ecommerce.widgets.LoadView>

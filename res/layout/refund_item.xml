@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="5dip" >
+
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:button="@drawable/shopping_check" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="-5dip"
+        android:layout_marginTop="5dip" >
+
+        <com.massvig.ecommerce.widgets.NetImageView
+            android:id="@+id/imageview"
+            android:layout_width="67dip"
+            android:layout_height="67dip"
+            android:background="@drawable/bg_goods_outside"
+            android:padding="1dip"
+            android:scaleType="center"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/imageview"
+            android:singleLine="true"
+            android:text="2013韩式床单四件套全棉活性印花花"
+            android:textColor="#4d4e53"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/imageview"
+            android:text="￥540"
+            android:textColor="#4d4e53"
+            android:textSize="15dip" />
+
+        <TextView
+            android:id="@+id/quality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/price"
+            android:layout_below="@id/name"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/price"
+            android:text="x2"
+            android:textColor="@color/color_red"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/price"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/imageview"
+            android:textColor="#8b8e96"
+            android:textSize="11.5dip" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dip"
+            android:gravity="center_vertical" >
+
+            <Button
+                android:id="@+id/delete_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_delete_btn"
+                android:textColor="#7c7c7d"
+                android:textSize="13dip"
+                android:gravity="center"
+                android:text="删除" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

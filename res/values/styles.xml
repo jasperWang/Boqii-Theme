@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="coupon_enable_title">
+        <item name="android:textColor">#4d4e53</item>
+        <item name="android:textSize">13dip</item>
+    </style>
+    <style name="coupon_enable_time">
+        <item name="android:textColor">#89898b</item>
+        <item name="android:textSize">11dip</item>
+    </style>
+    <style name="coupon_unable_title">
+        <item name="android:textColor">#bababa</item>
+        <item name="android:textSize">13dip</item>
+    </style>
+    <style name="coupon_unable_time">
+        <item name="android:textColor">#bababa</item>
+        <item name="android:textSize">11dip</item>
+    </style>
+</resources>

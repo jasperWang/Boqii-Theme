@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.massvig.ecommerce.widgets.SlideLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/community_slidelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_bg_page"
+    android:orientation="vertical" >
+
+    <!-- <RelativeLayout -->
+    <!-- android:layout_width="262dip" -->
+    <!-- android:layout_height="fill_parent" > -->
+
+    <include layout="@layout/community_left_menu" />
+
+    <!-- <ImageView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="fill_parent" -->
+    <!-- android:layout_alignParentRight="true" -->
+    <!-- android:background="@drawable/bg_shadow" /> -->
+    <!-- </RelativeLayout> -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:tag="center" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_title" >
+
+            <ImageButton
+                android:id="@+id/show_community_left_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="#00000000"
+                android:src="@drawable/browsing_near_map_view_nor" />
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:shadowColor="#88ffffff"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="社区动态"
+                android:textColor="@color/color_title_text"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/community_group_right_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:background="@drawable/ic_add_share" />
+
+            <Button
+                android:id="@+id/find_peo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:background="@drawable/left_btn"
+                android:gravity="center"
+                android:text="找人"
+                android:textColor="@color/color_title_text"
+                android:textSize="13dip"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <com.massvig.ecommerce.widgets.ContentView
+            android:id="@+id/community_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffffff" >
+
+            <!-- <include layout="@layout/community_fragment_card_item1"/> -->
+        </com.massvig.ecommerce.widgets.ContentView>
+    </LinearLayout>
+
+</com.massvig.ecommerce.widgets.SlideLayout>

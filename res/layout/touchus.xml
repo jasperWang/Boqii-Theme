@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg_page"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_title"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_btn"
+            android:gravity="center"
+            android:text="返回"
+            android:textColor="@color/color_title_text"
+            android:textSize="13dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:shadowColor="#88ffffff"
+            android:gravity="center"
+            android:text="联系我们"
+            android:textColor="@color/color_title_text"
+            android:textSize="20dip" />
+
+        <TextView
+            android:id="@+id/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_btn"
+            android:gravity="center"
+            android:text="修改"
+            android:textColor="@color/color_title_text"
+            android:textSize="13dip"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dip" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/goods_item_bg_icon"
+            android:orientation="vertical" >
+
+            <TableRow
+                android:id="@+id/unpay_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="12dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_unpay"
+                    android:drawablePadding="5dip"
+                    android:gravity="center_vertical"
+                    android:text="网站"
+                    android:textColor="@color/color_black" />
+
+                <TextView
+                    android:id="@+id/unpay_number"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="http://www.savfor.com/"
+                    android:textColor="@color/color_black" />
+            </TableRow>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2px"
+                android:background="@drawable/line" />
+
+            <TableRow
+                android:id="@+id/huodao_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="12dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_huo"
+                    android:drawablePadding="5dip"
+                    android:gravity="center_vertical"
+                    android:text="客服"
+                    android:textColor="@color/color_black" />
+
+                <TextView
+                    android:id="@+id/huodao_number"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="400-882-3877"
+                    android:textColor="@color/color_black" />-
+            </TableRow>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2px"
+                android:background="@drawable/line" />
+
+            <TableRow
+                android:id="@+id/huodao_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="12dip"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_huo"
+                    android:drawablePadding="5dip"
+                    android:gravity="center_vertical"
+                    android:text="邮箱"
+                    android:textColor="@color/color_black" />
+
+                <TextView
+                    android:id="@+id/huodao_number"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="super@boqi.com"
+                    android:textColor="@color/color_black" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

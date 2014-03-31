@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/goods_item_bg_icon"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dip" >
+
+        <com.massvig.ecommerce.widgets.NetImageView
+            android:id="@+id/imageview"
+            android:layout_width="72dip"
+            android:layout_height="72dip"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_goods_outside"
+            android:padding="1dip"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/imageview"
+            android:singleLine="true"
+            android:text="2013韩式床单四件套全棉活性印花花"
+            android:textColor="@color/color_black_text"
+            android:textSize="14dip" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="30dip"
+            android:layout_marginTop="3dip"
+            android:layout_toRightOf="@id/imageview"
+            android:singleLine="true"
+            android:text="订单日期：2013-01-01"
+            android:textColor="@color/color_light_text"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="30dip"
+            android:layout_toRightOf="@id/imageview"
+            android:singleLine="true"
+            android:text="订单编号：fdasfdafdafda"
+            android:textColor="@color/color_light_text"
+            android:textSize="13dip" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/no"
+            android:layout_marginLeft="5dip"
+            android:gravity="center_vertical"
+            android:layout_marginTop="3dip"
+            android:layout_toRightOf="@id/imageview" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="合计价格："
+                android:textColor="@color/color_black_text"
+                android:textSize="12dip" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="￥540"
+                android:textColor="@color/color_red"
+                android:textSize="12dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:text="数量："
+                android:textColor="@color/color_light_text"
+                android:textSize="12dip"
+                android:visibility="gone" />
+            
+            <TextView 
+                android:layout_width="2px"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="2dip"
+                android:layout_marginBottom="2dip"
+                android:layout_marginLeft="8dip"
+                android:background="@drawable/ic_ver"
+                />
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dip"
+                android:layout_weight="1"
+                android:text="共1件商品"
+                android:textColor="@color/color_light_text"
+                android:textSize="12dip" />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/imageview"
+                android:layout_alignParentRight="true"
+                android:text="已发货"
+                android:textColor="@color/color_red"
+                android:textSize="13dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="8dip"
+            android:layout_height="14dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/goods_item_bg_arr" />
+    </RelativeLayout>
+
+</LinearLayout>

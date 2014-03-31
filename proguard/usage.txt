@@ -1,0 +1,2254 @@
+android.net.http.SslError:
+    public static final int SSL_NOTYETVALID
+    public static final int SSL_EXPIRED
+    public static final int SSL_IDMISMATCH
+    public static final int SSL_UNTRUSTED
+    public static final int SSL_MAX_ERROR
+    71:74:public SslError(int,android.net.http.SslCertificate)
+    81:84:public SslError(int,java.security.cert.X509Certificate)
+    99:104:public boolean addError(int)
+    112:117:public boolean hasError(int)
+android.support.v13.app.FragmentCompat
+android.support.v13.app.FragmentCompat$BaseFragmentCompatImpl
+android.support.v13.app.FragmentCompat$FragmentCompatImpl
+android.support.v13.app.FragmentCompat$ICSFragmentCompatImpl
+android.support.v13.app.FragmentCompatICS
+android.support.v13.app.FragmentPagerAdapter
+android.support.v13.app.FragmentStatePagerAdapter
+android.support.v13.dreams.BasicDream:
+    private static final java.lang.String TAG
+    private static final boolean DEBUG
+    109:109:protected android.view.View getContentView()
+    119:120:protected void invalidate()
+android.support.v13.dreams.BasicDream$BasicDreamView:
+    44:46:public BasicDream$BasicDreamView(android.support.v13.dreams.BasicDream,android.content.Context,android.util.AttributeSet)
+android.support.v4.android.accessibilityservice.AccessibilityServiceInfoCompat
+android.support.v4.android.accessibilityservice.AccessibilityServiceInfoCompat$AccessibilityServiceInfoIcsImpl
+android.support.v4.android.accessibilityservice.AccessibilityServiceInfoCompat$AccessibilityServiceInfoStubImpl
+android.support.v4.android.accessibilityservice.AccessibilityServiceInfoCompat$AccessibilityServiceInfoVersionImpl
+android.support.v4.android.accessibilityservice.AccessibilityServiceInfoCompatIcs
+android.support.v4.app.ActivityCompatHoneycomb:
+    27:27:ActivityCompatHoneycomb()
+    34:35:static void dump(android.app.Activity,java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])
+android.support.v4.app.BackStackRecord:
+    static final java.lang.String TAG
+    static final int OP_NULL
+    static final int OP_ADD
+    static final int OP_REPLACE
+    static final int OP_REMOVE
+    static final int OP_HIDE
+    static final int OP_SHOW
+    static final int OP_DETACH
+    static final int OP_ATTACH
+    291:291:public int getId()
+    295:295:public int getBreadCrumbTitleRes()
+    299:299:public int getBreadCrumbShortTitleRes()
+    303:306:public java.lang.CharSequence getBreadCrumbTitle()
+    310:313:public java.lang.CharSequence getBreadCrumbShortTitle()
+    332:333:public android.support.v4.app.FragmentTransaction add(android.support.v4.app.Fragment,java.lang.String)
+    337:338:public android.support.v4.app.FragmentTransaction add(int,android.support.v4.app.Fragment)
+    342:343:public android.support.v4.app.FragmentTransaction add(int,android.support.v4.app.Fragment,java.lang.String)
+    347:371:private void doAddOp(int,android.support.v4.app.Fragment,java.lang.String,int)
+    374:374:public android.support.v4.app.FragmentTransaction replace(int,android.support.v4.app.Fragment)
+    378:383:public android.support.v4.app.FragmentTransaction replace(int,android.support.v4.app.Fragment,java.lang.String)
+    387:392:public android.support.v4.app.FragmentTransaction remove(android.support.v4.app.Fragment)
+    396:401:public android.support.v4.app.FragmentTransaction hide(android.support.v4.app.Fragment)
+    405:410:public android.support.v4.app.FragmentTransaction show(android.support.v4.app.Fragment)
+    414:419:public android.support.v4.app.FragmentTransaction detach(android.support.v4.app.Fragment)
+    423:428:public android.support.v4.app.FragmentTransaction attach(android.support.v4.app.Fragment)
+    432:432:public android.support.v4.app.FragmentTransaction setCustomAnimations(int,int)
+    437:441:public android.support.v4.app.FragmentTransaction setCustomAnimations(int,int,int,int)
+    445:446:public android.support.v4.app.FragmentTransaction setTransition(int)
+    450:451:public android.support.v4.app.FragmentTransaction setTransitionStyle(int)
+    455:461:public android.support.v4.app.FragmentTransaction addToBackStack(java.lang.String)
+    465:465:public boolean isAddToBackStackAllowed()
+    469:474:public android.support.v4.app.FragmentTransaction disallowAddToBackStack()
+    478:480:public android.support.v4.app.FragmentTransaction setBreadCrumbTitle(int)
+    484:486:public android.support.v4.app.FragmentTransaction setBreadCrumbTitle(java.lang.CharSequence)
+    490:492:public android.support.v4.app.FragmentTransaction setBreadCrumbShortTitle(int)
+    496:498:public android.support.v4.app.FragmentTransaction setBreadCrumbShortTitle(java.lang.CharSequence)
+    525:525:public int commit()
+    529:529:public int commitAllowingStateLoss()
+    533:542:int commitInternal(boolean)
+    712:712:public int getTransition()
+    716:716:public int getTransitionStyle()
+    720:720:public boolean isEmpty()
+android.support.v4.app.DialogFragment
+android.support.v4.app.Fragment:
+    static final int INITIALIZING
+    static final int CREATED
+    static final int ACTIVITY_CREATED
+    static final int STOPPED
+    static final int STARTED
+    static final int RESUMED
+    454:454:public final int getId()
+    461:461:public final java.lang.String getTag()
+    472:476:public void setArguments(android.os.Bundle)
+    483:483:public final android.os.Bundle getArguments()
+    495:500:public void setInitialSavedState(android.support.v4.app.Fragment$SavedState)
+    514:516:public void setTargetFragment(android.support.v4.app.Fragment,int)
+    522:522:public final android.support.v4.app.Fragment getTargetFragment()
+    529:529:public final int getTargetRequestCode()
+    543:546:public final android.content.res.Resources getResources()
+    556:556:public final java.lang.CharSequence getText(int)
+    566:566:public final java.lang.String getString(int)
+    579:579:public final varargs java.lang.String getString(int,java.lang.Object[])
+    590:590:public final android.support.v4.app.FragmentManager getFragmentManager()
+    597:597:public final boolean isAdded()
+    606:606:public final boolean isDetached()
+    615:615:public final boolean isRemoving()
+    626:626:public final boolean isInLayout()
+    634:634:public final boolean isResumed()
+    643:643:public final boolean isVisible()
+    655:655:public final boolean isHidden()
+    683:684:public void setRetainInstance(boolean)
+    687:687:public final boolean getRetainInstance()
+    698:704:public void setHasOptionsMenu(boolean)
+    716:722:public void setMenuVisibility(boolean)
+    728:736:public android.support.v4.app.LoaderManager getLoaderManager()
+    744:748:public void startActivity(android.content.Intent)
+    755:759:public void startActivityForResult(android.content.Intent,int)
+    910:910:public android.view.View getView()
+    1182:1183:public void registerForContextMenu(android.view.View)
+    1193:1194:public void unregisterForContextMenu(android.view.View)
+android.support.v4.app.Fragment$SavedState:
+    284:286:Fragment$SavedState(android.os.Bundle)
+android.support.v4.app.FragmentActivity:
+    private static final java.lang.String TAG
+    private static final java.lang.String FRAGMENTS_TAG
+    private static final int HONEYCOMB
+    static final int MSG_REALLY_STOPPED
+    static final int MSG_RESUME_PENDING
+    552:554:public java.lang.Object getLastCustomNonConfigurationInstance()
+    651:651:public android.support.v4.app.FragmentManager getSupportFragmentManager()
+    671:679:public void startActivityFromFragment(android.support.v4.app.Fragment,android.content.Intent,int)
+    700:705:public android.support.v4.app.LoaderManager getSupportLoaderManager()
+android.support.v4.app.FragmentActivity$FragmentTag:
+    public static final int Fragment_id
+    public static final int Fragment_name
+    public static final int Fragment_tag
+    115:115:FragmentActivity$FragmentTag()
+android.support.v4.app.FragmentManager:
+    public static final int POP_BACK_STACK_INCLUSIVE
+    public abstract android.support.v4.app.FragmentTransaction beginTransaction()
+    139:139:public android.support.v4.app.FragmentTransaction openTransaction()
+    public abstract boolean executePendingTransactions()
+    public abstract android.support.v4.app.Fragment findFragmentById(int)
+    public abstract android.support.v4.app.Fragment findFragmentByTag(java.lang.String)
+    public abstract void popBackStack()
+    public abstract boolean popBackStackImmediate()
+    public abstract void popBackStack(java.lang.String,int)
+    public abstract boolean popBackStackImmediate(java.lang.String,int)
+    public abstract void popBackStack(int,int)
+    public abstract boolean popBackStackImmediate(int,int)
+    public abstract int getBackStackEntryCount()
+    public abstract android.support.v4.app.FragmentManager$BackStackEntry getBackStackEntryAt(int)
+    public abstract void addOnBackStackChangedListener(android.support.v4.app.FragmentManager$OnBackStackChangedListener)
+    public abstract void removeOnBackStackChangedListener(android.support.v4.app.FragmentManager$OnBackStackChangedListener)
+    public abstract void putFragment(android.os.Bundle,java.lang.String,android.support.v4.app.Fragment)
+    public abstract android.support.v4.app.Fragment getFragment(android.os.Bundle,java.lang.String)
+    public abstract android.support.v4.app.Fragment$SavedState saveFragmentInstanceState(android.support.v4.app.Fragment)
+    public abstract void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])
+    334:335:public static void enableDebugLogging(boolean)
+android.support.v4.app.FragmentManager$BackStackEntry
+android.support.v4.app.FragmentManagerImpl:
+    static final java.lang.String TAG
+    static final java.lang.String TARGET_REQUEST_CODE_STATE_TAG
+    static final java.lang.String TARGET_STATE_TAG
+    static final java.lang.String VIEW_STATE_TAG
+    static final int ANIM_DUR
+    public static final int ANIM_STYLE_OPEN_ENTER
+    public static final int ANIM_STYLE_OPEN_EXIT
+    public static final int ANIM_STYLE_CLOSE_ENTER
+    public static final int ANIM_STYLE_CLOSE_EXIT
+    public static final int ANIM_STYLE_FADE_ENTER
+    public static final int ANIM_STYLE_FADE_EXIT
+    424:424:public android.support.v4.app.FragmentTransaction beginTransaction()
+    434:439:public void popBackStack()
+    450:455:public void popBackStack(java.lang.String,int)
+    459:461:public boolean popBackStackImmediate(java.lang.String,int)
+    466:474:public void popBackStack(int,int)
+    478:483:public boolean popBackStackImmediate(int,int)
+    488:488:public int getBackStackEntryCount()
+    493:493:public android.support.v4.app.FragmentManager$BackStackEntry getBackStackEntryAt(int)
+    498:502:public void addOnBackStackChangedListener(android.support.v4.app.FragmentManager$OnBackStackChangedListener)
+    506:509:public void removeOnBackStackChangedListener(android.support.v4.app.FragmentManager$OnBackStackChangedListener)
+    540:548:public android.support.v4.app.Fragment$SavedState saveFragmentInstanceState(android.support.v4.app.Fragment)
+    1241:1249:public android.support.v4.app.Fragment findFragmentByWho(java.lang.String)
+    1264:1280:public void enqueueAction(java.lang.Runnable,boolean)
+    1283:1299:public int allocBackStackIndex(android.support.v4.app.BackStackRecord)
+android.support.v4.app.FragmentManagerImpl$2
+android.support.v4.app.FragmentManagerImpl$3
+android.support.v4.app.FragmentManagerImpl$4
+android.support.v4.app.FragmentPagerAdapter
+android.support.v4.app.FragmentStatePagerAdapter
+android.support.v4.app.FragmentTransaction:
+    public static final int TRANSIT_ENTER_MASK
+    public static final int TRANSIT_EXIT_MASK
+    public static final int TRANSIT_UNSET
+    public static final int TRANSIT_NONE
+    public static final int TRANSIT_FRAGMENT_OPEN
+    public static final int TRANSIT_FRAGMENT_CLOSE
+    public static final int TRANSIT_FRAGMENT_FADE
+    public abstract android.support.v4.app.FragmentTransaction add(android.support.v4.app.Fragment,java.lang.String)
+    public abstract android.support.v4.app.FragmentTransaction add(int,android.support.v4.app.Fragment)
+    public abstract android.support.v4.app.FragmentTransaction add(int,android.support.v4.app.Fragment,java.lang.String)
+    public abstract android.support.v4.app.FragmentTransaction replace(int,android.support.v4.app.Fragment)
+    public abstract android.support.v4.app.FragmentTransaction replace(int,android.support.v4.app.Fragment,java.lang.String)
+    public abstract android.support.v4.app.FragmentTransaction remove(android.support.v4.app.Fragment)
+    public abstract android.support.v4.app.FragmentTransaction hide(android.support.v4.app.Fragment)
+    public abstract android.support.v4.app.FragmentTransaction show(android.support.v4.app.Fragment)
+    public abstract android.support.v4.app.FragmentTransaction detach(android.support.v4.app.Fragment)
+    public abstract android.support.v4.app.FragmentTransaction attach(android.support.v4.app.Fragment)
+    public abstract boolean isEmpty()
+    public abstract android.support.v4.app.FragmentTransaction setCustomAnimations(int,int)
+    public abstract android.support.v4.app.FragmentTransaction setCustomAnimations(int,int,int,int)
+    public abstract android.support.v4.app.FragmentTransaction setTransition(int)
+    public abstract android.support.v4.app.FragmentTransaction setTransitionStyle(int)
+    public abstract android.support.v4.app.FragmentTransaction addToBackStack(java.lang.String)
+    public abstract boolean isAddToBackStackAllowed()
+    public abstract android.support.v4.app.FragmentTransaction disallowAddToBackStack()
+    public abstract android.support.v4.app.FragmentTransaction setBreadCrumbTitle(int)
+    public abstract android.support.v4.app.FragmentTransaction setBreadCrumbTitle(java.lang.CharSequence)
+    public abstract android.support.v4.app.FragmentTransaction setBreadCrumbShortTitle(int)
+    public abstract android.support.v4.app.FragmentTransaction setBreadCrumbShortTitle(java.lang.CharSequence)
+    public abstract int commit()
+    public abstract int commitAllowingStateLoss()
+android.support.v4.app.HCSparseArray:
+    224:229:public void setValueAt(int,java.lang.Object)
+    237:241:public int indexOfKey(int)
+    253:261:public int indexOfValue(java.lang.Object)
+    284:311:public void append(int,java.lang.Object)
+    334:343:private void checkIntegrity()
+android.support.v4.app.ListFragment
+android.support.v4.app.ListFragment$1
+android.support.v4.app.ListFragment$2
+android.support.v4.app.LoaderManager:
+    public abstract android.support.v4.content.Loader initLoader(int,android.os.Bundle,android.support.v4.app.LoaderManager$LoaderCallbacks)
+    public abstract android.support.v4.content.Loader restartLoader(int,android.os.Bundle,android.support.v4.app.LoaderManager$LoaderCallbacks)
+    public abstract void destroyLoader(int)
+    public abstract android.support.v4.content.Loader getLoader(int)
+    public abstract void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])
+    176:177:public static void enableDebugLogging(boolean)
+android.support.v4.app.LoaderManagerImpl:
+    static final java.lang.String TAG
+    boolean mRetainingStarted
+    boolean mCreatingLoader
+    475:478:private android.support.v4.app.LoaderManagerImpl$LoaderInfo createLoader(int,android.os.Bundle,android.support.v4.app.LoaderManager$LoaderCallbacks)
+    484:489:private android.support.v4.app.LoaderManagerImpl$LoaderInfo createAndInstallLoader(int,android.os.Bundle,android.support.v4.app.LoaderManager$LoaderCallbacks)
+    494:501:void installLoader(android.support.v4.app.LoaderManagerImpl$LoaderInfo)
+    529:551:public android.support.v4.content.Loader initLoader(int,android.os.Bundle,android.support.v4.app.LoaderManager$LoaderCallbacks)
+    579:633:public android.support.v4.content.Loader restartLoader(int,android.os.Bundle,android.support.v4.app.LoaderManager$LoaderCallbacks)
+    644:661:public void destroyLoader(int)
+    669:680:public android.support.v4.content.Loader getLoader(int)
+android.support.v4.app.LoaderManagerImpl$LoaderInfo:
+    219:223:public LoaderManagerImpl$LoaderInfo(android.support.v4.app.LoaderManagerImpl,int,android.os.Bundle,android.support.v4.app.LoaderManager$LoaderCallbacks)
+    353:402:public void onLoadComplete(android.support.v4.content.Loader,java.lang.Object)
+android.support.v4.content.AsyncTaskLoader
+android.support.v4.content.AsyncTaskLoader$LoadTask
+android.support.v4.content.CursorLoader
+android.support.v4.content.Loader:
+    android.content.Context mContext
+    75:77:public Loader(android.content.Context)
+    87:90:public void deliverResult(java.lang.Object)
+    96:96:public android.content.Context getContext()
+    103:103:public int getId()
+    142:142:public boolean isStarted()
+    151:151:public boolean isAbandoned()
+    160:160:public boolean isReset()
+    202:203:public void forceLoad()
+    210:210:protected void onForceLoad()
+    246:248:public void abandon()
+    260:260:protected void onAbandon()
+    297:299:public boolean takeContentChanged()
+    311:319:public void onContentChanged()
+android.support.v4.content.Loader$ForceLoadContentObserver
+android.support.v4.content.Loader$OnLoadCompleteListener:
+    public abstract void onLoadComplete(android.support.v4.content.Loader,java.lang.Object)
+android.support.v4.content.LocalBroadcastManager
+android.support.v4.content.LocalBroadcastManager$1
+android.support.v4.content.LocalBroadcastManager$BroadcastRecord
+android.support.v4.content.LocalBroadcastManager$ReceiverRecord
+android.support.v4.content.ModernAsyncTask
+android.support.v4.content.ModernAsyncTask$1
+android.support.v4.content.ModernAsyncTask$2
+android.support.v4.content.ModernAsyncTask$3
+android.support.v4.content.ModernAsyncTask$4
+android.support.v4.content.ModernAsyncTask$AsyncTaskResult
+android.support.v4.content.ModernAsyncTask$InternalHandler
+android.support.v4.content.ModernAsyncTask$Status
+android.support.v4.content.ModernAsyncTask$WorkerRunnable
+android.support.v4.os.ParcelableCompat:
+    22:31:public ParcelableCompat()
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2Stub:
+    22:22:ParcelableCompatCreatorHoneycombMR2Stub()
+android.support.v4.util.DebugUtils:
+    22:22:public DebugUtils()
+android.support.v4.util.LruCache:
+    174:190:public final java.lang.Object remove(java.lang.Object)
+    252:253:public final void evictAll()
+    261:261:public final synchronized int size()
+    270:270:public final synchronized int maxSize()
+    277:277:public final synchronized int hitCount()
+    285:285:public final synchronized int missCount()
+    292:292:public final synchronized int createCount()
+    299:299:public final synchronized int putCount()
+    306:306:public final synchronized int evictionCount()
+    314:314:public final synchronized java.util.Map snapshot()
+android.support.v4.util.TimeUtils
+android.support.v4.view.AccessibilityDelegateCompat
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateIcsImpl
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateIcsImpl$1
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateImpl
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateStubImpl
+android.support.v4.view.AccessibilityDelegateCompatIcs
+android.support.v4.view.AccessibilityDelegateCompatIcs$1
+android.support.v4.view.AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge
+android.support.v4.view.KeyEventCompat:
+    25:95:public KeyEventCompat()
+    127:127:public static int normalizeMetaState(int)
+    131:131:public static boolean metaStateHasModifiers(int,int)
+    135:135:public static boolean metaStateHasNoModifiers(int)
+android.support.v4.view.KeyEventCompat$BaseKeyEventVersionImpl:
+    private static final int META_MODIFIER_MASK
+    private static final int META_ALL_MASK
+android.support.v4.view.KeyEventCompat$HoneycombKeyEventVersionImpl:
+    98:98:public int normalizeMetaState(int)
+android.support.v4.view.KeyEventCompat$KeyEventVersionImpl:
+    public abstract int normalizeMetaState(int)
+android.support.v4.view.KeyEventCompatHoneycomb:
+    24:24:KeyEventCompatHoneycomb()
+    26:26:public static int normalizeMetaState(int)
+android.support.v4.view.MenuCompat
+android.support.v4.view.MenuCompat$BaseMenuVersionImpl
+android.support.v4.view.MenuCompat$HoneycombMenuVersionImpl
+android.support.v4.view.MenuCompat$MenuVersionImpl
+android.support.v4.view.MenuCompatHoneycomb
+android.support.v4.view.MotionEventCompat:
+    public static final int ACTION_MASK
+    public static final int ACTION_POINTER_DOWN
+    public static final int ACTION_POINTER_UP
+    public static final int ACTION_HOVER_MOVE
+    public static final int ACTION_SCROLL
+    public static final int ACTION_POINTER_INDEX_MASK
+    public static final int ACTION_POINTER_INDEX_SHIFT
+    24:74:public MotionEventCompat()
+    147:147:public static int getActionMasked(android.view.MotionEvent)
+android.support.v4.view.MotionEventCompatEclair:
+    24:24:MotionEventCompatEclair()
+android.support.v4.view.PagerAdapter:
+    public static final int POSITION_UNCHANGED
+    public static final int POSITION_NONE
+    122:122:public int getItemPosition(java.lang.Object)
+    130:133:public void notifyDataSetChanged()
+android.support.v4.view.PagerAdapter$DataSetObserver:
+    public abstract void onDataSetChanged()
+android.support.v4.view.VelocityTrackerCompat:
+    24:50:public VelocityTrackerCompat()
+    90:90:public static float getYVelocity(android.view.VelocityTracker,int)
+android.support.v4.view.VelocityTrackerCompat$BaseVelocityTrackerVersionImpl:
+    43:43:public float getYVelocity(android.view.VelocityTracker,int)
+android.support.v4.view.VelocityTrackerCompat$HoneycombVelocityTrackerVersionImpl:
+    57:57:public float getYVelocity(android.view.VelocityTracker,int)
+android.support.v4.view.VelocityTrackerCompat$VelocityTrackerVersionImpl:
+    public abstract float getYVelocity(android.view.VelocityTracker,int)
+android.support.v4.view.VelocityTrackerCompatHoneycomb:
+    24:24:VelocityTrackerCompatHoneycomb()
+    29:29:public static float getYVelocity(android.view.VelocityTracker,int)
+android.support.v4.view.ViewCompat:
+    public static final int OVER_SCROLL_ALWAYS
+    public static final int OVER_SCROLL_IF_CONTENT_SCROLLS
+    public static final int OVER_SCROLL_NEVER
+    26:93:public ViewCompat()
+    137:137:public static boolean canScrollVertically(android.view.View,int)
+    145:146:public static void setOverScrollMode(android.view.View,int)
+    149:150:public static void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    153:154:public static void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    157:158:public static void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+    161:162:public static void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat)
+android.support.v4.view.ViewCompat$BaseViewCompatImpl:
+    60:60:public boolean canScrollVertically(android.view.View,int)
+    67:67:public void setOverScrollMode(android.view.View,int)
+    70:70:public void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat)
+    73:73:public void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    76:76:public void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    79:79:public void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+android.support.v4.view.ViewCompat$GBViewCompatImpl:
+    89:90:public void setOverScrollMode(android.view.View,int)
+android.support.v4.view.ViewCompat$ICSViewCompatImpl:
+    100:100:public boolean canScrollVertically(android.view.View,int)
+    104:105:public void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    108:109:public void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    112:113:public void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+    116:117:public void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat)
+android.support.v4.view.ViewCompat$ViewCompatImpl:
+    public abstract boolean canScrollVertically(android.view.View,int)
+    public abstract void setOverScrollMode(android.view.View,int)
+    public abstract void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    public abstract void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    public abstract void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+    public abstract void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat)
+android.support.v4.view.ViewCompatGingerbread:
+    21:21:public ViewCompatGingerbread()
+    27:28:public static void setOverScrollMode(android.view.View,int)
+android.support.v4.view.ViewCompatICS:
+    27:27:ViewCompatICS()
+    34:34:public static boolean canScrollVertically(android.view.View,int)
+    38:39:public static void setAccessibilityDelegate(android.view.View,java.lang.Object)
+    42:43:public static void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    46:47:public static void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    50:51:public static void onInitializeAccessibilityNodeInfo(android.view.View,java.lang.Object)
+android.support.v4.view.ViewConfigurationCompat:
+    24:45:public ViewConfigurationCompat()
+android.support.v4.view.ViewConfigurationCompatFroyo:
+    24:24:ViewConfigurationCompatFroyo()
+android.support.v4.view.ViewGroupCompat
+android.support.v4.view.ViewGroupCompat$ViewGroupCompatIcsImpl
+android.support.v4.view.ViewGroupCompat$ViewGroupCompatImpl
+android.support.v4.view.ViewGroupCompat$ViewGroupCompatStubImpl
+android.support.v4.view.ViewGroupCompatIcs
+android.support.v4.view.ViewPager:
+    private static final java.lang.String TAG
+    private static final boolean DEBUG
+    private static final boolean USE_CACHE
+    private static final int DEFAULT_OFFSCREEN_PAGES
+    private static final int MAX_SETTLE_DURATION
+    private static final int INVALID_POINTER
+    private long mFakeDragBeginTime
+    public static final int SCROLL_STATE_IDLE
+    public static final int SCROLL_STATE_DRAGGING
+    public static final int SCROLL_STATE_SETTLING
+    302:302:public android.support.v4.view.PagerAdapter getAdapter()
+    329:329:public int getCurrentItem()
+    389:389:public int getOffscreenPageLimit()
+    410:419:public void setOffscreenPageLimit(int)
+    430:437:public void setPageMargin(int)
+    445:445:public int getPageMargin()
+    454:458:public void setPageMarginDrawable(android.graphics.drawable.Drawable)
+    466:467:public void setPageMarginDrawable(int)
+    488:490:float distanceInfluenceForSnapDuration(float)
+    500:501:void smoothScrollTo(int,int)
+    559:605:void dataSetChanged()
+    1334:1350:public boolean beginFakeDrag()
+    1360:1382:public void endFakeDrag()
+    1392:1426:public void fakeDragBy(float)
+    1438:1438:public boolean isFakeDragging()
+android.support.v4.view.ViewPager$DataSetObserver:
+    1727:1728:public void onDataSetChanged()
+android.support.v4.view.ViewPager$SimpleOnPageChangeListener
+android.support.v4.view.accessibility.AccessibilityEventCompat
+android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventIcsImpl
+android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventStubImpl
+android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventVersionImpl
+android.support.v4.view.accessibility.AccessibilityEventCompatIcs
+android.support.v4.view.accessibility.AccessibilityManagerCompat
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerIcsImpl
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerIcsImpl$1
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerStubImpl
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerVersionImpl
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityStateChangeListenerCompat
+android.support.v4.view.accessibility.AccessibilityManagerCompatIcs
+android.support.v4.view.accessibility.AccessibilityManagerCompatIcs$1
+android.support.v4.view.accessibility.AccessibilityManagerCompatIcs$AccessibilityStateChangeListenerBridge
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoIcsImpl
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoImpl
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoStubImpl
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs
+android.support.v4.view.accessibility.AccessibilityRecordCompat
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordIcsImpl
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordImpl
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordStubImpl
+android.support.v4.view.accessibility.AccessibilityRecordCompatIcs
+android.support.v4.widget.CursorAdapter
+android.support.v4.widget.CursorAdapter$1
+android.support.v4.widget.CursorAdapter$ChangeObserver
+android.support.v4.widget.CursorAdapter$MyDataSetObserver
+android.support.v4.widget.CursorFilter
+android.support.v4.widget.CursorFilter$CursorFilterClient
+android.support.v4.widget.EdgeEffectCompat:
+    203:203:public boolean onAbsorb(int)
+android.support.v4.widget.EdgeEffectCompat$BaseEdgeEffectImpl:
+    81:81:public boolean onAbsorb(java.lang.Object,int)
+android.support.v4.widget.EdgeEffectCompat$EdgeEffectIcsImpl:
+    115:115:public boolean onAbsorb(java.lang.Object,int)
+android.support.v4.widget.EdgeEffectCompat$EdgeEffectImpl:
+    public abstract boolean onAbsorb(java.lang.Object,int)
+android.support.v4.widget.EdgeEffectCompatIcs:
+    28:28:EdgeEffectCompatIcs()
+    57:58:public static boolean onAbsorb(java.lang.Object,int)
+android.support.v4.widget.ResourceCursorAdapter
+android.support.v4.widget.SimpleCursorAdapter
+android.support.v4.widget.SimpleCursorAdapter$CursorToStringConverter
+android.support.v4.widget.SimpleCursorAdapter$ViewBinder
+com.autonavi.aps.api.APS:
+    private static synchronized void h()
+    public java.lang.String getVersion()
+    public void setOpenGps(boolean)
+    public void setOpenSystemNetworkLocation(boolean)
+    static synthetic void a(android.location.Location)
+com.autonavi.aps.api.APSFactory:
+    public APSFactory()
+com.autonavi.aps.api.APSLENOVODUALCARD
+com.autonavi.aps.api.ApsRequest:
+    public java.lang.String getClienttime()
+    public java.lang.String getGaccuracy()
+com.autonavi.aps.api.CdmaCellBean:
+    public java.lang.String getMnc()
+com.autonavi.aps.api.Constant:
+    public static final boolean enableLog
+    public static final java.lang.String apsServer
+    public static final java.lang.String apsEncryptKey
+    public static final java.lang.String version
+    public static final int requestSystemNetworkLocationTimeout
+    public static final int requestSystemNetworkLocationMinTime
+    public static final int apsNetworkTimeout
+    public static final int defaultCgiSignal
+    public static final int minRequestDuration
+    public static final int gpsScanSpan
+    public static final long minSdcardAvaliableSizeToWrite
+    public static final java.lang.String sdcardLogPath
+    public static final java.lang.String apsPreferencesName
+    public static final java.lang.String imeiSaltPreferencesKey
+    public static final int imeiMaxSalt
+    public static final java.lang.String logTag
+    public Constant()
+com.autonavi.aps.api.IAPS:
+    public abstract void setOpenGps(boolean)
+    public abstract void setOpenSystemNetworkLocation(boolean)
+    public abstract java.lang.String getVersion()
+com.autonavi.aps.api.Location:
+    public double getRawx()
+    public double getRawy()
+    public double getRawd()
+    public java.lang.String getAdcode()
+    public java.lang.String getResult()
+    public java.lang.String getRdesc()
+com.autonavi.aps.api.Utils:
+    public Utils()
+com.autonavi.aps.api.a
+com.autonavi.aps.api.g
+com.autonavi.aps.api.h
+com.autonavi.aps.api.i
+com.autonavi.aps.api.j
+com.autonavi.util.Shifting:
+    public Shifting()
+    public static void main(java.lang.String[])
+com.google.analytics.tracking.android.AdHitIdGenerator:
+    24:26:AdHitIdGenerator(boolean)
+com.google.analytics.tracking.android.AdMobInfo:
+    47:47:java.util.Map getJoinIds()
+    58:59:void setAdHitId(int)
+    62:62:int getAdHitId()
+com.google.analytics.tracking.android.AdMobInfo$AdMobKey
+com.google.analytics.tracking.android.AnalyticsConstants
+com.google.analytics.tracking.android.AnalyticsGmsCoreClient:
+    public static final int BIND_FAILED
+    public static final int REMOTE_EXECUTION_FAILED
+    private static final java.lang.String SERVICE_DESCRIPTOR
+    static final java.lang.String SERVICE_ACTION
+    private static final int BIND_ADJUST_WITH_ACTIVITY
+    public static final java.lang.String KEY_APP_PACKAGE_NAME
+com.google.analytics.tracking.android.AnalyticsStore:
+    public abstract void setDispatch(boolean)
+    public abstract void close()
+com.google.analytics.tracking.android.AnalyticsThread:
+    public abstract void setAppOptOut(boolean)
+com.google.analytics.tracking.android.CampaignTrackingReceiver:
+    static final java.lang.String INSTALL_ACTION
+    static final java.lang.String CAMPAIGN_KEY
+com.google.analytics.tracking.android.CampaignTrackingService:
+    16:17:public CampaignTrackingService(java.lang.String)
+com.google.analytics.tracking.android.EasyTracker:
+    static final int NUM_MILLISECONDS_TO_WAIT_FOR_OPEN_ACTIVITY
+    private long mLastOnStopTime
+    private java.util.Timer mTimer
+    private java.util.TimerTask mTimerTask
+    223:223:boolean checkForNewSession()
+    291:292:void setUncaughtExceptionHandler(java.lang.Thread$UncaughtExceptionHandler)
+    344:365:public void activityStart(android.app.Activity)
+    375:394:public void activityStop(android.app.Activity)
+    400:403:public void dispatch()
+    406:410:private synchronized void clearExistingTimer()
+    422:431:private java.lang.String getActivityName(android.app.Activity)
+    437:438:static void clearTracker()
+    442:443:void setClock(com.google.analytics.tracking.android.Clock)
+    447:447:int getActivitiesActive()
+    90:90:static synthetic boolean access$102(com.google.analytics.tracking.android.EasyTracker,boolean)
+com.google.analytics.tracking.android.EasyTracker$NoopTracker:
+    private java.lang.String mAppId
+    private java.lang.String mAppInstallerId
+    private boolean mIsUseSecure
+    private com.google.analytics.tracking.android.ExceptionParser mExceptionParser
+    466:466:public void setStartSession(boolean)
+    478:478:public void setAppScreen(java.lang.String)
+    482:482:public void sendView()
+    486:486:public void sendView(java.lang.String)
+    490:490:public void sendEvent(java.lang.String,java.lang.String,java.lang.String,java.lang.Long)
+    494:494:public void sendTransaction(com.google.analytics.tracking.android.Transaction)
+    502:502:public void sendException(java.lang.String,java.lang.Throwable,boolean)
+    507:507:public void sendTiming(java.lang.String,long,java.lang.String,java.lang.String)
+    511:511:public void sendSocial(java.lang.String,java.lang.String,java.lang.String)
+    515:515:public void close()
+    519:519:public void send(java.lang.String,java.util.Map)
+    523:523:public java.lang.String get(java.lang.String)
+    528:528:public void set(java.lang.String,java.lang.String)
+    532:532:public java.lang.String getTrackingId()
+    542:542:public boolean isAnonymizeIpEnabled()
+    552:552:public double getSampleRate()
+    557:558:public void setUseSecure(boolean)
+    562:562:public boolean isUseSecure()
+    567:567:public void setReferrer(java.lang.String)
+    575:576:public void setAppId(java.lang.String)
+    580:580:public java.lang.String getAppId()
+    585:586:public void setAppInstallerId(java.lang.String)
+    590:590:public java.lang.String getAppInstallerId()
+    595:596:public void setExceptionParser(com.google.analytics.tracking.android.ExceptionParser)
+    600:600:public com.google.analytics.tracking.android.ExceptionParser getExceptionParser()
+    606:606:public java.util.Map constructEvent(java.lang.String,java.lang.String,java.lang.String,java.lang.Long)
+    611:611:public java.util.Map constructTransaction(com.google.analytics.tracking.android.Transaction)
+    623:623:public java.util.Map constructRawException(java.lang.String,java.lang.Throwable,boolean)
+    629:629:public java.util.Map constructTiming(java.lang.String,long,java.lang.String,java.lang.String)
+    634:634:public java.util.Map constructSocial(java.lang.String,java.lang.String,java.lang.String)
+    639:639:public void setCustomDimension(int,java.lang.String)
+    643:643:public void setCustomMetric(int,java.lang.Long)
+    648:648:public void setCustomDimensionsAndMetrics(java.util.Map,java.util.Map)
+com.google.analytics.tracking.android.EasyTracker$NotInForegroundTimerTask
+com.google.analytics.tracking.android.ExceptionReporter:
+    static final java.lang.String DEFAULT_DESCRIPTION
+    64:64:public com.google.analytics.tracking.android.ExceptionParser getExceptionParser()
+    68:69:public void setExceptionParser(com.google.analytics.tracking.android.ExceptionParser)
+com.google.analytics.tracking.android.FutureApis:
+    17:18:private FutureApis()
+com.google.analytics.tracking.android.GAServiceManager:
+    private static final int MSG_KEY
+    84:89:GAServiceManager(android.content.Context,com.google.analytics.tracking.android.AnalyticsThread,com.google.analytics.tracking.android.AnalyticsStore,boolean)
+    147:147:com.google.analytics.tracking.android.AnalyticsStoreStateListener getListener()
+com.google.analytics.tracking.android.GAServiceProxy:
+    private static final int MAX_TRIES
+    private static final long SERVICE_CONNECTION_TIMEOUT
+    private static final long RECONNECT_WAIT_TIME
+    private static final long FAILED_CONNECT_WAIT_TIME
+    89:90:void setClock(com.google.analytics.tracking.android.Clock)
+    170:175:void createService(com.google.analytics.tracking.android.AnalyticsClient)
+    182:183:public void setIdleTimeout(long)
+com.google.analytics.tracking.android.GAThread:
+    private static final java.lang.String CLIENT_VERSION
+    private static final int MAX_SAMPLE_RATE
+    private static final int SAMPLE_RATE_MULTIPLIER
+    private static final int SAMPLE_RATE_MODULO
+    static final java.lang.String API_VERSION
+    84:92:GAThread(android.content.Context,com.google.analytics.tracking.android.ServiceProxy)
+    275:300:public void setAppOptOut(boolean)
+    547:549:void close()
+    553:553:boolean isDisabled()
+    36:36:static synthetic android.content.Context access$1100(com.google.analytics.tracking.android.GAThread)
+    36:36:static synthetic boolean access$102(com.google.analytics.tracking.android.GAThread,boolean)
+com.google.analytics.tracking.android.GAThread$3
+com.google.analytics.tracking.android.GAUsage:
+    private static final java.lang.String BASE_64_CHARS
+    100:100:static com.google.analytics.tracking.android.GAUsage getPrivateInstance()
+com.google.analytics.tracking.android.GoogleAnalytics:
+    105:107:static com.google.analytics.tracking.android.GoogleAnalytics getInstance()
+    119:125:static com.google.analytics.tracking.android.GoogleAnalytics getNewInstance(android.content.Context,com.google.analytics.tracking.android.AnalyticsThread)
+    133:136:static void clearInstance()
+    154:155:public boolean isDebugEnabled()
+    189:192:public com.google.analytics.tracking.android.Tracker getDefaultTracker()
+    199:203:public void setDefaultTracker(com.google.analytics.tracking.android.Tracker)
+    207:213:public void closeTracker(com.google.analytics.tracking.android.Tracker)
+    240:240:void close()
+    246:246:java.lang.String getTrackingIdForAds()
+    253:256:java.lang.String getClientIdForAds()
+    276:279:public void setAppOptOut(boolean)
+    283:283:java.lang.Boolean getAppOptOut()
+    297:303:public void requestAppOptOut(com.google.analytics.tracking.android.GoogleAnalytics$AppOptOutCallback)
+com.google.analytics.tracking.android.HitBuilder:
+    15:15:HitBuilder()
+com.google.analytics.tracking.android.Log:
+    static final java.lang.String LOG_TAG
+    22:23:private Log()
+    87:90:public static int eDebug(java.lang.String)
+com.google.analytics.tracking.android.MetaModel$MetaInfo:
+    102:102:java.lang.String getUrlParam()
+com.google.analytics.tracking.android.MetaModelInitializer:
+    29:30:private MetaModelInitializer()
+com.google.analytics.tracking.android.ModelFields
+com.google.analytics.tracking.android.NoopDispatcher
+com.google.analytics.tracking.android.ParameterLoader:
+    public abstract boolean isBooleanKeyPresent(java.lang.String)
+com.google.analytics.tracking.android.ParameterLoaderImpl:
+    78:78:public boolean isBooleanKeyPresent(java.lang.String)
+com.google.analytics.tracking.android.PersistentAnalyticsStore:
+    static final java.lang.String BACKEND_LIBRARY_VERSION
+    static final java.lang.String HIT_ID
+    static final java.lang.String HIT_STRING
+    static final java.lang.String HIT_TIME
+    static final java.lang.String HIT_URL
+    static final java.lang.String HIT_APP_ID
+    static final java.lang.String HITS_TABLE
+    private static final java.lang.String DATABASE_FILENAME
+    128:129:public void setClock(com.google.analytics.tracking.android.Clock)
+    133:133:public com.google.analytics.tracking.android.PersistentAnalyticsStore$AnalyticsDatabaseHelper getDbHelper()
+    152:155:public void setDispatch(boolean)
+    159:160:void setDispatcher(com.google.analytics.tracking.android.Dispatcher)
+    401:402:void setLastDeleteStaleHitsTime(long)
+    511:516:public void close()
+    520:520:com.google.analytics.tracking.android.PersistentAnalyticsStore$AnalyticsDatabaseHelper getHelper()
+com.google.analytics.tracking.android.PersistentAnalyticsStore$AnalyticsDatabaseHelper:
+    553:553:boolean isBadDatabase()
+    557:558:void setBadDatabase(boolean)
+com.google.analytics.tracking.android.ServiceProxy:
+    public abstract void clearHits()
+com.google.analytics.tracking.android.SimpleNetworkDispatcher:
+    private static final java.lang.String USER_AGENT_TEMPLATE
+com.google.analytics.tracking.android.Tracker:
+    private volatile com.google.analytics.tracking.android.ExceptionParser mExceptionParser
+    static final long TIME_PER_TOKEN_MILLIS
+    static final long MAX_TOKENS
+    99:102:public void setStartSession(boolean)
+    148:151:public void setAppScreen(java.lang.String)
+    158:159:public void trackView()
+    164:170:public void sendView()
+    177:178:public void trackView(java.lang.String)
+    186:193:public void sendView(java.lang.String)
+    200:201:public void trackEvent(java.lang.String,java.lang.String,java.lang.String,java.lang.Long)
+    213:218:public void sendEvent(java.lang.String,java.lang.String,java.lang.String,java.lang.Long)
+    225:226:public void trackTransaction(com.google.analytics.tracking.android.Transaction)
+    232:241:public void sendTransaction(com.google.analytics.tracking.android.Transaction)
+    248:249:public void trackException(java.lang.String,boolean)
+    271:272:public void trackException(java.lang.String,java.lang.Throwable,boolean)
+    284:303:public void sendException(java.lang.String,java.lang.Throwable,boolean)
+    310:311:public void trackTiming(java.lang.String,long,java.lang.String,java.lang.String)
+    322:328:public void sendTiming(java.lang.String,long,java.lang.String,java.lang.String)
+    335:336:public void trackSocial(java.lang.String,java.lang.String,java.lang.String)
+    345:350:public void sendSocial(java.lang.String,java.lang.String,java.lang.String)
+    356:358:public void close()
+    369:372:public void send(java.lang.String,java.util.Map)
+    393:394:public java.lang.String get(java.lang.String)
+    402:404:public void set(java.lang.String,java.lang.String)
+    410:411:public java.lang.String getTrackingId()
+    433:434:public boolean isAnonymizeIpEnabled()
+    463:464:public double getSampleRate()
+    474:476:public void setUseSecure(boolean)
+    482:483:public boolean isUseSecure()
+    493:495:public void setReferrer(java.lang.String)
+    535:537:public void setAppId(java.lang.String)
+    540:541:public java.lang.String getAppId()
+    551:553:public void setAppInstallerId(java.lang.String)
+    556:557:public java.lang.String getAppInstallerId()
+    564:566:public void setExceptionParser(com.google.analytics.tracking.android.ExceptionParser)
+    572:573:public com.google.analytics.tracking.android.ExceptionParser getExceptionParser()
+    583:588:public void setCustomDimension(int,java.lang.String)
+    598:607:public void setCustomMetric(int,java.lang.Long)
+    618:628:public void setCustomDimensionsAndMetrics(java.util.Map,java.util.Map)
+    636:645:public java.util.Map constructEvent(java.lang.String,java.lang.String,java.lang.String,java.lang.Long)
+    649:649:private static java.lang.String microsToCurrencyString(long)
+    657:667:public java.util.Map constructTransaction(com.google.analytics.tracking.android.Transaction)
+    671:681:private java.util.Map constructItem(com.google.analytics.tracking.android.Transaction$Item,com.google.analytics.tracking.android.Transaction)
+    703:715:public java.util.Map constructRawException(java.lang.String,java.lang.Throwable,boolean)
+    723:730:public java.util.Map constructTiming(java.lang.String,long,java.lang.String,java.lang.String)
+    737:743:public java.util.Map constructSocial(java.lang.String,java.lang.String,java.lang.String)
+    748:749:void setLastTrackTime(long)
+    753:754:void setTokens(long)
+    787:788:public void setThrottlingEnabled(boolean)
+com.google.analytics.tracking.android.Tracker$SimpleModel:
+    807:811:public synchronized java.lang.String get(java.lang.String)
+com.google.analytics.tracking.android.TrackerHandler:
+    public abstract void closeTracker(com.google.analytics.tracking.android.Tracker)
+com.google.analytics.tracking.android.Transaction
+com.google.analytics.tracking.android.Transaction$1
+com.google.analytics.tracking.android.Transaction$Builder
+com.google.analytics.tracking.android.Transaction$Item
+com.google.analytics.tracking.android.Transaction$Item$Builder
+com.google.analytics.tracking.android.Utils:
+    18:18:Utils()
+    51:57:public static long safeParseLong(java.lang.String)
+    153:159:static java.lang.String hexEncode(byte[])
+    182:182:static java.lang.String getSlottedModelField(java.lang.String,int)
+com.google.android.gms.analytics.internal.Command:
+    public static final java.lang.String APPEND_VERSION
+    public static final java.lang.String APPEND_QUEUE_TIME
+    public static final java.lang.String APPEND_CACHE_BUSTER
+com.google.android.gms.analytics.internal.IAnalyticsService$Stub:
+    private static final java.lang.String DESCRIPTOR
+    static final int TRANSACTION_sendHit
+    static final int TRANSACTION_clearHits
+    17:19:public IAnalyticsService$Stub()
+    37:37:public android.os.IBinder asBinder()
+com.google.android.gms.analytics.internal.IAnalyticsService$Stub$Proxy:
+    87:87:public java.lang.String getInterfaceDescriptor()
+com.google.android.gms.common.util.VisibleForTesting
+com.google.zxing.BarcodeFormat
+com.google.zxing.Binarizer
+com.google.zxing.BinaryBitmap
+com.google.zxing.ChecksumException
+com.google.zxing.DecodeHintType
+com.google.zxing.EncodeHintType
+com.google.zxing.FormatException
+com.google.zxing.LuminanceSource
+com.google.zxing.MultiFormatReader
+com.google.zxing.MultiFormatWriter
+com.google.zxing.NotFoundException
+com.google.zxing.Reader
+com.google.zxing.ReaderException
+com.google.zxing.Result
+com.google.zxing.ResultMetadataType
+com.google.zxing.ResultPoint
+com.google.zxing.ResultPointCallback
+com.google.zxing.Writer
+com.google.zxing.WriterException
+com.google.zxing.client.result.AbstractDoCoMoResultParser
+com.google.zxing.client.result.AddressBookAUResultParser
+com.google.zxing.client.result.AddressBookDoCoMoResultParser
+com.google.zxing.client.result.AddressBookParsedResult
+com.google.zxing.client.result.BizcardResultParser
+com.google.zxing.client.result.BookmarkDoCoMoResultParser
+com.google.zxing.client.result.CalendarParsedResult
+com.google.zxing.client.result.EmailAddressParsedResult
+com.google.zxing.client.result.EmailAddressResultParser
+com.google.zxing.client.result.EmailDoCoMoResultParser
+com.google.zxing.client.result.ExpandedProductParsedResult
+com.google.zxing.client.result.ExpandedProductResultParser
+com.google.zxing.client.result.GeoParsedResult
+com.google.zxing.client.result.GeoResultParser
+com.google.zxing.client.result.ISBNParsedResult
+com.google.zxing.client.result.ISBNResultParser
+com.google.zxing.client.result.ParsedResult
+com.google.zxing.client.result.ParsedResultType
+com.google.zxing.client.result.ProductParsedResult
+com.google.zxing.client.result.ProductResultParser
+com.google.zxing.client.result.ResultParser
+com.google.zxing.client.result.SMSMMSResultParser
+com.google.zxing.client.result.SMSParsedResult
+com.google.zxing.client.result.SMSTOMMSTOResultParser
+com.google.zxing.client.result.TelParsedResult
+com.google.zxing.client.result.TelResultParser
+com.google.zxing.client.result.TextParsedResult
+com.google.zxing.client.result.URIParsedResult
+com.google.zxing.client.result.URIResultParser
+com.google.zxing.client.result.URLTOResultParser
+com.google.zxing.client.result.VCardResultParser
+com.google.zxing.client.result.VEventResultParser
+com.google.zxing.client.result.WifiParsedResult
+com.google.zxing.client.result.WifiResultParser
+com.google.zxing.client.result.optional.AbstractNDEFResultParser
+com.google.zxing.client.result.optional.NDEFRecord
+com.google.zxing.client.result.optional.NDEFSmartPosterParsedResult
+com.google.zxing.client.result.optional.NDEFSmartPosterResultParser
+com.google.zxing.client.result.optional.NDEFTextResultParser
+com.google.zxing.client.result.optional.NDEFURIResultParser
+com.google.zxing.common.BitArray
+com.google.zxing.common.BitMatrix
+com.google.zxing.common.BitSource
+com.google.zxing.common.CharacterSetECI
+com.google.zxing.common.Collections
+com.google.zxing.common.Comparator
+com.google.zxing.common.DecoderResult
+com.google.zxing.common.DefaultGridSampler
+com.google.zxing.common.DetectorResult
+com.google.zxing.common.ECI
+com.google.zxing.common.GlobalHistogramBinarizer
+com.google.zxing.common.GridSampler
+com.google.zxing.common.HybridBinarizer
+com.google.zxing.common.PerspectiveTransform
+com.google.zxing.common.StringUtils
+com.google.zxing.common.detector.MonochromeRectangleDetector
+com.google.zxing.common.detector.WhiteRectangleDetector
+com.google.zxing.common.reedsolomon.GF256
+com.google.zxing.common.reedsolomon.GF256Poly
+com.google.zxing.common.reedsolomon.ReedSolomonDecoder
+com.google.zxing.common.reedsolomon.ReedSolomonEncoder
+com.google.zxing.common.reedsolomon.ReedSolomonException
+com.google.zxing.datamatrix.DataMatrixReader
+com.google.zxing.datamatrix.decoder.BitMatrixParser
+com.google.zxing.datamatrix.decoder.DataBlock
+com.google.zxing.datamatrix.decoder.DecodedBitStreamParser
+com.google.zxing.datamatrix.decoder.Decoder
+com.google.zxing.datamatrix.decoder.Version
+com.google.zxing.datamatrix.decoder.Version$1
+com.google.zxing.datamatrix.decoder.Version$ECB
+com.google.zxing.datamatrix.decoder.Version$ECBlocks
+com.google.zxing.datamatrix.detector.Detector
+com.google.zxing.datamatrix.detector.Detector$1
+com.google.zxing.datamatrix.detector.Detector$ResultPointsAndTransitions
+com.google.zxing.datamatrix.detector.Detector$ResultPointsAndTransitionsComparator
+com.google.zxing.multi.ByQuadrantReader
+com.google.zxing.multi.GenericMultipleBarcodeReader
+com.google.zxing.multi.MultipleBarcodeReader
+com.google.zxing.multi.qrcode.QRCodeMultiReader
+com.google.zxing.multi.qrcode.detector.MultiDetector
+com.google.zxing.multi.qrcode.detector.MultiFinderPatternFinder
+com.google.zxing.multi.qrcode.detector.MultiFinderPatternFinder$1
+com.google.zxing.multi.qrcode.detector.MultiFinderPatternFinder$ModuleSizeComparator
+com.google.zxing.oned.CodaBarReader
+com.google.zxing.oned.Code128Reader
+com.google.zxing.oned.Code128Writer
+com.google.zxing.oned.Code39Reader
+com.google.zxing.oned.Code39Writer
+com.google.zxing.oned.Code93Reader
+com.google.zxing.oned.EAN13Reader
+com.google.zxing.oned.EAN13Writer
+com.google.zxing.oned.EAN8Reader
+com.google.zxing.oned.EAN8Writer
+com.google.zxing.oned.EANManufacturerOrgSupport
+com.google.zxing.oned.ITFReader
+com.google.zxing.oned.ITFWriter
+com.google.zxing.oned.MultiFormatOneDReader
+com.google.zxing.oned.MultiFormatUPCEANReader
+com.google.zxing.oned.OneDReader
+com.google.zxing.oned.UPCAReader
+com.google.zxing.oned.UPCEANExtensionSupport
+com.google.zxing.oned.UPCEANReader
+com.google.zxing.oned.UPCEANWriter
+com.google.zxing.oned.UPCEReader
+com.google.zxing.oned.rss.AbstractRSSReader
+com.google.zxing.oned.rss.DataCharacter
+com.google.zxing.oned.rss.FinderPattern
+com.google.zxing.oned.rss.Pair
+com.google.zxing.oned.rss.RSS14Reader
+com.google.zxing.oned.rss.RSSUtils
+com.google.zxing.oned.rss.expanded.BitArrayBuilder
+com.google.zxing.oned.rss.expanded.ExpandedPair
+com.google.zxing.oned.rss.expanded.RSSExpandedReader
+com.google.zxing.oned.rss.expanded.decoders.AI013103decoder
+com.google.zxing.oned.rss.expanded.decoders.AI01320xDecoder
+com.google.zxing.oned.rss.expanded.decoders.AI01392xDecoder
+com.google.zxing.oned.rss.expanded.decoders.AI01393xDecoder
+com.google.zxing.oned.rss.expanded.decoders.AI013x0x1xDecoder
+com.google.zxing.oned.rss.expanded.decoders.AI013x0xDecoder
+com.google.zxing.oned.rss.expanded.decoders.AI01AndOtherAIs
+com.google.zxing.oned.rss.expanded.decoders.AI01decoder
+com.google.zxing.oned.rss.expanded.decoders.AI01weightDecoder
+com.google.zxing.oned.rss.expanded.decoders.AbstractExpandedDecoder
+com.google.zxing.oned.rss.expanded.decoders.AnyAIDecoder
+com.google.zxing.oned.rss.expanded.decoders.BlockParsedResult
+com.google.zxing.oned.rss.expanded.decoders.CurrentParsingState
+com.google.zxing.oned.rss.expanded.decoders.DecodedChar
+com.google.zxing.oned.rss.expanded.decoders.DecodedInformation
+com.google.zxing.oned.rss.expanded.decoders.DecodedNumeric
+com.google.zxing.oned.rss.expanded.decoders.DecodedObject
+com.google.zxing.oned.rss.expanded.decoders.FieldParser
+com.google.zxing.oned.rss.expanded.decoders.GeneralAppIdDecoder
+com.google.zxing.pdf417.PDF417Reader
+com.google.zxing.pdf417.decoder.BitMatrixParser
+com.google.zxing.pdf417.decoder.DecodedBitStreamParser
+com.google.zxing.pdf417.decoder.Decoder
+com.google.zxing.pdf417.detector.Detector
+com.google.zxing.qrcode.QRCodeReader
+com.google.zxing.qrcode.QRCodeWriter
+com.google.zxing.qrcode.decoder.BitMatrixParser
+com.google.zxing.qrcode.decoder.DataBlock
+com.google.zxing.qrcode.decoder.DataMask
+com.google.zxing.qrcode.decoder.DataMask$1
+com.google.zxing.qrcode.decoder.DataMask$DataMask000
+com.google.zxing.qrcode.decoder.DataMask$DataMask001
+com.google.zxing.qrcode.decoder.DataMask$DataMask010
+com.google.zxing.qrcode.decoder.DataMask$DataMask011
+com.google.zxing.qrcode.decoder.DataMask$DataMask100
+com.google.zxing.qrcode.decoder.DataMask$DataMask101
+com.google.zxing.qrcode.decoder.DataMask$DataMask110
+com.google.zxing.qrcode.decoder.DataMask$DataMask111
+com.google.zxing.qrcode.decoder.DecodedBitStreamParser
+com.google.zxing.qrcode.decoder.Decoder
+com.google.zxing.qrcode.decoder.ErrorCorrectionLevel
+com.google.zxing.qrcode.decoder.FormatInformation
+com.google.zxing.qrcode.decoder.Mode
+com.google.zxing.qrcode.decoder.Version
+com.google.zxing.qrcode.decoder.Version$ECB
+com.google.zxing.qrcode.decoder.Version$ECBlocks
+com.google.zxing.qrcode.detector.AlignmentPattern
+com.google.zxing.qrcode.detector.AlignmentPatternFinder
+com.google.zxing.qrcode.detector.Detector
+com.google.zxing.qrcode.detector.FinderPattern
+com.google.zxing.qrcode.detector.FinderPatternFinder
+com.google.zxing.qrcode.detector.FinderPatternFinder$CenterComparator
+com.google.zxing.qrcode.detector.FinderPatternFinder$FurthestFromAverageComparator
+com.google.zxing.qrcode.detector.FinderPatternInfo
+com.google.zxing.qrcode.encoder.BlockPair
+com.google.zxing.qrcode.encoder.ByteMatrix
+com.google.zxing.qrcode.encoder.Encoder
+com.google.zxing.qrcode.encoder.MaskUtil
+com.google.zxing.qrcode.encoder.MatrixUtil
+com.google.zxing.qrcode.encoder.QRCode
+com.mapabc.minimap.map.vmap.NativeMap:
+    public static final java.lang.String MINIMAP_VERSION
+    24:27:public NativeMap(android.content.Context)
+    49:50:public void resetLabelManager()
+    54:54:public void setDrawMode(int)
+    67:68:public void px20ToScreen(int,int,com.amap.mapapi.map.bc)
+    71:72:public void pxToScreen(int,int,com.amap.mapapi.map.bc)
+    75:76:public void ScreenToPx20(int,int,com.amap.mapapi.map.bc)
+    79:80:public void ScreenToPx(int,int,com.amap.mapapi.map.bc)
+    83:83:public int getMapWidth()
+    87:87:public int getMapHeight()
+    91:91:public int getMapAngle()
+    95:95:public int getMapCenterX()
+    99:99:public int getMapCenterY()
+    103:103:public int getMapLevel()
+    107:108:public void setMapLevel(int)
+    111:112:public void getLabelStruct(byte[])
+    325:335:public java.lang.String[] getScreenGridNames()
+    private static native void nativeResetLabelManager(int)
+    private static native void nativePx20ToScreen(int,int,int,com.amap.mapapi.map.bc)
+    private static native void nativePxToScreen(int,int,int,com.amap.mapapi.map.bc)
+    private static native void nativeScreenToPx20(int,int,int,com.amap.mapapi.map.bc)
+    private static native void nativeScreenToPx(int,int,int,com.amap.mapapi.map.bc)
+    private static native void nativeGetScreenGridNames(int,byte[])
+    private static native void nativeGetLabelStruct(int,byte[])
+    private static native int nativeGetMapWidth(int)
+    private static native int nativeGetMapHeight(int)
+    private static native int nativeGetMapAngle(int)
+    private static native int nativeGetMapCenterX(int)
+    private static native int nativeGetMapCenterY(int)
+    private static native int nativeGetMapLevel(int)
+    private static native void nativeSetMapLevel(int,int)
+com.mapabc.minimap.map.vmap.NativeMapEngine:
+    public static final int ICON_WIDTH
+    public static final int ICON_HEIGHT
+    public static final int MAX_ICON_SIZE
+    public static final int MAX_LABELAINE
+    123:124:public void clearBackground()
+    131:131:public byte[] getGridData(java.lang.String)
+    139:140:public void setIconData(int,byte[])
+    171:171:public int getBitmapCacheSize()
+    private static native int nativeGetBitmapCacheSize(int)
+    private static native void nativeClearBackground(int)
+    private static native byte[] nativeGetGridData(int,java.lang.String)
+    private static native void nativeSetIconData(int,int,byte[])
+com.mapabc.minimap.map.vmap.VMapProjection:
+    public static final int MAXZOOMLEVEL
+    public static final int PixelsPerTile
+    public static final double MinLatitude
+    public static final double MaxLatitude
+    public static final double MinLongitude
+    public static final double MaxLongitude
+    public static final int EarthRadiusInMeters
+    public static final int TileSplitLevel
+    public static final double EarthCircumferenceInMeters
+    21:22:public VMapProjection()
+    30:30:public static com.amap.mapapi.map.bc LatLongToPixels(int,int,int)
+    56:68:public static com.amap.mapapi.map.bc PixelsToPixels(long,long,int,int)
+    74:84:public static com.mapabc.minimap.map.vmap.a PixelsToLatLong(long,long,int)
+com.mapabc.minimap.map.vmap.a
+com.massvig.ecommerce.activities.ActionDetailActivity:
+    private static final int QQ
+    private static final int SINA
+com.massvig.ecommerce.activities.AddressDetailActivity:
+    private static final int SUCCESS
+    private static final int FAIL
+com.massvig.ecommerce.activities.AliWebPayActivity:
+    19:19:static synthetic android.os.Handler access$0(com.massvig.ecommerce.activities.AliWebPayActivity)
+com.massvig.ecommerce.activities.AliWebPayActivity$JavaScriptInterface:
+    50:58:public void paySuccess()
+    45:45:static synthetic com.massvig.ecommerce.activities.AliWebPayActivity access$0(com.massvig.ecommerce.activities.AliWebPayActivity$JavaScriptInterface)
+com.massvig.ecommerce.activities.AliWebPayActivity$JavaScriptInterface$1
+com.massvig.ecommerce.activities.BaseApplication:
+    public static com.massvig.ecommerce.entities.City currentCity
+    public static java.lang.String ip
+    public static int port
+    public static java.lang.String service
+    private static final float TARGET_HEAP_UTILIZATION
+    private static final int CWJ_HEAP_SIZE
+    34:45:public static com.massvig.ecommerce.entities.City getCurrentCity()
+com.massvig.ecommerce.activities.CommunityActivity:
+    public static final int SUCCESS
+    public static final int FAILED
+    public static final int SHARE
+    public static final int PRAISE
+    public static final int LOGIN
+    public static final int NOTIFY
+    public static final int HEAD
+    public static final int ITEM
+    public static final int CONTENT
+com.massvig.ecommerce.activities.CommunityGroupActivity:
+    public static final int ADDPOST
+    public static final int ADDACTIVITY
+com.massvig.ecommerce.activities.CommunitySignalActivity:
+    public static final int SUCCESS
+    public static final int FAILED
+    public static final int SHARE
+    public static final int PRAISE
+    public static final int LOGIN
+    public static final int NOTIFY
+    public static final int HEAD
+    public static final int ITEM
+    public static final int CONTENT
+    private static final int INSERTPOST
+com.massvig.ecommerce.activities.CommunityUserInfoActivity:
+    private static final int UNFOLLOW
+    private static final int FOLLOWING
+    257:257:public void Dialog(boolean)
+com.massvig.ecommerce.activities.CouponActivity$MyTag:
+    int index
+com.massvig.ecommerce.activities.FansListActivity:
+    private static final int UNFOLLOW
+    private static final int FOLLOWING
+com.massvig.ecommerce.activities.FindPasswordActivity:
+    private static final int SUCCESS
+    private static final int FAILED
+    private static final int EMPTY
+    private static final int START
+    private static final int END
+    private static final int ERROR
+    private static final int TIME
+com.massvig.ecommerce.activities.GoodsDetailActivity:
+    private static final int INSERT_POST
+com.massvig.ecommerce.activities.GoodsListActivity:
+    public com.massvig.ecommerce.widgets.CategoryDialogView categoryDialogView
+    public java.lang.String subCategoryName
+com.massvig.ecommerce.activities.InsertPost:
+    private static final int QQ
+    private static final int SHARE
+    private static final int FAILED
+    private static final int UPLOAD
+    private static final int SUBMIT
+    public static final int PRODUCT
+    public static final int POST
+    public static final int ACTION
+    public static final int ORIGIN
+com.massvig.ecommerce.activities.InvalidProductsActivity$GoodsAdapter:
+    180:180:public java.util.ArrayList getImageList()
+com.massvig.ecommerce.activities.LoginActivity:
+    private static final int SUCCESS
+    private static final int FAILED
+    private static final int EMPTY
+    private static final int START
+    private static final int END
+    private static final int ERROR
+    private static final int INFO_SUCC
+    private static final int INFO_FAIL
+com.massvig.ecommerce.activities.LoveShopActivity:
+    public static final int SHARE
+    public static final int PRAISE
+    public static final int ACTION_POST
+    private static final int SESSIONID
+    private static final int FAILED
+com.massvig.ecommerce.activities.MainActivity:
+    private static final int DELAY
+    private static final int IMAGE
+    public static final int WEBURL
+    public static final int PRODUCTID
+    public static final int GOODSLIST
+    public static final int CAMPAIGN
+    172:174:public void collapseSoftInputMethod(android.widget.EditText)
+    399:414:public java.lang.String getItemUrl(int)
+com.massvig.ecommerce.activities.ManageAddressActivity:
+    private static final int ADD
+    private static final int LOGIN
+    private static final int MODIFY
+com.massvig.ecommerce.activities.ManageOrderActivity:
+    public static final int SUCCESS
+    public static final int FAILED
+    public static final int LOGIN
+    private static final int DETAIL
+    650:651:public void SessionFailed()
+com.massvig.ecommerce.activities.MessagesActivity:
+    public static final int CLICK
+    123:127:public void SessionVailed()
+com.massvig.ecommerce.activities.ModifyActivity:
+    public static final int MOBILE
+    public static final int EMAIL
+    private static final int SUCCESS
+    private static final int FAILED
+    private static final int EMPTY
+    private static final int START
+    private static final int END
+    private static final int ERROR
+    private static final int TIME
+com.massvig.ecommerce.activities.ModifyUserInfoActivity:
+    private static final int SUCCESS
+    private static final int FAILED
+    private static final int SHOW
+    private static final int DISMISS
+    private static final int FINISH
+    private static final int NICKNAME
+com.massvig.ecommerce.activities.NearPersonAcvitity:
+    protected static final int REFRESH
+    public static final int CLICK
+    public static final int PRODUCT
+    public static final int USER
+com.massvig.ecommerce.activities.NewActionDetailActivity:
+    public static final int NEW
+    public static final int HOT
+    public static final int REBATE
+com.massvig.ecommerce.activities.OrderConfirmActivity:
+    private static final int tiantian
+    private static final int quanfeng
+    private static final int ems
+    private static final int jiaji
+    private static final int huodao
+    private static final int COUPON
+    private static final int MODIFY
+    private static final int ADD
+    private static final int PAYTYPE
+    private static final int BILL
+    private static final int SELECT
+    private static final int ORDERDONE
+    private static final int ORDERFAILED
+    private static final int ORDERFAILED1
+    private static final int LOGIN
+    private android.widget.TextView name
+    private android.widget.TextView detail
+    private static final int ALIWEB
+com.massvig.ecommerce.activities.OrderDetailActivity:
+    private static final int REFUND
+    private static final int PAYTYPE
+    private static final int ORDERDONE
+    private static final int ORDERFAILED
+    private static final int ALIWEB
+com.massvig.ecommerce.activities.PayTypeActivity:
+    public static final int ALIPAY
+    public static final int UNION_PAY
+    public static final int ALIWEB
+    public static final int HUODAO
+com.massvig.ecommerce.activities.PostDetailActivity:
+    private static final int QQ
+    private static final int THUMB_SIZE
+com.massvig.ecommerce.activities.RefundActivity$ShoppingAdapter:
+    293:293:public java.util.ArrayList getImageList()
+com.massvig.ecommerce.activities.RegisterActivity:
+    private static final int SUCCESS
+    private static final int FAILED
+    private static final int EMPTY
+    private static final int START
+    private static final int END
+    private static final int ERROR
+    private static final int TIME
+com.massvig.ecommerce.activities.SelectAddressActivity:
+    private static final int LOGIN
+    public static final int ORDER
+    public static final int NORMAL
+com.massvig.ecommerce.activities.ShareAccountActivity:
+    private static final int QQ
+com.massvig.ecommerce.activities.ShareWebSinaActivity:
+    android.app.ProgressDialog pd
+com.massvig.ecommerce.activities.ShoppingCarActivity$SettleAccountsAsync
+com.massvig.ecommerce.activities.ShoppingCarActivity$ShoppingAdapter:
+    542:542:public java.util.ArrayList getImageList()
+com.massvig.ecommerce.activities.SpecActivity:
+    private static final int textSize
+com.massvig.ecommerce.activities.UserInformationActivity:
+    private static final int LOADDATA
+com.massvig.ecommerce.activities.UserManageAddressActivity:
+    private static final int ADD
+    private static final int LOGIN
+    private static final int MODIFY
+com.massvig.ecommerce.base64.CEFormatException:
+    private static final long serialVersionUID
+com.massvig.ecommerce.base64.CEStreamExhausted:
+    private static final long serialVersionUID
+com.massvig.ecommerce.base64.CharacterDecoder:
+    222:224:public byte[] decodeBuffer(java.io.InputStream)
+    233:233:public java.nio.ByteBuffer decodeBufferToByteBuffer(java.lang.String)
+    242:242:public java.nio.ByteBuffer decodeBufferToByteBuffer(java.io.InputStream)
+com.massvig.ecommerce.base64.CharacterEncoder:
+    145:177:public void encode(java.io.InputStream,java.io.OutputStream)
+    185:187:public void encode(byte[],java.io.OutputStream)
+    195:208:public java.lang.String encode(byte[])
+    228:259:private byte[] getBytes(java.nio.ByteBuffer)
+    272:274:public void encode(java.nio.ByteBuffer,java.io.OutputStream)
+    285:286:public java.lang.String encode(java.nio.ByteBuffer)
+    339:341:public void encodeBuffer(byte[],java.io.OutputStream)
+    372:374:public void encodeBuffer(java.nio.ByteBuffer,java.io.OutputStream)
+    385:386:public java.lang.String encodeBuffer(java.nio.ByteBuffer)
+com.massvig.ecommerce.boqi.BuildConfig
+com.massvig.ecommerce.boqi.R:
+    10:10:public R()
+com.massvig.ecommerce.database.DatabaseHelper:
+    private static final java.lang.String CREATE_TABLT
+    public static final java.lang.String FromEJID
+    public static final java.lang.String ToEJID
+    public static final java.lang.String MessageBody
+    public static final java.lang.String CreateTime
+    public static final java.lang.String IsRead
+    public static final java.lang.String IsShowTime
+    public static final java.lang.String name
+com.massvig.ecommerce.database.DatabaseUtil:
+    public static final int time
+    143:172:public java.util.ArrayList GetOneUnReadMessage(android.database.sqlite.SQLiteDatabase,java.lang.String)
+com.massvig.ecommerce.entities.Action:
+    private static final long serialVersionUID
+com.massvig.ecommerce.entities.ActionDetail:
+    private static final long serialVersionUID
+com.massvig.ecommerce.entities.ActionsList:
+    22:25:public void clearActionList()
+    31:32:public void deleteAction(int)
+    39:40:public void addAction(com.massvig.ecommerce.entities.Action)
+    47:48:public void addActionList(com.massvig.ecommerce.entities.ActionsList)
+    56:56:public java.util.ArrayList getActionList()
+com.massvig.ecommerce.entities.Address:
+    private static final long serialVersionUID
+com.massvig.ecommerce.entities.AddressList:
+    private static final long serialVersionUID
+    27:30:public void clearAddressList()
+    52:53:public void addAddressList(com.massvig.ecommerce.entities.AddressList)
+    60:60:public java.util.ArrayList getAddressList()
+    131:152:public boolean FetchAddressListWithFreight(java.lang.String,int,int)
+    185:185:public void updateAddress()
+com.massvig.ecommerce.entities.Advertise:
+    public int AdvertisingID
+    public java.lang.String Name
+    public java.lang.String ImgUrl
+    public int Position
+com.massvig.ecommerce.entities.Chater:
+    private static final long serialVersionUID
+com.massvig.ecommerce.entities.ChaterList:
+    26:27:public void deleteChater(int)
+    42:43:public void addchaterList(com.massvig.ecommerce.entities.ChaterList)
+    51:51:public java.util.ArrayList getchaterList()
+com.massvig.ecommerce.entities.City:
+    private static final long serialVersionUID
+    public java.lang.String ZipCode
+com.massvig.ecommerce.entities.CityCbd
+com.massvig.ecommerce.entities.CityList
+com.massvig.ecommerce.entities.CollectList:
+    26:27:public void addcollect(com.massvig.ecommerce.entities.Goods)
+com.massvig.ecommerce.entities.Comment:
+    private static final long serialVersionUID
+com.massvig.ecommerce.entities.CommentList:
+    private static final long serialVersionUID
+    36:37:public void deleteComment(int)
+    44:45:public void addComment(com.massvig.ecommerce.entities.Comment)
+    90:90:public java.lang.String getCommentID(int)
+    175:175:public void updateComment()
+com.massvig.ecommerce.entities.Coupon:
+    private static final long serialVersionUID
+    public static final int USE
+    public static final int USED
+    public static final int UNUSE
+    public int price
+com.massvig.ecommerce.entities.CouponList:
+    private static final long serialVersionUID
+com.massvig.ecommerce.entities.GoodCommentList:
+    private static final long serialVersionUID
+com.massvig.ecommerce.entities.Goods:
+    private static final long serialVersionUID
+    public java.util.HashMap properties
+com.massvig.ecommerce.entities.GoodsDetail:
+    private static final long serialVersionUID
+com.massvig.ecommerce.entities.GoodsList:
+    33:34:public void deleteGoods(int)
+com.massvig.ecommerce.entities.ImageItem
+com.massvig.ecommerce.entities.Merchant:
+    private static final long serialVersionUID
+com.massvig.ecommerce.entities.MerchantList:
+    31:32:public void deleteMerchant(int)
+    39:40:public void addMerchant(com.massvig.ecommerce.entities.Merchant)
+com.massvig.ecommerce.entities.Message:
+    private static final long serialVersionUID
+com.massvig.ecommerce.entities.MessageList:
+    10:10:public java.util.ArrayList getMessageList()
+    25:28:public void clearmessageList()
+    34:35:public void deleteMessage(int)
+    50:51:public void addmessageList(com.massvig.ecommerce.entities.MessageList)
+    59:59:public java.util.ArrayList getmessageList()
+com.massvig.ecommerce.entities.MyOrder:
+    private static final long serialVersionUID
+com.massvig.ecommerce.entities.MyOrderList:
+    39:40:public void addMyOrder(com.massvig.ecommerce.entities.MyOrder)
+com.massvig.ecommerce.entities.NearPersonList:
+    32:33:public void deleteNearPerson(int)
+    40:41:public void addNearPerson(com.massvig.ecommerce.entities.NearPerson)
+com.massvig.ecommerce.entities.Order
+com.massvig.ecommerce.entities.Post:
+    private static final long serialVersionUID
+com.massvig.ecommerce.entities.PostDetail:
+    private static final long serialVersionUID
+com.massvig.ecommerce.entities.PostList:
+    31:32:public void deletePost(int)
+    39:40:public void addPost(com.massvig.ecommerce.entities.Post)
+com.massvig.ecommerce.entities.Product:
+    private static final long serialVersionUID
+com.massvig.ecommerce.entities.ProductList:
+    private static final long serialVersionUID
+    39:40:public void deleteProduct(int)
+    101:101:public void updateProduct()
+com.massvig.ecommerce.entities.User:
+    148:160:public boolean VerifySession()
+com.massvig.ecommerce.exception.MassVigCrashLog
+com.massvig.ecommerce.exception.MassVigPushCrashLogAsync
+com.massvig.ecommerce.logic.notification.MassVigPushService:
+    private static final java.lang.String HOST
+    private static final int PORT
+    private static final long DELAY
+    private static final int TIME_OUT
+    private static final java.lang.String ACTION
+com.massvig.ecommerce.managers.ActionManager:
+    private static final long serialVersionUID
+    public static final int LOAD
+    public static final int LOADDATA
+com.massvig.ecommerce.managers.AddOptionManager:
+    public int CustomerID
+com.massvig.ecommerce.managers.AddressManager:
+    private static final long serialVersionUID
+    public static final int LOAD
+    public static final int ADD
+    public static final int MODIFY
+    public static final int DEFAULT
+    public static final int DELETE
+    65:66:public void FetchAddressListWithFreight(java.lang.String,int,int)
+    77:78:public void setDefaultAddress(java.lang.String)
+com.massvig.ecommerce.managers.AddressManager$FetchAddressListWithFreightAsync
+com.massvig.ecommerce.managers.AddressManager$SetDefaultAddressAsync
+com.massvig.ecommerce.managers.CollectManager:
+    19:20:public void setRefresh(boolean)
+    22:22:public boolean isRefresh()
+    34:34:public com.massvig.ecommerce.entities.CollectList getcollectList()
+com.massvig.ecommerce.managers.CommunityManager:
+    public static final int LOAD
+    public static final int PRAISE
+    public static final int ALL
+    public static final int ATTENTION
+    public static final int SEARCH
+    public static final int REFRESH
+    public static final int MORE
+    81:83:public void refreshSearchList()
+    130:131:public void setViews(java.util.ArrayList)
+    134:134:public int getMaxHeight()
+    138:139:public void setMaxHeight(int)
+    158:158:public int getMoveWidth()
+    166:166:public int getIndex()
+    332:337:public android.widget.LinearLayout$LayoutParams compare(int,int)
+    341:352:public void LoadImg(android.widget.ImageView,java.lang.String)
+com.massvig.ecommerce.managers.CommunityManager$ImageloadCallback
+com.massvig.ecommerce.managers.CommunityUserManager:
+    public static final int LOADDATA
+    public static final int FANS
+com.massvig.ecommerce.managers.CommunityUserManager$Listener:
+    public abstract void Dialog(boolean)
+com.massvig.ecommerce.managers.DealActivityManager:
+    26:26:public com.massvig.ecommerce.entities.Goods getGoods()
+    248:248:public java.lang.String getParamsInfo()
+    266:266:public java.util.ArrayList getSpecItems()
+    270:271:public void setSpecItems(java.util.ArrayList)
+    278:279:public void setPropertyItems(java.util.ArrayList)
+com.massvig.ecommerce.managers.FindPasswordManager:
+    public static final int ONE
+    public static final int TWO
+    public static final int THREE
+com.massvig.ecommerce.managers.GoodsDetailManager:
+    private int pid
+    public static final int PRAISE
+    public static final int STAMP
+    88:89:public void Stamp(java.lang.String)
+    152:153:public void setViews(java.util.ArrayList)
+    156:159:public int getPid()
+    163:164:public void setPid(int)
+    171:172:public void setGoodsDetail(com.massvig.ecommerce.entities.GoodsDetail)
+    175:175:public int getMaxHeight()
+    183:183:public int getMaxWidth()
+    207:207:public int getMoveWidth()
+    215:215:public int getIndex()
+com.massvig.ecommerce.managers.GoodsDetailManager$StampAsync
+com.massvig.ecommerce.managers.GoodsListManager:
+    public static final int Price_ASC
+    public static final int Price_DESC
+    public static final int Volume_ASC
+    public static final int Volume_DESC
+    public static final int OnlineTime_ASC
+    public static final int OnlineTime_DESC
+    public static final int Rebate_ASC
+    public static final int Rebate_DESC
+    public static final int Comment_ASC
+    public static final int Comment_DESC
+    49:50:public void setRefresh(boolean)
+    53:53:public java.lang.String getMcids()
+    77:77:public int getOrderby()
+    89:90:public void setGoodsList(com.massvig.ecommerce.entities.GoodsList)
+    93:93:public com.massvig.ecommerce.entities.GoodsList getTempList()
+    97:98:public void setTempList(com.massvig.ecommerce.entities.GoodsList)
+com.massvig.ecommerce.managers.InsertManager:
+    public static final int UPLOADIMAGE
+    public static final int SHARE
+com.massvig.ecommerce.managers.MainActivityManager:
+    36:48:private com.massvig.ecommerce.entities.Advertise DataAnaly(org.json.JSONObject)
+com.massvig.ecommerce.managers.MessageManager:
+    public static final int ALLCHAT
+    public static final int LOADUSER
+com.massvig.ecommerce.managers.MessageManager$LoadListener:
+    public abstract void SessionVailed()
+com.massvig.ecommerce.managers.ModifyManager:
+    public static final int ONE
+    public static final int TWO
+com.massvig.ecommerce.managers.NearPersonManager:
+    private static final int TAKENUM
+    public static final int LOADDATA
+    public static final int FANS
+    public static final int REFRESH
+    public static final int MORE
+com.massvig.ecommerce.managers.OrderManager:
+    private static final long serialVersionUID
+    public static final int FREIGHT
+    public static final int GETADDRESS
+    public static final int COMFIRM
+    public static final int REFUND
+    public static final int CANCEL
+    private com.massvig.ecommerce.entities.Order order
+    76:76:public com.massvig.ecommerce.entities.Order getOrder()
+    79:80:public void setOrder(com.massvig.ecommerce.entities.Order)
+    94:95:public void setProducts(java.util.ArrayList)
+    308:308:public void FetchData()
+    309:309:public void Pay()
+com.massvig.ecommerce.managers.OrdersManager:
+    public static final int None
+    public static final int ConfirmPay
+    public static final int ConfirmReceive
+    public static final int ApplyRefunding
+    public static final int ApplyReturn
+    public static final int CancelApplyRefunding
+    public static final int CancelOrder
+    public static final int Unpay
+    public static final int WaitingMerchantDeliver
+    public static final int Shipped
+    public static final int Accomplished
+    public static final int WaitingMerchantRefund
+    public static final int WaitingCustomerReturn
+    public static final int Refunded
+    public static final int Closed
+    public static final int Deleted
+    public static final int UNPAYORDER
+    public static final int PAIDORDER
+    public static final int HUODAOORDER
+    public static final int REFUNDORDER
+    public static final int REFRESH
+    public static final int MORE
+    86:87:public void setViews(java.util.ArrayList)
+    98:98:public int getMoveWidth()
+    106:106:public int getIndex()
+    227:231:public void clearAll()
+com.massvig.ecommerce.managers.OrdersManager$LoadListener:
+    public abstract void SessionFailed()
+com.massvig.ecommerce.managers.PostDetailManager:
+    public int pid
+    public static final int PRAISE
+    public static final int STAMP
+    92:92:public int getMaxHeight()
+    96:97:public void setMaxHeight(int)
+    100:100:public int getMaxWidth()
+    104:105:public void setMaxWidth(int)
+    108:122:public android.widget.RelativeLayout$LayoutParams compare(int,int)
+    126:137:public void LoadImg(android.widget.ImageView,java.lang.String)
+com.massvig.ecommerce.managers.PostDetailManager$ImageloadCallback
+com.massvig.ecommerce.managers.RegisterManager:
+    public static final int ONE
+    public static final int TWO
+    public static final int THREE
+com.massvig.ecommerce.managers.UserInfoManager:
+    public static final int PASSWORD
+    public static final int MODIFY
+    public static final int UPLOADURL
+    public static final int UPLOADIMAGE
+com.massvig.ecommerce.network.MassVigHttpClientHelper
+com.massvig.ecommerce.network.MassVigRequestParameters:
+    34:36:public void remove(java.lang.String)
+    39:42:public void remove(int)
+    46:49:public int getLocation(java.lang.String)
+    53:56:public java.lang.String getKey(int)
+    66:68:public java.lang.String getValue(int)
+    73:73:public int size()
+    77:81:public void addAll(com.massvig.ecommerce.network.MassVigRequestParameters)
+    98:100:public void clear()
+com.massvig.ecommerce.service.EcommercePushService:
+    private static final long DELAY
+    private static final java.lang.String ACTION
+com.massvig.ecommerce.service.MassVigService:
+    public static final java.lang.String merchantid
+    private static final java.lang.String GOOGLE_LOC_URL
+    public static final java.lang.String SERVER_URL
+    public static final java.lang.String CHANNEL
+    91:91:public java.lang.String getPaymentURL(java.lang.String)
+    141:148:public java.lang.String getCityCbdList(int)
+    153:187:public java.lang.String getCityByLocation(java.lang.String,java.lang.String)
+    903:913:public java.lang.String CheckCoupon(java.lang.String,int,int,java.lang.String)
+    1048:1054:public java.lang.String GetRegionInfo()
+    1081:1090:public java.lang.String GetCustomerAddressesWithFreight(java.lang.String,int,int)
+    1185:1195:public java.lang.String CalculateFreight(java.lang.String,int,int,int)
+    1544:1552:public java.lang.String StampProduct(java.lang.String,int)
+    2333:2388:public java.lang.String PicUpload1(java.lang.String,android.graphics.Bitmap)
+    2414:2420:public java.lang.String pushCrashLog(java.lang.String)
+    2466:2490:public void getCities(org.xml.sax.ContentHandler)
+    2493:2494:public java.lang.String GetWebUrl(java.lang.String)
+com.massvig.ecommerce.sevice.purchase.AlixDefine
+com.massvig.ecommerce.sevice.purchase.AlixId
+com.massvig.ecommerce.sevice.purchase.BaseHelper:
+    25:25:public BaseHelper()
+com.massvig.ecommerce.sevice.purchase.MobileSecurePayHelper:
+    static final java.lang.String TAG
+    167:170:public static android.content.pm.PackageInfo getApkInfo(android.content.Context,java.lang.String)
+com.massvig.ecommerce.sevice.purchase.NetworkManager:
+    static final java.lang.String TAG
+com.massvig.ecommerce.sevice.purchase.ResultChecker:
+    public static final int RESULT_INVALID_PARAM
+    public static final int RESULT_CHECK_SIGN_FAILED
+    public static final int RESULT_CHECK_SIGN_SUCCEED
+com.massvig.ecommerce.utilities.MassVigContants:
+    public static final int Origin
+    public static final int Product
+    public static final int Share
+    public static final int Campaign
+    public static final int SESSIONVAILED
+    3:3:public MassVigContants()
+com.massvig.ecommerce.utilities.MassVigExit:
+    33:34:public void setExit(boolean)
+com.massvig.ecommerce.utilities.MassVigRSA
+com.massvig.ecommerce.utilities.MassVigRequestParam
+com.massvig.ecommerce.utilities.MassVigSystemSetting:
+    30:33:public void setCityName(android.content.Context,java.lang.String)
+    36:36:public java.lang.String getCityName(android.content.Context)
+    40:43:public void setCityId(android.content.Context,int)
+    46:46:public int getCityId(android.content.Context)
+    55:57:public void setCrashLogLastModifiedTime(android.content.Context,long)
+    65:65:public long getCrashLogLastModifiedTime(android.content.Context)
+    74:76:public void setArrivedTicketID(android.content.Context,java.lang.String)
+    84:84:public java.lang.String getArrivedTicketID(android.content.Context)
+    93:95:public void setArrivedSeattypeID(android.content.Context,java.lang.String)
+    103:103:public java.lang.String getArrivedSeattypeID(android.content.Context)
+    112:114:public void setArrivedFlag(android.content.Context,int)
+    122:122:public int getArrivedFlag(android.content.Context)
+    131:133:public void setGetTicketFlag(android.content.Context,int)
+    141:141:public int getGetTicketFlag(android.content.Context)
+    160:160:public int getTabHostFlag(android.content.Context)
+    169:171:public void setCoin(android.content.Context,int)
+    179:179:public int getCoin(android.content.Context)
+    183:186:public void setFirstUse(android.content.Context,java.lang.Boolean)
+    189:189:public java.lang.Boolean getFirstUse(android.content.Context)
+    193:196:public void setLocalVersionName(android.content.Context,java.lang.String)
+com.massvig.ecommerce.utilities.MassVigUtil:
+    private static final java.lang.String NAME
+    private static final java.lang.String INSTALLATION
+    65:65:public MassVigUtil()
+    247:252:public static boolean ServiceIsStart(java.util.List,java.lang.String)
+    262:266:public static java.lang.String getServiceClassName(java.util.List)
+    297:311:public static java.lang.String loadFile(java.io.File)
+    320:347:public static void callUp(android.content.Context,java.lang.String)
+    429:437:public static void doToastShow(android.content.Context,android.widget.Toast,java.lang.String,int)
+    447:450:public static boolean isGpsOpen(android.content.Context)
+    509:510:public static int px2dip(android.content.Context,float)
+com.massvig.ecommerce.utilities.MassVigUtil$1
+com.massvig.ecommerce.utilities.MassvigConfig
+com.massvig.ecommerce.utilities.MassvigLogger:
+    private static final boolean DEBUG
+com.massvig.ecommerce.utilities.OAuthConstant
+com.massvig.ecommerce.utilities.TimeRender:
+    6:6:public TimeRender()
+com.massvig.ecommerce.utilities.Utility:
+    24:54:public void setGridView1HeightBasedOnChildren(android.widget.GridView)
+com.massvig.ecommerce.utilities.XmppTool:
+    13:13:public XmppTool()
+com.massvig.ecommerce.widgets.ADAdapter$ViewType
+com.massvig.ecommerce.widgets.ActionAdapter:
+    39:40:public void setDataList(com.massvig.ecommerce.entities.ActionsList)
+    94:94:public java.util.ArrayList getImageList()
+com.massvig.ecommerce.widgets.AsyncImageLoader:
+    23:23:public AsyncImageLoader()
+com.massvig.ecommerce.widgets.ChatAdapter:
+    40:41:public void setDataList(com.massvig.ecommerce.entities.MessageList)
+com.massvig.ecommerce.widgets.ChatAdapter$IMsgViewType
+com.massvig.ecommerce.widgets.CommonAdapter:
+    82:84:public void appendData(java.lang.Object)
+    90:92:public void removeData(int)
+    98:100:public void clearData(int)
+com.massvig.ecommerce.widgets.CommunityAdapter
+com.massvig.ecommerce.widgets.CommunityAdapter$ViewHolder
+com.massvig.ecommerce.widgets.CommunityMode$CommunityModeCallBack
+com.massvig.ecommerce.widgets.FlowTag:
+    private static final long serialVersionUID
+    public static final int what
+    public static final int CLICK
+    public static final int USER
+    public static final int LOCATION
+    public static final int SHARE
+    public static final int PRAISE
+    207:207:public android.content.res.AssetManager getAssetManager()
+com.massvig.ecommerce.widgets.GoodsAdapter:
+    41:42:public void setDataList(com.massvig.ecommerce.entities.GoodsList)
+com.massvig.ecommerce.widgets.GoodsView:
+    101:104:public void addShare()
+    173:177:public void Reload()
+    243:249:public void recycle()
+    260:260:public int getColumnIndex()
+    268:268:public int getRowIndex()
+com.massvig.ecommerce.widgets.MassVigData:
+    java.lang.String content
+    214:252:private void getCityListByNet()
+    255:264:public org.json.JSONArray getChildCategory(int)
+    307:308:private void saveCitylist()
+    20:20:static synthetic void access$6(com.massvig.ecommerce.widgets.MassVigData,org.json.JSONArray)
+    20:20:static synthetic org.json.JSONArray access$7(com.massvig.ecommerce.widgets.MassVigData)
+    306:306:static synthetic void access$8(com.massvig.ecommerce.widgets.MassVigData)
+com.massvig.ecommerce.widgets.MassVigData$3
+com.massvig.ecommerce.widgets.MerchantAdapter:
+    34:35:public void setDataList(com.massvig.ecommerce.entities.MerchantList)
+com.massvig.ecommerce.widgets.MessageAdapter:
+    46:47:public void setDataList(com.massvig.ecommerce.entities.ChaterList)
+com.massvig.ecommerce.widgets.MyLocationOverlayProxy
+com.massvig.ecommerce.widgets.MyScrollView:
+    private com.massvig.ecommerce.widgets.MyScrollView$ScrollListener listener
+    12:13:public void setListener(com.massvig.ecommerce.widgets.MyScrollView$ScrollListener)
+    16:17:public MyScrollView(android.content.Context)
+com.massvig.ecommerce.widgets.MyScrollView$ScrollListener
+com.massvig.ecommerce.widgets.NearPersonAdapter:
+    54:55:public void setDataList(com.massvig.ecommerce.entities.NearPersonList)
+com.massvig.ecommerce.widgets.NearRefreshListView:
+    private static final int NONE_PULL_REFRESH
+    private static final int ENTER_PULL_REFRESH
+    private static final int OVER_PULL_REFRESH
+    private static final int EXIT_PULL_REFRESH
+    private static final int REFRESH_BACKING
+    private static final int REFRESH_BACED
+    private static final int REFRESH_RETURN
+    private static final int REFRESH_DONE
+    private static final int LOAD_MORE_DONE
+    390:393:public void addFootView()
+    396:397:public void removeFootView()
+com.massvig.ecommerce.widgets.NewActionAdapter:
+    46:47:public void setDataList(com.massvig.ecommerce.entities.GoodsList)
+com.massvig.ecommerce.widgets.OrderAdapter:
+    47:48:public void setDataList(com.massvig.ecommerce.entities.MyOrderList)
+com.massvig.ecommerce.widgets.OrderItemAdapter:
+    50:51:public void setDataList(java.util.ArrayList)
+    136:136:public java.util.ArrayList getImageList()
+com.massvig.ecommerce.widgets.PostAdapter:
+    58:59:public void setDataList(com.massvig.ecommerce.entities.PostList)
+com.massvig.ecommerce.widgets.RefreshListView:
+    private static final int NONE_PULL_REFRESH
+    private static final int ENTER_PULL_REFRESH
+    private static final int OVER_PULL_REFRESH
+    private static final int EXIT_PULL_REFRESH
+    private static final int REFRESH_BACKING
+    private static final int REFRESH_BACED
+    private static final int REFRESH_RETURN
+    private static final int REFRESH_DONE
+    private static final int LOAD_MORE_DONE
+    392:395:public void addFootView()
+    398:399:public void removeFootView()
+com.massvig.ecommerce.widgets.RequestParameters
+com.massvig.ecommerce.widgets.SeekBar:
+    private static final int size
+com.massvig.ecommerce.widgets.SelectAreaAdapter
+com.massvig.ecommerce.widgets.SelectAreaAdapter$ViewHolder
+com.massvig.ecommerce.widgets.TaobaoWaterFall:
+    int scroll_height
+    209:212:public void addShare(int)
+com.sina.sso.RemoteSSO
+com.sina.sso.RemoteSSO$Stub
+com.sina.sso.RemoteSSO$Stub$Proxy
+com.sina.weibo.sdk.api.BaseMediaObject:
+    public static final int MEDIA_TYPE_TEXT
+    public static final int MEDIA_TYPE_IMAGE
+    public static final int MEDIA_TYPE_MUSIC
+    public static final int MEDIA_TYPE_VIDEO
+    public static final int MEDIA_TYPE_WEBPAGE
+    public static final int MEDIA_TYPE_VOICE
+    public static final int MEDIA_TYPE_CMD
+    92:107:public final void setThumbImage(android.graphics.Bitmap)
+    public abstract int getObjType()
+    147:168:protected boolean checkArgs()
+    protected abstract com.sina.weibo.sdk.api.BaseMediaObject toExtraMediaObject(java.lang.String)
+    protected abstract java.lang.String toExtraMediaString()
+com.sina.weibo.sdk.api.CmdObject:
+    public static final java.lang.String CMD_HOME
+    62:65:public boolean checkArgs()
+    70:70:public int getObjType()
+    75:75:protected com.sina.weibo.sdk.api.BaseMediaObject toExtraMediaObject(java.lang.String)
+    80:80:protected java.lang.String toExtraMediaString()
+com.sina.weibo.sdk.api.ImageObject:
+    private static final int DATA_SIZE
+    64:79:public final void setImageObject(android.graphics.Bitmap)
+    93:119:public boolean checkArgs()
+    124:124:public int getObjType()
+    129:129:protected com.sina.weibo.sdk.api.BaseMediaObject toExtraMediaObject(java.lang.String)
+    134:134:protected java.lang.String toExtraMediaString()
+com.sina.weibo.sdk.api.MusicObject:
+    public static final java.lang.String EXTRA_KEY_DEFAULTTEXT
+    public java.lang.String defaultText
+    85:100:public boolean checkArgs()
+    105:105:public int getObjType()
+    110:117:protected com.sina.weibo.sdk.api.BaseMediaObject toExtraMediaObject(java.lang.String)
+    123:130:protected java.lang.String toExtraMediaString()
+com.sina.weibo.sdk.api.TextObject:
+    63:67:public boolean checkArgs()
+    72:72:public int getObjType()
+    77:77:protected com.sina.weibo.sdk.api.BaseMediaObject toExtraMediaObject(java.lang.String)
+    82:82:protected java.lang.String toExtraMediaString()
+com.sina.weibo.sdk.api.VideoObject:
+    public static final java.lang.String EXTRA_KEY_DEFAULTTEXT
+    public java.lang.String defaultText
+    86:101:public boolean checkArgs()
+    106:106:public int getObjType()
+    111:118:protected com.sina.weibo.sdk.api.BaseMediaObject toExtraMediaObject(java.lang.String)
+    124:131:protected java.lang.String toExtraMediaString()
+com.sina.weibo.sdk.api.VoiceObject:
+    public static final java.lang.String EXTRA_KEY_DEFAULTTEXT
+    public java.lang.String defaultText
+    85:100:public boolean checkArgs()
+    105:105:public int getObjType()
+    110:117:protected com.sina.weibo.sdk.api.BaseMediaObject toExtraMediaObject(java.lang.String)
+    123:130:protected java.lang.String toExtraMediaString()
+com.sina.weibo.sdk.api.WebpageObject:
+    public static final java.lang.String EXTRA_KEY_DEFAULTTEXT
+    public java.lang.String defaultText
+    63:66:public boolean checkArgs()
+    71:71:public int getObjType()
+    76:83:protected com.sina.weibo.sdk.api.BaseMediaObject toExtraMediaObject(java.lang.String)
+    89:96:protected java.lang.String toExtraMediaString()
+com.sina.weibo.sdk.api.WeiboMessage
+com.sina.weibo.sdk.api.WeiboMultiMessage
+com.sina.weibo.sdk.api.share.ApiUtils
+com.sina.weibo.sdk.api.share.ApiUtils$WeiboInfo
+com.sina.weibo.sdk.api.share.Base
+com.sina.weibo.sdk.api.share.BaseRequest
+com.sina.weibo.sdk.api.share.BaseResponse
+com.sina.weibo.sdk.api.share.IVersionCheckHandler
+com.sina.weibo.sdk.api.share.IWeiboDownloadListener
+com.sina.weibo.sdk.api.share.IWeiboHandler
+com.sina.weibo.sdk.api.share.IWeiboHandler$Request
+com.sina.weibo.sdk.api.share.IWeiboHandler$Response
+com.sina.weibo.sdk.api.share.IWeiboShareAPI
+com.sina.weibo.sdk.api.share.ProvideMessageForWeiboRequest
+com.sina.weibo.sdk.api.share.ProvideMessageForWeiboResponse
+com.sina.weibo.sdk.api.share.ProvideMultiMessageForWeiboResponse
+com.sina.weibo.sdk.api.share.SendMessageToWeiboRequest
+com.sina.weibo.sdk.api.share.SendMessageToWeiboResponse
+com.sina.weibo.sdk.api.share.SendMultiMessageToWeiboRequest
+com.sina.weibo.sdk.api.share.VersionCheckHandler
+com.sina.weibo.sdk.api.share.WeiboDownloader
+com.sina.weibo.sdk.api.share.WeiboDownloader$1
+com.sina.weibo.sdk.api.share.WeiboDownloader$2
+com.sina.weibo.sdk.api.share.WeiboShareAPIImpl
+com.sina.weibo.sdk.api.share.WeiboShareSDK
+com.sina.weibo.sdk.auth.Oauth2AccessToken
+com.sina.weibo.sdk.auth.WeiboAuth
+com.sina.weibo.sdk.auth.WeiboAuth$AuthInfo
+com.sina.weibo.sdk.auth.WeiboAuthListener
+com.sina.weibo.sdk.auth.WeiboDialog
+com.sina.weibo.sdk.auth.WeiboDialog$1
+com.sina.weibo.sdk.auth.WeiboDialog$WeiboWebViewClient
+com.sina.weibo.sdk.auth.WeiboParameters
+com.sina.weibo.sdk.auth.sso.SsoHandler
+com.sina.weibo.sdk.auth.sso.SsoHandler$1
+com.sina.weibo.sdk.constant.WBAuthErrorCode
+com.sina.weibo.sdk.constant.WBConstants
+com.sina.weibo.sdk.constant.WBConstants$Base
+com.sina.weibo.sdk.constant.WBConstants$ErrorCode
+com.sina.weibo.sdk.constant.WBConstants$Media
+com.sina.weibo.sdk.constant.WBConstants$Msg
+com.sina.weibo.sdk.constant.WBConstants$Response
+com.sina.weibo.sdk.constant.WBConstants$SDK
+com.sina.weibo.sdk.exception.WeiboAuthException
+com.sina.weibo.sdk.exception.WeiboDialogException
+com.sina.weibo.sdk.exception.WeiboException
+com.sina.weibo.sdk.exception.WeiboShareException
+com.sina.weibo.sdk.utils.BitmapHelper
+com.sina.weibo.sdk.utils.LogUtil
+com.sina.weibo.sdk.utils.MD5
+com.sina.weibo.sdk.utils.NetworkHelper
+com.sina.weibo.sdk.utils.ResourceManager
+com.sina.weibo.sdk.utils.SecurityHelper
+com.sina.weibo.sdk.utils.UIUtils
+com.sina.weibo.sdk.utils.Utility
+com.sina.weibo.sdk.utils.Utility$UploadImageUtils
+com.umeng.analytics.Gender
+com.umeng.analytics.MobclickAgent:
+    private static synthetic int[] c
+    20:20:public MobclickAgent()
+    34:35:public static void setAutoLocation(boolean)
+    38:39:public static void setWrapper(java.lang.String,java.lang.String)
+    45:46:public static void setSessionContinueMillis(long)
+    52:53:public static void setEnableEventBuffer(boolean)
+    59:60:public static void setOnlineConfigureListener(com.umeng.analytics.onlineconfig.UmengOnlineConfigureListener)
+    63:63:static com.umeng.analytics.b a()
+    71:78:public static void setOpenGLContext(javax.microedition.khronos.opengles.GL10)
+    85:86:public static void openActivityDurationTrack(boolean)
+    93:98:public static void onPageStart(java.lang.String)
+    104:109:public static void onPageEnd(java.lang.String)
+    116:117:public static void setDebugMode(boolean)
+    128:129:public static void setDefaultReportPolicy(android.content.Context,int)
+    157:170:public static void onResume(android.content.Context,java.lang.String,java.lang.String)
+    180:180:public static void onError(android.content.Context)
+    188:194:public static void onError(android.content.Context,java.lang.String)
+    202:203:public static void reportError(android.content.Context,java.lang.String)
+    210:211:public static void reportError(android.content.Context,java.lang.Throwable)
+    219:220:public static void flush(android.content.Context)
+    229:230:public static void onEvent(android.content.Context,java.lang.String)
+    238:239:public static void onEvent(android.content.Context,java.lang.String,int)
+    248:254:public static void onEvent(android.content.Context,java.lang.String,java.lang.String,int)
+    263:269:public static void onEvent(android.content.Context,java.lang.String,java.lang.String)
+    279:280:public static void onEvent(android.content.Context,java.lang.String,java.util.HashMap)
+    290:295:public static void onEventDuration(android.content.Context,java.lang.String,long)
+    304:313:public static void onEventDuration(android.content.Context,java.lang.String,java.lang.String,long)
+    322:327:public static void onEventDuration(android.content.Context,java.lang.String,java.util.HashMap,long)
+    334:335:public static void onEventBegin(android.content.Context,java.lang.String)
+    343:344:public static void onEventEnd(android.content.Context,java.lang.String)
+    352:353:public static void onEventBegin(android.content.Context,java.lang.String,java.lang.String)
+    361:362:public static void onEventEnd(android.content.Context,java.lang.String,java.lang.String)
+    371:372:public static void onKVEventBegin(android.content.Context,java.lang.String,java.util.HashMap,java.lang.String)
+    380:381:public static void onKVEventEnd(android.content.Context,java.lang.String,java.lang.String)
+    392:393:public static java.lang.String getConfigParams(android.content.Context,java.lang.String)
+    404:410:public static void updateOnlineConfig(android.content.Context,java.lang.String,java.lang.String)
+    416:417:public static void updateOnlineConfig(android.content.Context)
+    428:443:public void setGender(android.content.Context,com.umeng.analytics.Gender)
+    451:458:public void setAge(android.content.Context,int)
+    467:479:public void setUserID(android.content.Context,java.lang.String,java.lang.String)
+    486:487:public static void onKillProcess(android.content.Context)
+    20:20:static synthetic int[] b()
+com.umeng.analytics.MobclickAgentJSInterface
+com.umeng.analytics.MobclickAgentJSInterface$a
+com.umeng.analytics.ReportPolicy
+com.umeng.analytics.a.a:
+    31:37:public a(java.lang.String,java.util.HashMap,long)
+    40:61:private java.util.HashMap a(java.util.HashMap)
+    65:65:private long b()
+com.umeng.analytics.a.b:
+    18:21:public b(java.lang.String,com.umeng.analytics.a.a)
+com.umeng.analytics.a.d:
+    25:27:public d(java.lang.String)
+com.umeng.analytics.a.e:
+    32:40:public e(java.lang.String,java.lang.String,java.lang.String,int,long)
+com.umeng.analytics.a.f:
+    104:107:public f(java.lang.String,java.lang.String)
+    111:127:private void c(org.json.JSONObject)
+    130:145:private void d(org.json.JSONObject)
+    148:151:private void e(org.json.JSONObject)
+    154:156:private void f(org.json.JSONObject)
+    159:162:private void g(org.json.JSONObject)
+    165:168:private void h(org.json.JSONObject)
+    171:173:private void i(org.json.JSONObject)
+    177:187:public void a(org.json.JSONObject)
+com.umeng.analytics.a.g:
+    public abstract void a(org.json.JSONObject)
+com.umeng.analytics.a.h:
+    25:26:public void a(com.umeng.analytics.a.o)
+    68:76:public org.json.JSONObject b()
+com.umeng.analytics.a.i:
+    62:74:public void a(java.lang.String,com.umeng.analytics.a.a)
+com.umeng.analytics.a.l:
+    public static final java.lang.String f
+    18:19:public void a(java.lang.String)
+com.umeng.analytics.a.m:
+    private static final java.lang.String k
+    private static final java.lang.String l
+    private static final java.lang.String m
+com.umeng.analytics.a.o:
+    public static final java.lang.String d
+    public static final java.lang.String e
+    public static final java.lang.String f
+    private static final java.lang.String g
+com.umeng.analytics.a.p:
+    private static final java.lang.String c
+    private static final java.lang.String d
+com.umeng.analytics.b:
+    59:63:void a(java.lang.String)
+    83:85:void a(java.lang.String,java.lang.String)
+    106:119:void a(android.content.Context,java.lang.String)
+    122:129:void a(android.content.Context,java.lang.Throwable)
+    191:195:void c(android.content.Context)
+    199:220:void a(android.content.Context,java.lang.String,java.lang.String,long,int)
+    224:246:void a(android.content.Context,java.lang.String,java.util.HashMap,long)
+    377:387:private void d(android.content.Context,java.lang.String)
+    390:408:private int e(android.content.Context,java.lang.String)
+    412:418:void b(android.content.Context,java.lang.String)
+    421:432:void c(android.content.Context,java.lang.String)
+    435:440:void a(android.content.Context,java.lang.String,java.lang.String)
+    443:453:void b(android.content.Context,java.lang.String,java.lang.String)
+    462:481:void a(android.content.Context,java.lang.String,java.util.HashMap,java.lang.String)
+    484:499:void c(android.content.Context,java.lang.String,java.lang.String)
+    509:519:boolean a(java.lang.String,int)
+    523:535:boolean a(java.util.Map)
+    540:547:void d(android.content.Context)
+com.umeng.analytics.c:
+    38:39:public void a(int)
+    49:56:public void a(java.lang.String)
+    59:62:public long b(java.lang.String)
+    66:67:public void a(java.lang.String,java.util.HashMap)
+    70:73:public java.util.HashMap c(java.lang.String)
+    78:79:public synchronized void a(java.lang.String,java.lang.String,java.lang.String,long,int)
+    82:83:public synchronized void a(java.lang.String,java.lang.String,java.util.HashMap,long)
+com.umeng.analytics.d:
+    82:83:public void e(android.content.Context)
+    459:461:public void a(int,long)
+com.umeng.analytics.f:
+    7:10:public f(java.lang.String,long)
+com.umeng.analytics.g:
+    public static final java.lang.String a
+    public static final java.lang.String b
+    public static final java.lang.String c
+    static final int e
+    static final int f
+    static final java.lang.String n
+    static final java.lang.String o
+    public static final java.lang.String q
+    static final java.lang.String u
+    static final java.lang.String v
+    static final java.lang.String w
+    static final java.lang.String x
+    static final java.lang.String y
+    static final java.lang.String z
+    public static final java.lang.String A
+    public static final java.lang.String B
+    public static final java.lang.String C
+    public static final java.lang.String D
+    public static final java.lang.String E
+    public static final java.lang.String F
+    public static final java.lang.String G
+    public static final java.lang.String H
+    8:8:public g()
+com.umeng.analytics.j:
+    private static final java.lang.String c
+    private static final java.lang.String d
+    private static final java.lang.String e
+    private static final java.lang.String f
+    private static final java.lang.String g
+    private static final java.lang.String h
+    private static final java.lang.String i
+    private static final java.lang.String j
+    27:27:public j()
+    40:40:static android.content.SharedPreferences a(android.content.Context)
+    52:52:static android.content.SharedPreferences d(android.content.Context)
+    68:92:static org.json.JSONObject h(android.content.Context)
+com.umeng.analytics.k
+com.umeng.analytics.onlineconfig.UmengOnlineConfigureListener:
+    public abstract void onDataReceived(org.json.JSONObject)
+com.umeng.analytics.onlineconfig.a:
+    46:56:public void a(android.content.Context)
+    60:64:public void a(android.content.Context,java.lang.String,java.lang.String)
+    67:68:public void a(com.umeng.analytics.onlineconfig.UmengOnlineConfigureListener)
+    71:72:public void a()
+    79:80:public void b()
+    83:84:private void a(org.json.JSONObject)
+    87:96:private java.lang.String b(android.content.Context)
+    100:100:private java.lang.String c(android.content.Context)
+    105:125:private org.json.JSONObject d(android.content.Context)
+    130:131:private java.lang.String e(android.content.Context)
+    135:150:private void a(android.content.Context,com.umeng.analytics.onlineconfig.b)
+    153:178:private void b(android.content.Context,com.umeng.analytics.onlineconfig.b)
+    82:82:static synthetic void a(com.umeng.analytics.onlineconfig.a,org.json.JSONObject)
+    103:103:static synthetic org.json.JSONObject a(com.umeng.analytics.onlineconfig.a,android.content.Context)
+    36:36:static synthetic com.umeng.analytics.onlineconfig.c a(com.umeng.analytics.onlineconfig.a)
+    134:134:static synthetic void a(com.umeng.analytics.onlineconfig.a,android.content.Context,com.umeng.analytics.onlineconfig.b)
+    152:152:static synthetic void b(com.umeng.analytics.onlineconfig.a,android.content.Context,com.umeng.analytics.onlineconfig.b)
+com.umeng.analytics.onlineconfig.a$a
+com.umeng.analytics.onlineconfig.a$b
+com.umeng.analytics.onlineconfig.b
+com.umeng.analytics.onlineconfig.c:
+    public abstract void a(int,long)
+com.umeng.common.Log:
+    8:8:public Log()
+    56:59:public static void d(java.lang.String,java.lang.String)
+    62:65:public static void d(java.lang.String,java.lang.String,java.lang.Exception)
+com.umeng.common.a
+com.umeng.common.a.a:
+    8:8:public a()
+    27:27:public static int e(android.content.Context)
+com.umeng.common.a.b:
+    8:8:public b()
+com.umeng.common.a.c:
+    7:7:public c()
+    26:26:public static int f(android.content.Context)
+com.umeng.common.b:
+    protected static final java.lang.String b
+    private static final java.lang.String d
+    private static final java.lang.String e
+    public static final int c
+    62:70:public static boolean a(java.lang.String,android.content.Context)
+    81:82:public static boolean a(android.content.Context)
+    93:100:public static java.util.Set b(android.content.Context)
+    110:113:public static boolean c(android.content.Context)
+    173:182:public static java.lang.String f(android.content.Context)
+    192:200:public static java.lang.String[] a(javax.microedition.khronos.opengles.GL10)
+    292:301:public static java.lang.String i(android.content.Context)
+    313:326:public static java.lang.String j(android.content.Context)
+    673:676:public static java.lang.String c()
+    685:689:public static java.util.Date a(java.lang.String)
+    700:708:public static int a(java.util.Date,java.util.Date)
+    767:769:public static boolean x(android.content.Context)
+com.umeng.common.c:
+    98:99:public static void a(java.lang.String)
+    109:109:public int b(java.lang.String)
+    153:153:public int f(java.lang.String)
+    175:175:public int h(java.lang.String)
+com.umeng.common.net.DownloadingService:
+    static final int a
+    static final int b
+    static final int c
+    static final int d
+    static final int e
+    static final int f
+    public static final int g
+    public static final int h
+    public static final int i
+    public static final int j
+    public static final int k
+    private static final long t
+    private static final long u
+    private static final long v
+    static final int l
+    static final java.lang.String m
+    private static final int w
+    private static final long z
+    478:488:private void d()
+com.umeng.common.net.a:
+    private android.content.Context c
+    private com.umeng.common.net.l d
+    private android.os.Messenger e
+    private java.lang.String f
+    private java.lang.String g
+    private java.lang.String h
+    private java.lang.String i
+    private java.lang.String j
+    private java.lang.String[] k
+    private boolean l
+    final android.os.Messenger a
+    private android.content.ServiceConnection m
+    47:48:public void a(java.lang.String)
+    51:52:public void b(java.lang.String)
+    59:60:public void a(java.lang.String[])
+    68:69:public void a(boolean)
+    180:188:public a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,com.umeng.common.net.l)
+    191:194:public void a()
+    27:27:static synthetic java.lang.String b()
+    31:31:static synthetic void a(com.umeng.common.net.a,android.os.Messenger)
+    32:32:static synthetic java.lang.String a(com.umeng.common.net.a)
+    33:33:static synthetic java.lang.String b(com.umeng.common.net.a)
+    34:34:static synthetic java.lang.String c(com.umeng.common.net.a)
+    35:35:static synthetic java.lang.String d(com.umeng.common.net.a)
+    36:36:static synthetic java.lang.String e(com.umeng.common.net.a)
+    42:42:static synthetic java.lang.String[] f(com.umeng.common.net.a)
+    44:44:static synthetic boolean g(com.umeng.common.net.a)
+    31:31:static synthetic android.os.Messenger h(com.umeng.common.net.a)
+    29:29:static synthetic com.umeng.common.net.l i(com.umeng.common.net.a)
+    28:28:static synthetic android.content.Context j(com.umeng.common.net.a)
+    134:134:static synthetic android.content.ServiceConnection k(com.umeng.common.net.a)
+com.umeng.common.net.a$a:
+    220:228:public android.os.Bundle a()
+com.umeng.common.net.a$b
+com.umeng.common.net.b
+com.umeng.common.net.c:
+    private static final java.lang.String b
+    private static final java.lang.String c
+    private static final java.lang.String d
+    private static final java.lang.String e
+    private static final java.lang.String f
+    private static final java.lang.String g
+    private static final java.lang.String h
+    private static final java.lang.String j
+    126:135:public void a(java.lang.String,java.lang.String,java.lang.String)
+    138:149:public int b(java.lang.String,java.lang.String)
+    153:164:public java.lang.String c(java.lang.String,java.lang.String)
+    168:187:public java.util.Date d(java.lang.String,java.lang.String)
+    191:196:public void e(java.lang.String,java.lang.String)
+    199:212:public java.util.List a(java.lang.String)
+com.umeng.common.net.c$a:
+    private static final int b
+    private static final java.lang.String c
+com.umeng.common.net.c$b:
+    67:67:private c$b()
+com.umeng.common.net.d:
+    static final int a
+    static final int b
+com.umeng.common.net.h
+com.umeng.common.net.l
+com.umeng.common.net.m:
+    public static final java.lang.String a
+    public static final java.lang.String b
+    public static final java.lang.String c
+    public static final java.lang.String d
+    public static final java.lang.String e
+    15:15:public m()
+    55:59:public static int a(com.umeng.common.net.a$a)
+    63:69:public static android.app.PendingIntent a(android.content.Context,java.lang.String)
+com.umeng.common.net.n
+com.umeng.common.net.n$a
+com.umeng.common.net.n$b
+com.umeng.common.net.o
+com.umeng.common.net.p
+com.umeng.common.net.p$a
+com.umeng.common.net.q:
+    private static final long c
+    private static final long d
+    private static final long e
+    87:92:private static java.lang.String b(java.lang.String)
+    120:167:public static java.lang.String a(android.content.Context,java.lang.String)
+    326:340:protected static java.io.File b(android.content.Context,java.lang.String)
+    357:358:public static void a(android.content.Context,android.widget.ImageView,java.lang.String,boolean)
+    374:375:public static void a(android.content.Context,android.widget.ImageView,java.lang.String,boolean,com.umeng.common.net.q$a)
+    393:394:public static void a(android.content.Context,android.widget.ImageView,java.lang.String,boolean,com.umeng.common.net.q$a,android.view.animation.Animation)
+    413:434:public static void a(android.content.Context,android.widget.ImageView,java.lang.String,boolean,com.umeng.common.net.q$a,android.view.animation.Animation,boolean)
+    443:446:private static boolean a(android.widget.ImageView,java.lang.String)
+    453:484:private static synchronized void b(android.content.Context,android.widget.ImageView,android.graphics.drawable.Drawable,boolean,com.umeng.common.net.q$a,android.view.animation.Animation,boolean,java.lang.String)
+    566:572:private static android.graphics.drawable.Drawable c(java.lang.String)
+    612:636:private static android.graphics.Bitmap a(android.graphics.Bitmap)
+    449:449:static synthetic void a(android.content.Context,android.widget.ImageView,android.graphics.drawable.Drawable,boolean,com.umeng.common.net.q$a,android.view.animation.Animation,boolean,java.lang.String)
+    565:565:static synthetic android.graphics.drawable.Drawable a(java.lang.String)
+    49:49:static synthetic java.lang.String a()
+com.umeng.common.net.q$a
+com.umeng.common.net.q$b
+com.umeng.common.net.q$c
+com.umeng.common.net.s
+com.umeng.common.net.t
+com.umeng.common.net.u
+com.umeng.common.util.DeltaUpdate:
+    private static final java.lang.String b
+    8:8:public DeltaUpdate()
+    17:17:public static boolean a()
+    37:42:public static java.lang.String b(android.content.Context)
+com.umeng.common.util.a
+com.umeng.common.util.b
+com.umeng.common.util.c
+com.umeng.common.util.d
+com.umeng.common.util.e
+com.umeng.common.util.f:
+    16:16:public f()
+    60:71:public static java.lang.String a(byte[],java.lang.String)
+com.umeng.common.util.g
+com.umeng.common.util.h:
+    private static final java.lang.String b
+    27:27:public h()
+    139:151:public static java.lang.String a(android.content.Context,long)
+    155:174:public static java.lang.String c(java.lang.String)
+    185:188:public static void a(android.content.Context,java.lang.String)
+    200:206:public static boolean b(android.content.Context,java.lang.String)
+    230:234:public static boolean e(java.lang.String)
+com.umeng.common.util.i
+com.umeng.common.util.j
+org.apache.http.entity.mime.Header:
+    68:68:public java.util.List getFields()
+    84:92:public java.util.List getFields(java.lang.String)
+    97:106:public int removeFields(java.lang.String)
+    110:133:public void setField(org.apache.http.entity.mime.MinimalField)
+org.apache.http.entity.mime.HttpMultipart:
+    138:139:public HttpMultipart(java.lang.String,java.nio.charset.Charset,java.lang.String)
+    142:143:public HttpMultipart(java.lang.String,java.lang.String)
+    146:146:public java.lang.String getSubType()
+    150:150:public java.nio.charset.Charset getCharset()
+    154:154:public org.apache.http.entity.mime.HttpMultipartMode getMode()
+org.apache.http.entity.mime.MIME:
+    public static final java.lang.String CONTENT_TYPE
+    public static final java.lang.String CONTENT_TRANSFER_ENC
+    public static final java.lang.String CONTENT_DISPOSITION
+    public static final java.lang.String ENC_8BIT
+    public static final java.lang.String ENC_BINARY
+    36:36:public MIME()
+org.apache.http.entity.mime.MultipartEntity:
+    93:94:public MultipartEntity(org.apache.http.entity.mime.HttpMultipartMode)
+    132:133:public void addPart(java.lang.String,org.apache.http.entity.mime.content.ContentBody)
+org.apache.http.entity.mime.content.AbstractContentBody:
+    61:61:public java.lang.String getMediaType()
+    65:65:public java.lang.String getSubType()
+org.apache.http.entity.mime.content.ByteArrayBody
+org.apache.http.entity.mime.content.ContentDescriptor:
+    public abstract java.lang.String getMediaType()
+    public abstract java.lang.String getSubType()
+org.apache.http.entity.mime.content.FileBody:
+    81:82:public FileBody(java.io.File)
+    85:85:public java.io.InputStream getInputStream()
+    93:94:public void writeTo(java.io.OutputStream,int)
+    130:130:public java.io.File getFile()
+org.apache.http.entity.mime.content.InputStreamBody
+org.apache.http.entity.mime.content.StringBody:
+    58:60:public static org.apache.http.entity.mime.content.StringBody create(java.lang.String,java.lang.String,java.nio.charset.Charset)
+    69:69:public static org.apache.http.entity.mime.content.StringBody create(java.lang.String,java.nio.charset.Charset)
+    76:76:public static org.apache.http.entity.mime.content.StringBody create(java.lang.String)
+    126:127:public StringBody(java.lang.String)
+    130:130:public java.io.Reader getReader()
+    140:141:public void writeTo(java.io.OutputStream,int)

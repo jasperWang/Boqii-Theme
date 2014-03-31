@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_margin="10dip"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_more_p" />
+
+        <ProgressBar
+            android:id="@+id/pb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="￥299.37"
+            android:textColor="@color/color_red"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+        <com.massvig.ecommerce.widgets.LineTextView
+            android:id="@+id/origin_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@id/price"
+            android:text="48.00"
+            android:textColor="@color/color_light_text"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/ic_share"
+            android:textColor="@color/color_light_text" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textColor="#4d4e53"
+        android:textSize="15dip" />
+
+    <TextView
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:id="@+id/detail_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:lineSpacingExtra="10dip"
+        android:textColor="@color/color_light_text"
+        android:textSize="15dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:layout_marginBottom="10dip"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/goodcommentedit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_edit_post"
+            android:hint="咨询商品..."
+            android:textSize="13dip"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:textColorHint="#a9aab2" />
+
+        <TextView
+            android:id="@+id/goodcommentbtn"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/bg_delete_btn"
+            android:gravity="center"
+            android:textSize="13dip"
+            android:text="发表"
+            android:textColor="@color/color_black_text" />
+    </LinearLayout>
+
+</LinearLayout>

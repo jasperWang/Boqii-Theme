@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_white"
+    android:gravity="center_vertical"
+    android:padding="5dip" >
+
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:button="@drawable/shopping_check" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="-5dip"
+        android:layout_marginTop="5dip"
+        android:gravity="center_vertical" >
+
+        <RelativeLayout
+            android:id="@+id/imageview1"
+            android:layout_width="120dip"
+            android:layout_height="90dip" >
+
+            <LinearLayout
+                android:id="@+id/imageview"
+                android:layout_width="120dip"
+                android:layout_height="90dip"
+                android:layout_centerVertical="true"
+                android:background="@drawable/bg_coupon"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥200"
+                    android:textColor="@color/color_white"
+                    android:textSize="32sp" />
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="优惠券"
+                    android:textColor="@color/color_white"
+                    android:textSize="22dip" />
+            </LinearLayout>
+            <com.massvig.ecommerce.widgets.NetImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/image"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="5dip"
+            android:layout_toRightOf="@id/imageview1"
+            android:lines="2"
+            android:singleLine="true"
+            android:text="2013韩式床单四件套全棉活性印花花"
+            android:textColor="#4d4e53"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/time"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@id/imageview1"
+            android:text="有效时间"
+            android:textColor="#4d4e53"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/imageview1"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#4d4e53"
+            android:textSize="13dip" />
+    </RelativeLayout>
+
+</LinearLayout>

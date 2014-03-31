@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@color/color_white"
+    android:layout_height="wrap_content" >
+
+    <com.massvig.ecommerce.widgets.NetImageView
+        android:id="@+id/image"
+        android:layout_width="133dip"
+        android:layout_height="133dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="3.5dip"
+        android:layout_marginRight="4.5dip"
+        android:paddingBottom="5dip"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:layout_marginTop="10dip"
+        android:paddingTop="4dip"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:paddingBottom="4dip"
+        android:paddingLeft="10dip"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="3dip"
+            android:text="¥"
+            android:textColor="#ff3600"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff3600"
+            android:textSize="17dip" />
+
+        
+    </LinearLayout>
+   
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear1"
+        android:layout_marginRight="10dip"
+        android:ellipsize="end"
+        android:paddingLeft="10dip"
+        android:lineSpacingExtra="3dip"
+        android:lines="1"
+        android:text="fdh符合独爱of阿飞发达"
+        android:textColor="#4d4d53"
+        android:textSize="13dip" />
+     <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/real_linear"
+        android:layout_alignRight="@+id/name"
+        android:layout_alignTop="@+id/linear1"
+        android:paddingTop="5dip"
+        android:paddingBottom="4dip"
+        android:layout_marginRight="10dip"
+        >
+        <com.massvig.ecommerce.widgets.LineTextView
+            android:id="@+id/real_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:textColor="#a1a1a1"
+            android:textSize="12sp"
+            android:gravity="right" 
+            android:text="adsa"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:paddingLeft="10dip"
+        android:layout_marginRight="5dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="3dip"
+            android:text="最近售出："
+            android:textColor="#aaaaaa"
+            android:textSize="11dip"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="426人已抢购"
+            android:paddingBottom="10dip"
+            android:textColor="#aaaaaa"
+            android:textSize="11dip" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingRight="3dip"
+            android:text="件"
+            android:textColor="#4d4e53"
+            android:textSize="11sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

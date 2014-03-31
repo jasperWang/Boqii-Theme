@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/nodata"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dip"
+            android:background="@drawable/bg_orders_nodata" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:shadowColor="#ededed"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:text="您暂时还没有购物记录~！"
+            android:textColor="#555555"
+            android:textSize="16dip" />
+
+        <Button
+            android:id="@+id/gotobuy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dip"
+            android:background="@drawable/bg_big_btn"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:shadowColor="#873107"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:text="去首页逛逛"
+            android:textColor="#ffffff"
+            android:textSize="17dip" />
+    </LinearLayout>
+
+    <com.massvig.ecommerce.widgets.RefreshListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="8dip"
+        android:cacheColorHint="#00000000"
+        android:clickable="false"
+        android:divider="@color/color_white"
+        android:dividerHeight="8px"
+        android:fadingEdge="none"
+        android:focusable="false"
+        android:listSelector="#00000000"
+        android:scrollbars="none"
+        android:visibility="gone" />
+
+</RelativeLayout>

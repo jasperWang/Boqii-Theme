@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/user_info_box"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_title"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_btn"
+            android:gravity="center"
+            android:text="返回"
+            android:textColor="@color/color_title_text"
+            android:textSize="13dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:shadowColor="#88ffffff"
+            android:text="收获的赞"
+            android:textColor="@color/color_title_text"
+            android:textSize="20dip" />
+
+        <TextView
+            android:id="@+id/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:background="@drawable/left_btn"
+            android:gravity="center"
+            android:text="修改"
+            android:textColor="@color/color_title_text"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+    <com.massvig.ecommerce.widgets.PraisedListView
+        android:id="@+id/praised_list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="#00000000"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/tao_bao_list_lien"
+        android:dividerHeight="2px"
+        android:listSelector="#00000000" >
+    </com.massvig.ecommerce.widgets.PraisedListView>
+
+</LinearLayout>

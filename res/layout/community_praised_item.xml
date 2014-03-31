@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:clickable="false"
+    android:focusable="true"
+    android:paddingBottom="7dip"
+    android:paddingLeft="7dip"
+    android:paddingRight="7dip"
+    android:paddingTop="7dip" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <com.massvig.ecommerce.widgets.NetImageView
+            android:id="@+id/fans_list_img"
+            android:layout_width="71.33333dip"
+            android:layout_height="71.33333dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/commutity_user_icon_new_d" />
+
+        <ImageView
+            android:id="@+id/sex"
+            android:layout_width="34.666dip"
+            android:layout_height="36.666dip"
+            android:layout_gravity="right"
+            android:src="@drawable/sex_m"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:orientation="vertical"
+        android:paddingLeft="8dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/fans_list_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:includeFontPadding="false"
+                android:lines="1"
+                android:paddingTop="2dip"
+                android:singleLine="true"
+                android:text="瓢虫"
+                android:textColor="#41505F"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fans_list_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:includeFontPadding="false"
+                android:lines="1"
+                android:paddingTop="2dip"
+                android:singleLine="true"
+                android:text="2012-09-28 18:48:34"
+                android:textColor="#999"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:gravity="bottom"
+            android:layout_marginBottom="10dip"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:paddingTop="2dip" >
+
+            <TextView
+                android:id="@+id/loveshop_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_taobao_02"
+                android:drawablePadding="5dip"
+                android:ellipsize="end"
+                android:includeFontPadding="false"
+                android:lines="1"
+                android:paddingTop="5dip"
+                android:singleLine="true"
+                android:text="赞了您的分享"
+                android:textColor="#666"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <com.massvig.ecommerce.widgets.NetImageView
+                android:id="@+id/fans_list_img1"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_taobao_05"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/fans_list_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:includeFontPadding="false"
+                android:lines="1"
+                android:paddingLeft="8dip"
+                android:paddingTop="2dip"
+                android:singleLine="true"
+                android:text="瓢虫"
+                android:textColor="#41505F"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    >
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<!--          
+	    <ImageView
+	        android:id="@+id/deal_content_pref"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/browsing_deals_near_map_item_bg"/>
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_alignLeft="@id/deal_content_pref"
+	        android:layout_alignBottom="@id/deal_content_pref"
+	        android:layout_alignRight="@id/deal_content_pref"
+	        android:layout_alignTop="@id/deal_content_pref">
+-->	        
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:background="@drawable/browsing_deals_near_map_item_bg"
+	        android:gravity="center_vertical">
+	        <LinearLayout 
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1" android:orientation="vertical">
+		        <TextView
+		            android:id="@+id/shop_name_content"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:textSize="16dp"
+		            android:textColor="@color/color_black_text"
+		            android:textStyle="bold"
+		            android:lines="1" android:layout_marginLeft="0dp" android:layout_weight="1"/>
+		        <TextView
+		            android:id="@+id/deal_map_item_content"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:textSize="12dp"
+		            android:maxEms="20"
+		            android:textColor="@color/color_black_text"
+		            android:lines="1" android:layout_marginLeft="0dp" android:layout_weight="1"/>
+	        </LinearLayout>
+	        <ImageButton
+	            android:id="@+id/go_in_tag"
+	            android:layout_width="wrap_content"
+	            android:visibility="gone"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/browsing_deals_near_map_item_content_button_bg" android:layout_marginRight="0dp"/>
+	
+	        
+	    </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

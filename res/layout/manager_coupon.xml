@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg_page"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_title"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_btn"
+            android:gravity="center"
+            android:text="返回"
+            android:textColor="@color/color_title_text"
+            android:textSize="13dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:shadowColor="#88ffffff"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:text="优惠券"
+            android:textColor="@color/color_title_text"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/right_btn"
+            android:gravity="center"
+            android:text="编辑"
+            android:textColor="@color/color_white"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+    <com.massvig.ecommerce.widgets.AdGallery
+        android:id="@+id/gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:fadingEdge="none"
+        android:layout_marginTop="15px"
+        android:layout_marginLeft="15px"
+        android:layout_marginRight="15px"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:soundEffectsEnabled="false"
+        android:spacing="0dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_buottom_btn_01"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <EditText
+            android:id="@+id/coupon_number"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dip"
+            android:layout_weight="1"
+            android:background="@drawable/bg_edit_chat"
+            android:hint="优惠券号"
+            android:imeOptions="actionSend"
+            android:paddingLeft="15dip"
+            android:singleLine="true"
+            android:textSize="12dip" />
+
+        <TextView
+            android:layout_marginTop="3dip"
+            android:id="@+id/create_coupon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_btn"
+            android:gravity="center"
+            android:text="生成"
+            android:textColor="@color/color_black_text" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dip"
+        android:layout_weight="1"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@drawable/ic_xuxian"
+        android:dividerHeight="2px"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="true"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout>

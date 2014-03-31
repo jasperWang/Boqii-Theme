@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_bg_page"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <com.massvig.ecommerce.widgets.NetImageView
+            android:id="@+id/imageview"
+            android:layout_width="fill_parent"
+            android:layout_height="180dip"
+            android:scaleType="fitXY" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/post_back"
+            android:gravity="center"
+            android:textColor="@color/color_title_text"
+            android:textSize="13dip" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:background="@color/color_white"
+        android:text="精致可爱的一款白搭T恤面料带弹性，穿着舒适是个电话撒uf放大镜看话费 宏发大厦范德萨啊"
+        android:textColor="@color/color_black_text"
+        android:textSize="13dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/action_bottom" >
+
+            <LinearLayout
+                android:id="@+id/rule"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dip"
+                    android:drawableLeft="@drawable/post_down"
+                    android:text="活动细则"
+                    android:drawablePadding="5dip"
+                    android:textColor="@color/color_black_text"
+                    android:textSize="14dip" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="3dip"
+                android:background="@drawable/action_line" />
+
+            <LinearLayout
+                android:id="@+id/actin"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.6"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dip"
+                    android:drawableLeft="@drawable/post_icon"
+                    android:drawablePadding="5dip"
+                    android:text="我要参加"
+                    android:textColor="@color/color_black_text"
+                    android:textSize="14dip" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/rule_layout"
+            android:layout_width="fill_parent"
+            android:background="#3d3639"
+            android:visibility="gone"
+            android:layout_height="150dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="150dip"
+                android:orientation="vertical"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="秀出“床照”邀请好友前来摇旗呐喊"
+                    android:textColor="@color/color_light_text"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/subtitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:singleLine="true"
+                    android:text="活动3月01日至3月29日 征集最具人气的“床照”"
+                    android:textColor="@color/color_light_text"
+                    android:textSize="12dip" />
+
+                <LinearLayout
+                    android:id="@+id/share_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="2px"
+                        android:layout_marginTop="5dip"
+                        android:background="@drawable/scroll_line" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dip"
+                        android:gravity="center_vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="分享本次活动到："
+                            android:textColor="@color/color_light_text"
+                            android:textSize="12dip" />
+
+                        <Button
+                            android:id="@+id/sina"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:background="@drawable/sina_btn" />
+
+                        <Button
+                            android:id="@+id/qq"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:background="@drawable/qq_btn" />
+
+                        <Button
+                            android:id="@+id/weixin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:background="@drawable/weixin_btn" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="2px"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/scroll_line" />
+
+                <TextView
+                    android:id="@+id/rule_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:text="步骤一：晒出的“床照” 步骤二：同步到你“常出没的地方”,邀请你的好友注册 步骤三：好友成功注册并对你分享的“床照”进行了“赞” 每获得1个赞，你就离大奖更进一步！邀请的好友就有机会抽取100元的优惠券奖励。 赶快邀请你的亲友团给你捧场吧！！ 发送到活动：一等奖（1名） 二等奖（2名） 三等奖（3名） 参与奖（若干名） *获奖统计方式按照被赞的次数来决定你的名次，你被邀请的好友赞一 次你的“床照”将获得一分，赞越多，你距离大奖就越近。"
+                    android:textColor="@color/color_light_text"
+                    android:textSize="12dip" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+            </FrameLayout>
+        </FrameLayout>
+    </TabHost>
+
+</LinearLayout>

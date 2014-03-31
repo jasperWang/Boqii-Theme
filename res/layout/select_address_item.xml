@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/goods_item_bg_icon"
+    android:gravity="center_vertical"
+    android:padding="10dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="杜军"
+            android:textColor="@color/color_address_text"
+            android:textSize="16dip" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_marginTop="5dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:text="上海市 普陀区 金沙江路万镇路1977号金环商务花园 16号楼5楼 巨兴科技股份有限公司"
+            android:textColor="@color/color_address_text"
+            android:textSize="16dip" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:background="@drawable/check" />
+
+</LinearLayout>

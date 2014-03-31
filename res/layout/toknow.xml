@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_bg_page"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_title"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_btn"
+            android:gravity="center"
+            android:text="返回"
+            android:textColor="@color/color_title_text"
+            android:textSize="13dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:shadowColor="#88ffffff"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:text="退款须知"
+            android:textColor="@color/color_title_text"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_btn"
+            android:gravity="center"
+            android:text="联系"
+            android:textColor="@color/color_title_text"
+            android:textSize="13dip"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_height="fill_parent" >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:background="@drawable/goods_item_bg_icon"
+                android:orientation="vertical" >
+
+                <TableRow
+                    android:id="@+id/tele_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="12dip" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="客服电话："
+                        android:textColor="#343538"
+                        android:textSize="14dip" />
+
+                    <TextView
+                        android:id="@+id/tele"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:layout_weight="1"
+                        android:singleLine="true"
+                        android:text="400-882-3877"
+                        android:textColor="#4d4e53"
+                        android:textSize="14dip" />
+
+                    <TextView
+                        android:layout_width="8dip"
+                        android:layout_height="14dip"
+                        android:layout_marginLeft="20dip"
+                        android:background="@drawable/goods_item_bg_arr" />
+                </TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#cbc2ca" />
+
+                <TableRow
+                    android:id="@+id/qq_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="12dip"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="在线咨询："
+                        android:textColor="#343538"
+                        android:textSize="14dip" />
+
+                    <TextView
+                        android:id="@+id/refund_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:layout_weight="1"
+                        android:singleLine="true"
+                        android:text="QQ1-806434978"
+                        android:textColor="#4d4e53"
+                        android:textSize="14dip" />
+
+                    <TextView
+                        android:layout_width="8dip"
+                        android:layout_height="14dip"
+                        android:layout_marginLeft="20dip"
+                        android:background="@drawable/goods_item_bg_arr" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:id="@+id/select_paytype"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/goods_item_bg_icon"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:padding="12dip" 
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="退换货地址："
+                    android:textColor="#343538"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:id="@+id/refund_type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:layout_weight="1"
+                    android:text="售后组 021-59165806
+上海市嘉定区回城南路1982号波奇网"
+                    android:textColor="#5e5f61"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="12dip"
+                android:text="手机支付退款流程："
+                android:textColor="#343538"
+                android:textSize="14dip" />
+
+            <TextView
+                android:id="@+id/refund_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dip"
+                android:layout_marginRight="22dip"
+                android:text="已收到货物点击退款>> 客服联系到您>> 审核确认>> 快递上门取货或根据情况由用户退货>> 库房验货入库（退货订单完成）>> 等待退款>> 退款完成"
+                android:textColor="#5e5f61"
+                android:textSize="13dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="12dip"
+                android:text="手机支付换货流程："
+                android:textColor="#343538"
+                android:textSize="14dip" />
+
+            <TextView
+                android:id="@+id/refund_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dip"
+                android:layout_marginRight="22dip"
+                android:text="电话向客服申请>> 审核确认>> 快递上门换货或由用户退货（视情况收取运费）>> 库房验货入库>> 库房重新配货发货>> 完成"
+                android:textColor="#5e5f61"
+                android:textSize="13dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="12dip"
+                android:text="退款须知："
+                android:textColor="#343538"
+                android:textSize="14dip" />
+
+            <TextView
+                android:id="@+id/refund_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dip"
+                android:layout_marginRight="22dip"
+                android:text="货到付款的用户，退货流程完成后，财务会通过银行转账的方式，将退款打入用户指定的银行卡或者支付宝账户中。
+PS:银行转账，用户需提供卡号、姓名、开户银行及开户银行支行名称。
+网上支付的用户，退货流程完成后，财务会通过银行转账的方式，将退款打入用户购买商品时所使用的账户中。"
+                android:textColor="#5e5f61"
+                android:textSize="13dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="12dip"
+                android:text="退款时间："
+                android:textColor="#343538"
+                android:textSize="14dip" />
+
+            <TextView
+                android:id="@+id/refund_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dip"
+                android:layout_marginRight="22dip"
+                android:text="退货流程完成后24小时内。"
+                android:textColor="#5e5f61"
+                android:textSize="13dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="12dip"
+                android:text="什么样的商品可退换?"
+                android:textColor="#343538"
+                android:textSize="14dip" />
+
+            <TextView
+                android:id="@+id/refund_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dip"
+                android:layout_marginRight="22dip"
+                android:text="1．商品存在质量、外包装、性能上的问题，波奇网承诺7天无条件免费退货。
+2．因客户误购、多购、或对商品不满意等原因，在商品本身性能完好，品相全新，相关附属配件齐全，不影响我司第二次销售的前提下，客户可以在购买商品15日内凭发货清单申请退货（不享受此服务规定的商品除外），运费由客户自行承担。"
+                android:textColor="#5e5f61"
+                android:textSize="13dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="12dip"
+                android:text="有关退换货的运费规定"
+                android:textColor="#343538"
+                android:textSize="14dip" />
+
+            <TextView
+                android:id="@+id/refund_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dip"
+                android:layout_marginRight="22dip"
+                android:text="1. 凡是由商品质量问题导致的退换货，相应产生的运费由波奇网承担；
+2. 非质量问题的商品退换货，运费由客户承担；
+3. 退货而产生的费用会在商品退款时扣除；
+4. 商城不收到付件。"
+                android:textColor="#5e5f61"
+                android:textSize="13dip" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
